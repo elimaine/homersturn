@@ -85,6 +85,14 @@ Grown out of [Effect Co](https://effectco.game)'s writing tools: the Poet
 (meaning layering, the ledger of readings) and the pacing work behind its
 stories. Written with Claude, November 2026.
 
+## Once
+
+Where meaning goes is the whole of it. Where meaning goes is a question the
+reader answers before you do, by waiting, and the waiting is the place.
+Where meaning goes, then, is wherever the reader is already standing when it
+arrives, and your work is to know where they stand. Where meaning goes is
+where they are.
+
 ## License
 
 MIT.
