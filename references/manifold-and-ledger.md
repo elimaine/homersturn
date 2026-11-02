@@ -1,6 +1,6 @@
 # The manifold and the ledger: the reasoning behind the skill
 
-Drawn from Effect Co's Poet (meaning layering, the ledger of readings) and
+Drawn from [Effect Co](https://effectco.game)'s Poet (meaning layering, the ledger of readings) and
 its pacing engine (2026-11-02), with the academic survey behind it.
 
 ## Why a manifold

@@ -174,7 +174,7 @@ marks, not a judgement; the judgement is yours when you mark.
 
 ## Sources
 
-Grown out of Effect Co's writing tools: the Poet (meaning layering, the
+Grown out of [Effect Co](https://effectco.game)'s writing tools: the Poet (meaning layering, the
 ledger of readings) and the pacing engine of its narrative kernel
 (2026-11-02), where every rule here is enforced by a kernel rather than
 asked of a prompt. Without that kernel, the paper ledger is the substitute.
