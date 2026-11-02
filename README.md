@@ -72,10 +72,10 @@ a view.
 
 ## Provenance
 
-Grown out of Humanities Wake's Poet (meaning layering, the ledger of
-readings) and the pacing engine in champco, a narrative kernel where every
-rule here is enforced by code rather than asked of a prompt. Written with
-Claude, November 2026.
+Grown out of Effect Co's writing tools: the Poet (meaning layering, the
+ledger of readings) and the pacing engine of its narrative kernel, where
+every rule here is enforced by code rather than asked of a prompt. Written
+with Claude, November 2026.
 
 ## License
 

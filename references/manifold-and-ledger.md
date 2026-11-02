@@ -1,7 +1,7 @@
 # The manifold and the ledger: the reasoning behind the skill
 
-Drawn from Humanities Wake's Poet (meaning layering, the ledger of readings)
-and champco's pacing work (2026-11-02), with the academic survey behind it.
+Drawn from Effect Co's Poet (meaning layering, the ledger of readings) and
+its pacing engine (2026-11-02), with the academic survey behind it.
 
 ## Why a manifold
 
