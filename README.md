@@ -2,14 +2,18 @@
 
 **Writing is meaning manifolds presented like music.**
 
-A writing skill for Claude Code, Codex and any agent that reads `SKILL.md`
-files. It teaches one thing: where meaning goes. A sentence holds a cloud of
-readings; a passage raises promises and pays them; density is earned only
-where something is owed, a punch only where something is paid, and
-everything else is plain. The rest of the skill is the craft of placing
-those: three punches, rhythm as emotion, tempo, song forms and their
-transitions, the stress position at the end of every paragraph, three
-one-off figures, the swear as an accent, and the dash redeemed as a rest.
+A writing skill for Claude Code, Codex, and any agent that reads a
+`SKILL.md`.
+
+It teaches one thing: where meaning goes. Most writing says what it means.
+Good writing also carries what it does not say, and the trick is knowing
+where. Put it everywhere and the reader stops hearing it. Put it where the
+reader is already waiting for something, and it lands.
+
+The skill is a set of habits for that placement. Keep a ledger of what you
+have promised the reader and what you have paid. Write plain where nothing
+is owed. End each paragraph on the thing that changed. Pick the rhythm from
+the feeling. Save the big moves for where they are earned.
 
 ## Why it exists
 
@@ -17,11 +21,11 @@ I tried to make a game for players. The weak link was the writers. So I
 tried to make a game for writers. The weak link was in language. So I made
 this, and returned to my earlier efforts.
 
-The rules here were first built as an engine: a kernel that keeps a ledger
-of what a reader has been promised and what has been paid, and tells the
-model, each paragraph, what that paragraph is for. This skill is the same
-method for a writer, or a model, with no engine behind it. The ledger moves
-to paper, and a small script does the arithmetic.
+The rules were worked out inside Effect Co's writing tools, where a ledger
+of what the reader has been promised and what has been paid decides what
+each paragraph is for. This skill is the same method for a writer, or a
+model, on its own. The ledger moves to paper, and a small script does the
+arithmetic.
 
 ## The name
 
@@ -72,10 +76,9 @@ a view.
 
 ## Provenance
 
-Grown out of [Effect Co](https://effectco.game)'s writing tools: the Poet (meaning layering, the
-ledger of readings) and the pacing engine of its narrative kernel, where
-every rule here is enforced by code rather than asked of a prompt. Written
-with Claude, November 2026.
+Grown out of [Effect Co](https://effectco.game)'s writing tools: the Poet
+(meaning layering, the ledger of readings) and the pacing work behind its
+stories. Written with Claude, November 2026.
 
 ## License
 
