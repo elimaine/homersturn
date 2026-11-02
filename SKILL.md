@@ -108,6 +108,15 @@ a view. A dense sentence placed on a low-stakes final beat is the single most
 common thing that makes good prose hard to parse: readers weight the end of
 the paragraph, so put the weight there.
 
+## The join: therefore, but, never and then
+
+Parker and Stone's rule for the beats of a story: between any two beats
+the word is "therefore" or "but". If "and then" fits, you have a list.
+Every paragraph is caused by the one before it or turns against it. The
+forms above say where a thing comes back; this says why the next thing
+happens at all. Check it at the seam of every paragraph, and when "and
+then" is the honest word, the paragraph is not yet written.
+
 ## Forms and transitions
 
 Organise return like a song, not a list. Four forms cover most prose:
@@ -142,6 +151,8 @@ Mark the draft as you go, in brackets the final pass strips:
 - `[raise: the letter]` on a sentence that opens a promise.
 - `[pay: the letter]` on the sentence that pays it.
 - `[plant: "the boards creak under nothing"]` on a line meant to return.
+- `[join: therefore]` or `[join: but]` at the head of a paragraph; write `[join: and then]`
+  when that is the truth, and the ledger script will name it.
 
 `python3 scripts/meaning_ledger.py < draft.txt` (this skill's `scripts/`) reads the marks and reports,
 per paragraph, the debt (words since the last payment), what is still owed,
@@ -176,6 +187,7 @@ marks, not a judgement; the judgement is yours when you mark.
   it is not planted.
 - Do not end on atmosphere. Do not end dense on a beat that owes nothing.
 - Do not change rhythm mid-scene or refrain a line that was told once.
+- Do not join two paragraphs with "and then". Therefore, or but.
 
 ## Sources
 

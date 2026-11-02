@@ -2,7 +2,8 @@
 """Arithmetic over a draft's own ledger marks (references/meaning-as-music.md).
 
 Reads a draft on stdin. Marks: [raise: name] opens a promise, [pay: name]
-pays it, [plant: "line"] plants a refrain. Reports per paragraph the debt
+pays it, [plant: "line"] plants a refrain, [join: therefore|but|and then] names
+how the paragraph follows the last. Reports per paragraph the debt
 (words since the last payment), what is owed, and the failures the marks
 make visible. Strips nothing; use --strip to print the draft without marks.
 """
@@ -11,7 +12,7 @@ from __future__ import annotations
 import re
 import sys
 
-MARK = re.compile(r"\[(raise|pay|plant):\s*(.+?)\]")
+MARK = re.compile(r"\[(raise|pay|plant|join):\s*(.+?)\]")
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
 
 
@@ -32,6 +33,11 @@ def main() -> int:
         words = len(plain.split())
         events: list[str] = []
         for kind, name in MARK.findall(para):
+            if kind == "join":
+                events.append(f"join {name}")
+                if name.strip().lower().replace("-", " ") == "and then":
+                    problems.append(f"¶{i}: joined to the last by \"and then\" (a list, not a story)")
+                continue
             name = name.strip().strip('"')
             if kind == "raise":
                 owed[name] = i
