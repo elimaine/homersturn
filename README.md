@@ -79,6 +79,9 @@ weight. Never spend it on the setting, the weather, or a view. And do not
 make the paragraphs the same length: a paragraph is as long as what it
 carries, and a page of equal paragraphs reads as a machine humming.
 
+And use the common word for the common thing. The second meaning rides
+on a plain word; it falls off a rare one.
+
 ## Provenance
 
 Grown out of [Effect Co](https://effectco.game)'s writing tools: the Poet

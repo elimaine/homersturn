@@ -188,6 +188,10 @@ marks, not a judgement; the judgement is yours when you mark.
 - Do not end on atmosphere. Do not end dense on a beat that owes nothing.
 - Do not change rhythm mid-scene or refrain a line that was told once.
 - Do not join two paragraphs with "and then". Therefore, or but.
+- Do not reach for a rarer word when the common one is right. A pig is a
+  pig, a key is a key. A manifold of meanings is built on plain words that
+  carry more than one; a thesaurus word carries less, not more, because the
+  reader stops on the word instead of the meaning.
 
 ## Sources
 
