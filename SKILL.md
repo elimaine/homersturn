@@ -54,6 +54,11 @@ page or when the user asks why a passage feels dense, flat, or hard to parse.
   time passing between beats, one sentence holding an hour. Pause: time stops
   on one image. Say which one a paragraph is in; most flat prose is scene
   tempo used for things that deserved summary.
+- **Paragraph length is tempo made visible.** A paragraph is as long as what
+  it carries: a landing gets one line, a stretch of ground gets a long one.
+  Equal paragraphs are the droning at the scale of the page, the same
+  uniform density the ledger forbids within a paragraph. Look at the shape
+  of the page before the words.
 
 ## The three punches
 
@@ -165,8 +170,8 @@ marks, not a judgement; the judgement is yours when you mark.
 
 ## Do not
 
-- Do not write every paragraph at the same density. Plain is a band, not a
-  failure.
+- Do not write every paragraph at the same density, or the same length.
+  Plain is a band, not a failure; short is a tempo, not a lapse.
 - Do not point at a planted meaning. If the reader must be told it is there,
   it is not planted.
 - Do not end on atmosphere. Do not end dense on a beat that owes nothing.

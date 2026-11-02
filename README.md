@@ -5,26 +5,28 @@
 A writing skill for Claude Code, Codex, and any agent that reads a
 `SKILL.md`.
 
-It teaches one thing: where meaning goes. Most writing says what it means.
-Good writing also carries what it does not say, and the trick is knowing
-where. Put it everywhere and the reader stops hearing it. Put it where the
-reader is already waiting for something, and it lands.
+It teaches one thing: where meaning goes.
 
-The skill is a set of habits for that placement. Keep a ledger of what you
-have promised the reader and what you have paid. Write plain where nothing
-is owed. End each paragraph on the thing that changed. Pick the rhythm from
-the feeling. Save the big moves for where they are earned.
+Most writing says what it means. Good writing also carries what it does not
+say, and the trick is knowing where. Put it everywhere and the reader stops
+hearing it. Put it where the reader is already waiting for something, and
+it lands. So the skill is a set of habits for that placement: keep a ledger
+of what you have promised the reader and what you have paid, write plain
+where nothing is owed, end each paragraph on the thing that changed, pick
+the rhythm from the feeling, and save the big moves for where they are
+earned.
 
 ## Why it exists
 
 I tried to make a game for players. The weak link was the writers. So I
-tried to make a game for writers. The weak link was in language. So I made
-this, and returned to my earlier efforts.
+tried to make a game for writers. The weak link was in language.
+
+So I made this, and returned to my earlier efforts.
 
 The rules were worked out inside Effect Co's writing tools, where a ledger
 of what the reader has been promised and what has been paid decides what
 each paragraph is for. This skill is the same method for a writer, or a
-model, on its own. The ledger moves to paper, and a small script does the
+model, on its own: the ledger moves to paper, and a small script does the
 arithmetic.
 
 ## The name
@@ -70,9 +72,12 @@ python3 scripts/meaning_ledger.py --strip < draft.txt > clean.txt
 
 ## One rule, if you take only one
 
-Whatever the density, the last sentence of a paragraph is where the most
-changes. End on what is different now, never on the setting, the weather or
-a view.
+End each paragraph on the thing that changed.
+
+Whatever the density, the last sentence is where the reader puts the
+weight. Never spend it on the setting, the weather, or a view. And do not
+make the paragraphs the same length: a paragraph is as long as what it
+carries, and a page of equal paragraphs reads as a machine humming.
 
 ## Provenance
 
