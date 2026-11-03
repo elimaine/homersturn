@@ -42,7 +42,8 @@ Weisberg, "Bot or not", Judgment and Decision Making 2026.
 
 | Tip | Source | The model's account | Evidence |
 |---|---|---|---|
-| Begin each paragraph with a topic sentence; end it in conformity with the beginning | Strunk rule 9 (S) | the topic position holds what the reader holds; the stress position holds the change | authority |
+| Begin each paragraph with a topic sentence; end it in conformity with the beginning | Strunk rule 9 (S) | the topic position holds what the reader holds; the stress position holds the change; at the scale of the piece this is the abstract completed by the conclusion | authority |
+| Start with the abstract and complete it at the end; a postscript is a thing | Eli's professor, via Eli 2026-11-03 | the abstract is the first raise, the conclusion pays it, the refrain at piece scale; the PS is said after the ledger closes | authority (taught) |
 | Place the emphatic words of a sentence at the end | Strunk rule 18 (S); Q principle 13 | the stress position at sentence scale | authority |
 | Topic position: old, known information; stress position: what the reader will remember | W clarity; Gopen and Swan | the two slots, named | authority |
 | The known-new chain: each sentence starts on what the last ended on; when a paragraph reads twice, check this first | W clarity; Gopen and Swan | the ledger at sentence scale: the topic slot re-presents what was just paid | authority |

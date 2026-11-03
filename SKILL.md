@@ -132,6 +132,17 @@ the unit is about (Gopen and Swan). Two slots, at every scale.
   the change, and either way a page of paragraphs each opening on its
   topic sentence is a tell: open on the point when the reader needs it to
   stay, not as a template.
+- **At the scale of the piece: the abstract, completed.** The rule a
+  professor gives for a paper (Eli, 2026-11-03): start with the abstract
+  and complete it at the end. The abstract is the first raise, a promise
+  of what the piece will establish; the conclusion pays it with the same
+  claim, now carried, so the reader completes the opening before the end
+  arrives. That is the refrain at the scale of the piece, and Strunk's
+  rule for the paragraph ("begin with a topic sentence; end it in
+  conformity with the beginning") is the same shape one size down. The
+  postscript is what is said after the ledger closes: outside the frame,
+  one line, the only place an afterthought belongs. Do not put the point
+  there.
 - **Between paragraphs, the repeated noun.** End on a term and open the
   next paragraph with it. It is invisible and never lies about the
   relation, which "however" and "therefore" often do.
@@ -156,6 +167,7 @@ before writing and let it set the defaults.
 |---|---|---|---|---|
 | A scene, a story | chose to stay | promises carried across paragraphs, paid on their beat; fragments and the litany earned by the scene | land, refrain, or release | 4 to 5 |
 | An essay that reaches a conclusion | stays while the question holds | the question at the top, the turn earned, never announced; the hook is the tension, not the thesis | the hard sentence, or the callback | 4 |
+| A paper, a report, a memo | came for the finding | the abstract first: what will be established, in the words the conclusion will complete; the body pays it in order; a postscript outside the frame for what came after | the abstract completed | 1 to 2 |
 | A post, a thread, a page that can be scrolled past | can leave at every scroll | the claim in the first line, if it is surprising; paid at every scroll; survives being read as subheads and first lines; at most one loop open | a consequence, never an aphorism | 2 to 3 |
 | A message, an email | has a reason to finish | one ask, once, in the first screen; context after the ask; bad news first, cause in one line, then what happens next | the next action | 1 to 2 |
 | A repo doc, a spec, a runbook | came for one thing | the answer where they will look; one name for one thing; the smallest valid structure; code keeps its own conventions | the last useful point | 1 to 2 |
