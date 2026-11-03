@@ -1,6 +1,6 @@
 ---
 name: homersturn
-description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the ambiguity dial (1 to 5, default 4), the ledger of promise and payment, the glance (what a page says before a word is read), the topic and stress positions, purpose and genre, the three punches (land, refrain, release), rhythm as emotion, tempo, forms with transitions, the figures (recursive paragraph, litany, withheld word), the swear as an accent, and the dash redeemed as a rest. Pairs with the Poet tool when it is available; works without it.
+description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the two dials (ambiguity 1 to 5, default 4; the writer's mindset and how far gone), the ledger of promise and payment, the glance (what a page says before a word is read), the topic and stress positions, purpose and genre, the three punches (land, refrain, release), rhythm as emotion, tempo, forms with transitions, the figures (recursive paragraph, litany, withheld word), the swear as an accent, and the dash redeemed as a rest. Pairs with the Poet tool when it is available; works without it.
 ---
 
 # homersturn
@@ -44,6 +44,23 @@ asked to carry, never where meaning goes.
    chose to stay and will read twice.
 
 The purpose sets the default; the user's number overrides it.
+
+**The mindset is the second dial.** Say who is writing and in what state,
+and how far gone, 1 to 5. A grieving writer at 1 names the loss in the
+first line and the piece is about living with it; at 5 the loss is never
+named and every detail on the page is about it. An angry one at 1 writes a
+cold note; at 5 slams the door in four-word sentences. The mindset sets how
+far the accents go (how hard the punch, whether the swear comes, what
+stays unsaid) and how far the rhythm runs toward its extreme. It is not
+the reader's feeling, which rhythm carries; it is the speaker's state,
+which the voice follows. The two dials are independent: a calm writer can
+write at ambiguity 5, a furious one at 1.
+
+**When the mindset is not given, do not assume it.** Read the draft for
+the state it is in (the help mode, under Analyze), say what you see, and
+offer two or three salient mindsets the piece could present, each as the
+same line rewritten. The pick is the signal; never pick for them, and
+never offer more than three.
 
 ## The model
 
@@ -343,7 +360,7 @@ marks, not a judgement; the judgement is yours when you mark.
 ## Workflow
 
 1. Write the brief: the purpose (the table above), the plain meaning, what
-   it carries under that, the dial.
+   it carries under that, the two dials (ambiguity, mindset).
 2. Name the reader's balance before the passage, on paper (above): what has
    been promised and not paid; what is due now; the feeling the previous
    passage left.
@@ -375,6 +392,13 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
    and a tense say a scene; a claim in line one and subheads say a post; an
    answer with no preamble says an agent's reply. Name the genre, the dial
    it implies, and the rules that turn with it. Say which you took and why.
+   Then the mindset, from the evidence too: sentence length and where it
+   breaks, what is named and what is walked around, the accents spent, the
+   hedges. Say what state the draft is in and how far gone, 1 to 5. If the
+   writer did not say what mindset they want to present, this is the help
+   mode: do not assume one. Show the state you read, and offer two or
+   three mindsets the piece could present instead, each as one line of the
+   draft rewritten in that state, so they can pick by ear.
 2. **The glance.** Run `--shape`. The first paragraph's share, the spread,
    the longest block, lists and bold and subheads, repeated openings. Say
    what the page tells a reader who has not read a word.

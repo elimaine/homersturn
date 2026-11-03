@@ -49,6 +49,11 @@ ways it earns its keep:
 - **Set ambiguity as a dial.** "Ambiguity 1 to 5: 4" is the default; 1 is
   one reading per sentence and everything told, 5 is readings held to the
   last line for a reader who will read twice.
+- **Say who is writing, and how far gone.** The mindset is a second
+  dial: a grieving writer at 1 names the loss in the first line, at 5
+  never names it and every detail is about it. Leave it out and the skill
+  reads the state the draft is in and offers two or three it could present
+  instead, one line each, for you to pick by ear.
 - **Analyze a piece.** Ask it why a draft feels dense, flat or hard to
   parse and it names the genre from the evidence, reads the shape of the
   page, reconstructs the ledger of what was promised and paid, and reports
