@@ -201,6 +201,26 @@ to), the fake-profound kicker, the recap, the colon before a reveal, the
 denial of a reading nobody held ("it is not X, it is Y"), the three by
 reflex. Each promises a weight and pays an ordinary line.
 
+## The question
+
+A question is a raise the reader can decline. Ask one only when the piece
+will pay it, or honestly cannot. The rhetorical question opens a reading
+the writer already closed, so the reader pays nothing and feels the setup;
+it is the weakest opening there is, because the reader answers it and
+leaves. Three uses are earned:
+
+- **The question the writer cannot answer.** Write it down in the draft,
+  then go and look. What comes back reworks the paragraph or removes it;
+  the question itself rarely survives, and the piece is better for having
+  asked. This is the ledger used as a tool: a raise the writer owes
+  themself.
+- **The question the reader did not know to ask**, raised and then
+  answered. One unit that raises and pays, which is why it reads as a gift
+  and not a setup. Its unearned cousin is the faux insight ("what most
+  people miss"), which raises the same way and pays an ordinary claim.
+- **The open question as a release**, at the end of exploratory writing,
+  where the piece does not know and says so. Once, and only when true.
+
 ## The figures
 
 - **The recursive paragraph**: each sentence begins on the same phrase and
