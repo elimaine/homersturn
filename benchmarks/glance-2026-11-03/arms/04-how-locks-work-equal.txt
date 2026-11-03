@@ -1,0 +1,7 @@
+A pin tumbler lock is a row of small arguments. Inside the cylinder sit five or six pins, each cut in two, and a spring pushes every pair down into the plug. With no key in the lock, the cut in each pin sits somewhere other than the line where the plug meets its housing, so the plug cannot turn.
+
+A key is a set of heights. Each ridge on the key lifts one pin, and the right key lifts every pin until its cut sits exactly on that line, which is called the shear line. When all the cuts line up, nothing crosses the line, and the plug turns.
+
+Picking a lock is the same operation done one pin at a time. The picker applies a light turning pressure, which makes the plug bind on one pin slightly before the others. That pin is pushed up until it sets at the shear line, the plug turns a fraction, and the next pin binds.
+
+The lock is not defeated by force but by the small imperfections that let its pins be addressed one by one. A perfect lock would have no binding order. No lock is perfect. That is the whole trade.
