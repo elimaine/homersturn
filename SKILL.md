@@ -84,7 +84,7 @@ never offer more than three.
   fear; sentences that spill and break for panic or ecstasy; a line that sings
   a little for grief and love; moving, joined sentences for ease; few words
   and long gaps for awe and aftermath. Do not switch rhythm inside an engaged
-  scene; switch at its edge.
+  scene; switch at its edge, which is where the state turns.
 - **Tempo is the frame.** Scene: every moment told. Summary: ground covered,
   time passing between beats, one sentence holding an hour. Pause: time stops
   on one image. Say which one a paragraph is in; most flat prose is scene
@@ -93,6 +93,29 @@ never offer more than three.
   it carries: a landing gets one line, a stretch of ground gets a long one.
   Equal paragraphs are the droning at the scale of the page, the same
   uniform density the ledger forbids within a paragraph.
+- **The mindset is upstream of the manifold.** The ledger says where meaning
+  goes, rhythm what the reader feels, purpose what is owed; the mindset says
+  who is speaking and what they can see. A state is a prior over readings:
+  it decides which second senses are open to the writer at all. A grieving
+  writer cannot see a harbour as a harbour; a furious one sees one thing and
+  nothing beside it. It reaches the page through attention: the state picks
+  the details (the anxious notice the exits, the bereaved the empty chair),
+  and the details set the length, and the length sets the rhythm. That is
+  how a state is shown without being named. A model's default state is
+  helpful, even, mildly pleased, with nothing at stake, and uniform density
+  is what a mind with no state sounds like; setting one is the strongest
+  single move out of machine prose. The long form is `references/mindset.md`.
+- **The mindset moves, and the move is the story.** A fixed state is a
+  setting; a shifting one is a trajectory the reader tracks like the ledger,
+  and it follows the ledger: a promise paid brings relief, one raised brings
+  dread, a reading closed brings calm, one opened against the writer's will
+  brings fear. A state turns because of what was just paid, or against it
+  (therefore, or but); a jump with no cause is the seam failure in another
+  costume, and a state that never moves across a page is the hum in the
+  voice. Felt and shown can cross mid-page: the cold note that cracks in its
+  last paragraph is restraint failing, and that is a punch, because the
+  reader carried the withheld anger as debt. Switch rhythm where the state
+  turns, and nowhere else.
 
 ## The glance
 
@@ -338,7 +361,7 @@ one line:
 
 ```
 ¶7  owed: the letter (raised ¶2), who locked the door (¶4)   due now: the letter
-    debt: 310 words since ¶4 paid    feeling: dread, low
+    debt: 310 words since ¶4 paid    feeling: dread, low    state: fear 3 → 4, because ¶6 opened the door
     → scene · staccato · restate · plain · no punch
 ```
 
@@ -349,6 +372,10 @@ Mark the draft as you go, in brackets the final pass strips:
 - `[plant: "the boards creak under nothing"]` on a line meant to return.
 - `[join: therefore]` or `[join: but]` at the head of a paragraph; write `[join: and then]`
   when that is the truth, and the ledger script will name it.
+- `[state: fear 4]` at the head of a paragraph when the speaker's state or
+  its degree has moved; the script lists the trajectory beside the debt,
+  names a jump of two or more steps at a seam joined by "and then", and a
+  state that has not moved in five paragraphs.
 
 `python3 scripts/meaning_ledger.py < draft.txt` (this skill's `scripts/`) reads the marks and reports,
 per paragraph, the debt (words since the last payment), what is still owed,
@@ -398,7 +425,9 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
    writer did not say what mindset they want to present, this is the help
    mode: do not assume one. Show the state you read, and offer two or
    three mindsets the piece could present instead, each as one line of the
-   draft rewritten in that state, so they can pick by ear.
+   draft rewritten in that state, so they can pick by ear. Read the state
+   the page presents, never the state the person is in; it is a reading of
+   the text, not a diagnosis.
 2. **The glance.** Run `--shape`. The first paragraph's share, the spread,
    the longest block, lists and bold and subheads, repeated openings. Say
    what the page tells a reader who has not read a word.
@@ -415,6 +444,11 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
    low-stakes beat and every stretch run too long unpaid.
 6. **The topic position.** Where a paragraph must be read twice, check the
    known-new chain first.
+6b. **The state trajectory.** The state per paragraph, with its cause. A
+   flat line across the page is the machine voice; a jump without a cause
+   is a seam to fix; a trajectory that moves with the ledger is the
+   mechanism of the reader's feeling, and the thing to protect in revision.
+   Note where felt and shown part, and where they cross.
 7. **Accidental readings.** A pronoun with two candidates; a thing renamed;
    a dangling modifier; a negation whose scope is unclear; a stack of nouns;
    the rare word where the common one was right; the pointing participle.

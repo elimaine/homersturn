@@ -3,7 +3,8 @@
 
 Reads a draft on stdin. Marks: [raise: name] opens a promise, [pay: name]
 pays it, [plant: "line"] plants a refrain, [join: therefore|but|and then] names
-how the paragraph follows the last. Reports per paragraph the debt
+how the paragraph follows the last, [state: name degree] marks the speaker's
+state when it moves (the trajectory is listed beside the debt). Reports per paragraph the debt
 (words since the last payment), what is owed, and the failures the marks
 make visible. Strips nothing; use --strip to print the draft without marks.
 
@@ -18,7 +19,7 @@ from __future__ import annotations
 import re
 import sys
 
-MARK = re.compile(r"\[(raise|pay|plant|join):\s*(.+?)\]")
+MARK = re.compile(r"\[(raise|pay|plant|join|state):\s*(.+?)\]")
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
 STOP = set("a an and are as at be but by for from had has have he her his i if in is it its of on or she so that the their them they this to was we were with you your".split())
 
@@ -89,6 +90,8 @@ def main() -> int:
     paragraphs = [p for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
     owed: dict[str, int] = {}
     planted: dict[str, int] = {}
+    state: tuple[str, int | None] | None = None
+    state_since = 0
     debt = 0
     problems: list[str] = []
     print(f"{'¶':>3}  {'words':>5}  {'debt':>5}  owed / events")
@@ -96,11 +99,21 @@ def main() -> int:
         plain = MARK.sub("", para)
         words = len(plain.split())
         events: list[str] = []
+        join_word = ""
         for kind, name in MARK.findall(para):
             if kind == "join":
+                join_word = name.strip().lower().replace("-", " ")
                 events.append(f"join {name}")
-                if name.strip().lower().replace("-", " ") == "and then":
+                if join_word == "and then":
                     problems.append(f"¶{i}: joined to the last by \"and then\" (a list, not a story)")
+                continue
+            if kind == "state":
+                m = re.match(r"\s*(.+?)\s+(\d)\s*$", name)
+                label, degree = (m.group(1), int(m.group(2))) if m else (name.strip(), None)
+                events.append(f"state {label} {degree if degree is not None else ''}".rstrip())
+                if state is not None and degree is not None and state[1] is not None and abs(degree - state[1]) >= 2 and join_word == "and then":
+                    problems.append(f"¶{i}: the state jumps {state[0]} {state[1]} → {label} {degree} across a seam joined by \"and then\" (a turn with no cause)")
+                state, state_since = (label, degree), i
                 continue
             name = name.strip().strip('"')
             if kind == "raise":
@@ -130,6 +143,8 @@ def main() -> int:
                             "sentence pays nothing: the stress position is spent on a quiet line")
         if debt > 450:
             problems.append(f"¶{i}: {debt} words since anything was paid: a release is due")
+        if state is not None and i - state_since == 5:
+            problems.append(f"¶{i}: the state has not moved in five paragraphs ({state[0]} {state[1] if state[1] is not None else ''}): the hum in the voice, or mark the move".replace("  ", " "))
         print(f"{i:>3}  {words:>5}  {debt:>5}  {', '.join(events) or '-'}")
     if owed:
         print("\nstill owed:", ", ".join(f"{k} (¶{v})" for k, v in owed.items()))
