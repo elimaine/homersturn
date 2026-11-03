@@ -1,0 +1,91 @@
+run pilot-02: 18 calls on claude-opus-5-5
+  transcribe 01-harbour: 'CANNOT\n\nThe image is too blurred for an exact transcription. I can make out the rough shape of the words, but an
+  transcribe 02-release-note: 'CANNOT\n\nThe image is too blurred to transcribe the line exactly. The word shapes suggest something like "Th
+    1/18 02-release-note equal      clear -> 4 @0 3.6s
+    2/18 01-harbour dense-open clear -> 4 @1 2.7s
+    3/18 02-release-note dense-open text  -> 3 @1 2.9s
+    4/18 02-release-note shaped     blur  -> 4 @2 3.0s
+    5/18 01-harbour shaped     blur  -> 4 @2 2.6s
+    6/18 01-harbour shaped     text  -> 4 @2 3.8s
+    7/18 02-release-note dense-open clear -> 3 @1 2.2s
+    8/18 01-harbour equal      text  -> 5 @0 7.4s
+    9/18 02-release-note equal      blur  -> 4 @2 4.4s
+   10/18 01-harbour equal      clear -> 5 @0 2.8s
+   11/18 02-release-note shaped     text  -> 4 @2 2.9s
+   12/18 01-harbour shaped     clear -> 4 @2 3.0s
+   13/18 01-harbour dense-open blur  -> 3 @1 2.2s
+   14/18 01-harbour dense-open text  -> 3 @1 7.0s
+   15/18 02-release-note shaped     clear -> 4 @2 2.5s
+   16/18 02-release-note equal      text  -> 4 @0 6.2s
+   17/18 01-harbour equal      blur  -> 5 @0 2.8s
+   18/18 02-release-note dense-open blur  -> 3 @1 4.7s
+# Glance bench run pilot-02
+
+inviting: 1 to 5, higher means the shape invites a reader to start and keep going, so higher is better.
+Unit: the item (passage); samples averaged within item, shape, mode.
+
+Calls: 18; malformed or failed: 0 (excluded from means, listed below).
+- blur check, 01-harbour: 'CANNOT\n\nThe image is too blurred for an exact transcription. I can make out the rough shape of the w'
+- blur check, 02-release-note: 'CANNOT\n\nThe image is too blurred to transcribe the line exactly. The word shapes suggest something l'
+
+## mode: text
+
+| item | dense-open | equal | shaped | shaped − dense-open | shaped − equal |
+|---|---:|---:|---:|---:|---:|
+| 01-harbour | 3.00 | 5.00 | 4.00 | 1.00 | -1.00 |
+| 02-release-note | 3.00 | 4.00 | 4.00 | 1.00 | 0.00 |
+
+shaped − dense-open: mean +1.00 (items n=2, bootstrap 95% +1.00 to +1.00); sign test 2 up / 0 down, two-sided p = 0.500 (n too small to reach 0.05)
+
+shaped − equal: mean -0.50 (items n=2, bootstrap 95% -1.00 to +0.00); sign test 0 up / 1 down, two-sided p = 1.000 (n too small to reach 0.05)
+
+Where the judge said it would stall, share naming the first paragraph: dense-open: ¶1 named 2/2; equal: ¶1 named 0/2; shaped: ¶1 named 0/2
+
+## mode: blur
+
+| item | dense-open | equal | shaped | shaped − dense-open | shaped − equal |
+|---|---:|---:|---:|---:|---:|
+| 01-harbour | 3.00 | 5.00 | 4.00 | 1.00 | -1.00 |
+| 02-release-note | 3.00 | 4.00 | 4.00 | 1.00 | 0.00 |
+
+shaped − dense-open: mean +1.00 (items n=2, bootstrap 95% +1.00 to +1.00); sign test 2 up / 0 down, two-sided p = 0.500 (n too small to reach 0.05)
+
+shaped − equal: mean -0.50 (items n=2, bootstrap 95% -1.00 to +0.00); sign test 0 up / 1 down, two-sided p = 1.000 (n too small to reach 0.05)
+
+Where the judge said it would stall, share naming the first paragraph: dense-open: ¶1 named 2/2; equal: ¶1 named 0/2; shaped: ¶1 named 0/2
+
+## mode: clear
+
+| item | dense-open | equal | shaped | shaped − dense-open | shaped − equal |
+|---|---:|---:|---:|---:|---:|
+| 01-harbour | 4.00 | 5.00 | 4.00 | 0.00 | -1.00 |
+| 02-release-note | 3.00 | 4.00 | 4.00 | 1.00 | 0.00 |
+
+shaped − dense-open: mean +0.50 (items n=2, bootstrap 95% +0.00 to +1.00); sign test 1 up / 0 down, two-sided p = 1.000 (n too small to reach 0.05)
+
+shaped − equal: mean -0.50 (items n=2, bootstrap 95% -1.00 to +0.00); sign test 0 up / 1 down, two-sided p = 1.000 (n too small to reach 0.05)
+
+Where the judge said it would stall, share naming the first paragraph: dense-open: ¶1 named 2/2; equal: ¶1 named 0/2; shaped: ¶1 named 0/2
+
+## Shape metrics (the deterministic view)
+
+| arm | paragraphs | first share | max share | cv |
+|---|---:|---:|---:|---:|
+| 01-harbour-dense-open | 4 | 0.65 | 0.65 | 0.94 |
+| 01-harbour-equal | 4 | 0.26 | 0.31 | 0.21 |
+| 01-harbour-shaped | 5 | 0.05 | 0.47 | 0.72 |
+| 02-release-note-dense-open | 4 | 0.73 | 0.73 | 1.12 |
+| 02-release-note-equal | 4 | 0.25 | 0.30 | 0.12 |
+| 02-release-note-shaped | 5 | 0.05 | 0.50 | 0.81 |
+| 03-letter-dense-open | 4 | 0.70 | 0.70 | 1.07 |
+| 03-letter-equal | 4 | 0.24 | 0.27 | 0.08 |
+| 03-letter-shaped | 5 | 0.05 | 0.42 | 0.68 |
+| 04-how-locks-work-dense-open | 4 | 0.70 | 0.70 | 1.08 |
+| 04-how-locks-work-equal | 4 | 0.30 | 0.30 | 0.16 |
+| 04-how-locks-work-shaped | 5 | 0.05 | 0.49 | 0.84 |
+| 05-after-the-match-dense-open | 4 | 0.75 | 0.75 | 1.16 |
+| 05-after-the-match-equal | 4 | 0.24 | 0.30 | 0.15 |
+| 05-after-the-match-shaped | 5 | 0.06 | 0.44 | 0.74 |
+| 06-on-naming-dense-open | 4 | 0.66 | 0.66 | 0.96 |
+| 06-on-naming-equal | 4 | 0.35 | 0.35 | 0.30 |
+... full summary: /Users/elimaine/code/homersturn/benchmarks/glance-2026-11-03/runs/pilot-02/summary.md

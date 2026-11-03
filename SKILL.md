@@ -102,7 +102,16 @@ half a phone screen.
 - **The glance is not the read.** At a glance, even short blocks invite and
   one long block repels; the hum of equal paragraphs is heard while reading,
   not seen before it. So shape the opening for the glance and the rest for
-  the ear.
+  the ear. And the second paragraph is the next wall: a one-line opening
+  followed by a block the eye cannot take is marked for the block.
+- **The model has the sense when it looks.** The skill's glance bench
+  (`benchmarks/glance-2026-11-03`): the same words broken three ways, judged
+  by Opus from the text alone and from a blurred render, agreed on every
+  passage. A dense opening lost by a full point of five in each of six
+  passages, and the judge named it as the stall every time; a text-only
+  judge saw it as well as the image did. Even blocks beat the shaped page
+  at a glance by a third of a point (direction only). The human check is
+  recorded beside the numbers.
 
 `python3 scripts/meaning_ledger.py --shape < draft.txt` prints the shape:
 each paragraph's words and sentences, the first paragraph's share, the

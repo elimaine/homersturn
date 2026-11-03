@@ -36,7 +36,9 @@ Weisberg, "Bot or not", Judgment and Decision Making 2026.
 | The first forty characters of a title carry the decision in any truncating surface | W structure, emails, posts | a stress position imposed by the surface | assertion |
 | One subhead per 200 to 300 words; none under 500 | W structure | convention; numbers unsourced | assertion |
 | It must work with formatting stripped | W social | the plain reading stands without the visual accents | assertion |
-| Even blocks invite at a glance; one long block repels | this skill's glance bench (`benchmarks/glance-2026-11-03`) | the hum of equal paragraphs is heard in reading, not seen before it | pattern, pending the human check |
+| A dense opening shuts the reader down | this skill's glance bench (`benchmarks/glance-2026-11-03`, run full-01) | density where nothing is yet owed | measured on Opus: shaped − dense-open +1.06 of 5, six passages of six, p = 0.031; the human check pending |
+| A text-only judge sees the wall as well as an image judge does | the glance bench | the glance can be judged from the text, so the skill stays text-only | pattern (text and blur modes agree on every passage) |
+| Even blocks invite at a glance; one long block repels; the hum is a reading-time effect | the glance bench | the hum of equal paragraphs is heard in reading, not seen before it | direction only (−0.28 to −0.44 of 5, interval touching zero) |
 
 ## The two positions
 
