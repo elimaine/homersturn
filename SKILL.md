@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.4.3
+version: 0.4.4
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -181,6 +181,7 @@ it set the defaults. The full table is `references/purposes.md`.
 | A reply from an agent | asked | the answer first, the last useful point last, no preamble or recap | 2 to 3 |
 | A game turn | acted, and waits | every turn pays a fact, a cost, a reaction, a threat, a route. The actor's intent kept | 3 to 4 |
 | A prompt, a skill | writes next, and reads the whole page every time | the term before its use, the rule where it will be applied, the register it should produce, nothing that costs more than it rules | 1 to 2 |
+| An orchestrator's update | holds several repos and lanes in mind, and this page is the only map | what changed and where, first: repo, branch, committed or not, pushed or not, a worker's change named by its lane; then findings; then the ask. "No changes" is a line, not silence | 1 to 2 |
 
 Prose to be heard keeps its repetitions, since a listener cannot go back.
 
