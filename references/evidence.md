@@ -270,7 +270,7 @@ is unsourced.
   by gpt-5.6-sol; the figures and sentence rules read back by three
   readers on each arm. The tint is real and frequent: ten of twelve
   ledgers on the full text carried a cut particular the brief did not call
-  for (the griever's first line on an apology, the bus stop on a headline,
+  for (a state's first line on an apology, the bus stop on a headline,
   the filled ledger line's values), none on the stripped text, and readers
   asked to invent an example handed back the skill's own six times in six.
   The cost was small and was repaired in wording: one reader capped mood

@@ -37,8 +37,8 @@ nothing is owed is melodrama.
 ## Why rhythm is emotion
 
 Rhythm patterns are emotional modes before they are stylistic ones. The five
-used here: staccato (fear, urgency), chaos (panic, ecstasy), lyrical (grief,
-love), flowing (ease), stillness (awe, aftermath). The feeling a passage
+used here: staccato (fear, urgency), chaos (panic, ecstasy), lyrical (love,
+loss), flowing (ease), stillness (awe, aftermath). The feeling a passage
 leaves picks the rhythm of the next, and a threat overrides it. Valve's AI
 Director rule holds for prose: build, sustain, peak, fade, relax; do not
 switch rhythm while the scene is engaged.
