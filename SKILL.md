@@ -83,7 +83,11 @@ already paid for). The pool is what the reader can spend; whether they
 spend it is a judgement, made again at every beat, on whether it is worth
 expending more (Eli). That judgement is trust times what is due: every
 raise is the writer's claim that a spend will pay, every payment made on
-its beat raises the trust, and every promise left unpaid lowers it. So a
+its beat raises the trust, and every promise left unpaid lowers it. Trust
+is also filled by a name, a number, a source, and a grammar that holds,
+and drained by a hedge stacked, a register that slips, and an absolute
+claim; and the truth of a claim is outside this skill entirely, which
+scores a false payment the same as a true one. So a
 reader with a full pool and no trust leaves (the post's reader at the
 second scroll), and a reader with an empty pool and full trust rests and
 comes back (the chapter break). The glance is this judgement made first,
@@ -133,8 +137,13 @@ never offer more than three.
   the passage should make the reader feel: short hard stops for urgency and
   fear; sentences that spill and break for panic or ecstasy; a line that sings
   a little for grief and love; moving, joined sentences for ease; few words
-  and long gaps for awe and aftermath. Do not switch rhythm inside an engaged
-  scene; switch at its edge, which is where the state turns.
+  and long gaps for awe and aftermath, or one sentence that will not stop,
+  which is awe's other shape (Darwin's tangled bank). Do not switch rhythm
+  inside an engaged scene; switch at its edge, which is where the state
+  turns. Rhythm can also enact its subject rather than the reader's
+  feeling: a count that is the scene's clock ("Forty-one. Forty-two."),
+  a syntax bent to carry the claim; then the rhythm is the content and the
+  rule about switching does not apply to it.
 - **Tempo is the frame.** Scene: every moment told. Summary: ground covered,
   time passing between beats, one sentence holding an hour. Pause: time stops
   on one image. Say which one a paragraph is in; most flat prose is scene
@@ -182,7 +191,9 @@ half a phone screen.
   first paragraph to see whether anything was lost.
 - **Equal paragraphs hum.** A page of same-sized blocks reads as a machine
   before it is read at all. A one-line paragraph is emphasis, and it stops
-  working at three on a page.
+  working at three on a page, except where the page's convention makes it
+  nothing: dialogue turns, a list of steps. A convention the reader
+  already holds carries no emphasis and costs none.
 - **A list of sentences is "and then" made visible.** Items that flow into
   each other are a paragraph in a costume. Lists are for things that are
   really several; tables for what is compared by row and column.
@@ -255,6 +266,15 @@ forms below say where a thing comes back; this says why the next thing
 happens at all. Check it at the seam of every paragraph, and when "and
 then" is the honest word, the paragraph is not yet written.
 
+Four joins are honest and are not "and then", though they wear its
+clothes: "because" (the cause told after the effect, a payment backwards);
+"and closer" (each step the same thing nearer, an escalation); the
+iterative "and" of a thing that happened many times (summary tempo, not a
+list); and the procedural "then" of a doc or a recipe, where the order is
+the point. A join is honest when it pays or advances the raise before it,
+forward or back. Between paragraphs, the repeated noun does the joining
+that "however" and "therefore" fake.
+
 ## Purpose: the reader who can leave
 
 One asymmetry derives the genres: an email's reader has a reason to finish,
@@ -272,6 +292,10 @@ before writing and let it set the defaults.
 | A repo doc, a spec, a runbook | came for one thing | the answer where they will look; one name for one thing; the smallest valid structure; code keeps its own conventions | the last useful point | 1 to 2 |
 | UI copy, an error, a label | is mid-task | the one thing to do, in the words they would use; nothing withheld | none | 1 |
 | A reply from an agent | asked | the answer first, no preamble; the last useful point last, no recap; with an orchestrator that reads poetic language, a layered line that packs what was done into few words | the last useful point | 2 to 3, or 4 by agreement |
+| A vignette, a description for its own sake | came to look | exactness; no promise need be raised, and an exact image pays in kind; the ledger is nearly idle and that is correct | the last exact thing | 3 to 4 |
+| The opening of a long work | has not decided to stay | the promise of the whole, raised and not yet paid; the overture may use what the body cannot (the recursive paragraph, the long block as stance) | the raise, held | 4 |
+| Advice, a how-to | came to do a thing | the one instruction, in order, with the procedural "then" honest; the case where it fails | the last step | 1 to 2 |
+| A message to someone owed nothing (the estranged friend, the stranger) | has no reason to finish | the reason to read, earned in the first line; the relationship's register, or it reads as a stranger's | the next action, offered not asked | 2 to 3 |
 | A game turn, interactive narration | acted, and waits | every turn pays: a fact, a cost, a reaction, a threat, a route, a decision; the actor's intent kept, never silently extended; machinery translated into what they can perceive | what is different now | 3 to 4 |
 
 Where the rules turn with the genre: withholding the reveal is for readers
@@ -298,7 +322,18 @@ A punch is a short last line that pays. Pick one; never stack them.
 The unearned punch has names: the importance claim (pivotal, a testament
 to), the fake-profound kicker, the recap, the colon before a reveal, the
 denial of a reading nobody held ("it is not X, it is Y"), the three by
-reflex. Each promises a weight and pays an ordinary line.
+reflex. Each promises a weight and pays an ordinary line. But every one of
+them is judged against the ledger, never by its shape: a superlative, a
+colon, a recap, a rhetorical question, an adverb, can each be load-bearing
+when a later line pays it ("There never was so wonderful a book written by
+man" is paid by the page that follows). Look forward before firing. The
+tell is the shape with no payment behind it.
+
+Comedy is in the same account. Irony is a raise paid by a reversal within
+reach; bathos is the stress position spent on something smaller than it
+promised, on purpose; deadpan is a plain reading the voice disowns.
+Amusement is a feeling the rhythm list does not name, and it is made by
+timing, which is placement.
 
 ## Deception
 
@@ -347,7 +382,12 @@ leaves. Three uses are earned:
 
 - **The recursive paragraph**: each sentence begins on the same phrase and
   takes it one step further, so the phrase means more at the end than at
-  the start. Once in a piece, at the end, where the ledger closes.
+  the start. Once in a piece: at the end, where the ledger closes, or as
+  the overture, where it opens everything at once (Bleak House's fog).
+- **The crescendo**: the evaluative word climbing by degrees across a
+  paragraph, the low step first ("beautiful", then "most beautiful and
+  most wonderful"). Placement at the scale of word choice; cut the first
+  step and the climb is gone.
 - **The litany**: a list said as prose, one frame repeated with the number
   of items the content has, never three by reflex. It is the refrain at the
   scale of a phrase, and it is earned by a scene.
@@ -374,7 +414,13 @@ Two smaller units, neither a cadenza.
   that should have been two sentences, and every droning paragraph carries
   it. Redeemed, it is spacing, not joining: at most one in a paragraph,
   only where a sentence breaks off before the thing arrives, or at a pause.
-  Everywhere else, no dash.
+  Everywhere else, no dash. The semicolon, the comma-and, and the
+  participial tail ("…, leaving the rest untouched") are the dash in other
+  clothes: the same joining of two sentences that should have been two, and
+  the same hum. A page with no dashes can still be all joiner.
+- **The parenthesis** is the aside said under the breath, the one mark for
+  a voice lowered; the comma is the shorter rest. Once a page, like the
+  swear, and never to smuggle a second clause past the reader.
 
 ## Forms and transitions
 
@@ -404,7 +450,27 @@ them (the long form, with sources, is `references/evidence.md`):
   synonym cycle repeats by accident.
 - The common word for the common thing. A pig is a pig, a key is a key. The
   second meaning rides on a plain word and falls off a rare one, because the
-  reader stops on the word instead of the meaning.
+  reader stops on the word instead of the meaning. Two carve-outs: the
+  rare word is right when the second meaning lives only there ("a sojourner
+  in civilized life" carries what "visitor" drops); and a common word that
+  another domain has loaded (undo, save, commit, in software) is not the
+  common word to that reader, and its borrowed sense arrives whether you
+  meant it or not.
+- One thing, one name, except where the new name is a payment: rename when
+  the reader's knowledge has changed or the image has tightened (the lady
+  with the dog, then Anna Sergeyevna, then "her"). Each new name moves the
+  ledger; the synonym cycle moves nothing.
+- A cliché is a refrain planted by other texts. The reader completes it
+  before reading it, and its sense never shifts, so it pays nothing: an old
+  man feeding pigeons, a city that never sleeps. The exact detail is the
+  opposite case: "the colour of strong tea" is not dense and owes nothing,
+  it pays in kind. Concreteness is a payment; exactness never needs a
+  promise behind it.
+- A borrowed phrase is a manifold with two readings. When the narration
+  takes a character's words ("for when he comes"), the reader hears the
+  character and the narrator at once, and the distance between them is a
+  second sense the skill otherwise assumes away. A character's misplaced
+  stress is a raise the writer pays on the next line.
 - One hedge per claim. A hedge is a reading kept open on purpose; a second
   one opens nothing new. Keep the adverbs that carry the claim (only,
   rarely, almost); cut the ones that prop a weak verb.
@@ -445,6 +511,10 @@ Mark the draft as you go, in brackets the final pass strips:
 - `[plant: "the boards creak under nothing"]` on a line meant to return.
 - `[join: therefore]` or `[join: but]` at the head of a paragraph; write `[join: and then]`
   when that is the truth, and the ledger script will name it.
+- `[pay: inferred]` or `[pay: off-page]` when a raise is paid by the
+  reader's own knowledge, an allusion, or a thing the dial at 5 leaves
+  found rather than told; the script counts it as paid and you have said
+  so on purpose.
 - `[state: fear 4]` at the head of a paragraph when the speaker's state or
   its degree has moved; the script lists the trajectory beside the debt,
   names a jump of two or more steps at a seam joined by "and then", and a
@@ -553,7 +623,9 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
   interest.
 - Do not point at a planted meaning. If the reader must be told it is there,
   it is not planted.
-- Do not end on atmosphere. Do not end dense on a beat that owes nothing.
+- Do not end on atmosphere, unless the atmosphere is the payment: the
+  Mississippi's water read as a book ends on the water because the water
+  is what changed. Do not end dense on a beat that owes nothing.
 - Do not change rhythm mid-scene or refrain a line that was told once.
 - Do not join two paragraphs with "and then". Therefore, or but.
 - Do not reach for a rarer word when the common one is right, and do not
@@ -563,6 +635,17 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
 - Do not invent a claim, a number, a feeling, or an experience the person
   did not supply. Voice is how they say things; inventing what they say is
   forgery.
+
+## What this skill does not hold
+
+Sound: alliteration, rhyme, the stress cluster, chiasmus, how the words
+sound in the mouth. Three analyses in the skill's own sweep called it a
+fourth axis ("what the page sounds like"); two called it rhythm at the
+scale of a syllable. It is not in the model here, and a revision this
+skill proposes can break a rhyme it cannot hear. Effect Co's Poet holds
+it (the library's `sound` tool and the figures note). Also outside: the
+reader's time and knowledge (a chaise and four), which belong to a gloss,
+and whether a claim is true.
 
 ## Sources
 

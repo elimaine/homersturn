@@ -187,6 +187,17 @@ is unsourced.
   what editors notice, not what readers feel; the hum is rated well on one
   short piece, so a bench must measure absorption over length, the payment
   of a planted promise, and variance across many outputs.
+- **The analysis sweep** (`benchmarks/analysis-sweep-2026-11-03`): the
+  skill's analyze mode run by Opus over six good passages, six machine
+  passages and four pieces the skill wrote, each asked what the framework
+  does not account for; 28 candidates and 23 contradictions, of which
+  nineteen were conceded into the skill (voices other than the writer's,
+  honest joins, tells judged forward, the other joiners, rhythm as a
+  clock, cliché and exactness, comedy, the trust fillers, renaming as
+  payment, the rare word as carrier, the loaded common word, the
+  parenthesis, the crescendo, the convention exemption, four purpose rows,
+  the off-page payment) and sound was named as outside. Grade: instrument.
+  RESULTS.md there has every ruling.
 - **The glance bench** (`benchmarks/glance-2026-11-03`): the same words
   broken three ways, judged by Opus 5.5 from the text, from a blurred
   render, and from a clear render. Its intent card and analysis plan are

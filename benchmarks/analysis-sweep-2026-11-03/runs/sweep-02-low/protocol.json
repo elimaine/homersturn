@@ -1,0 +1,11 @@
+{
+ "run": "sweep-02",
+ "model": "claude-opus-5-5",
+ "started": "2026-11-03T23:38:01.209530+00:00",
+ "reasoning_effort": "low",
+ "max_tokens": 12000,
+ "analyze_prompt": "You are using the writing skill below to analyze a piece. Follow its \"Analyze a piece\" section exactly: name the purpose from the evidence, read the glance, reconstruct the ledger, check the seams, give the five measurements per paragraph, the topic position, accidental readings, unearned weight, and the three changes that would pay the most. Report in the skill's shape: pattern, quoted line, fix in a few words. No score. Do not guess who wrote it.\n\nThen, under a final heading \"## What the framework does not account for\", name anything in this piece that works or fails that no section of the skill names. Be concrete: quote the line, say what it does to a reader, and say whether the skill's model (where meaning goes; what the reader is owed; what the page looks like) could explain it if a section were added, or whether it is outside the model. If nothing is unaccounted for, say so in one line.\n\nThe skill:\n\n<skill>\n{skill}\n</skill>\n\nThe piece:\n\n<piece>\n{piece}\n</piece>",
+ "write_prompt": "Write the piece described in the brief, following the skill below. Keep the paper ledger as the skill says, in brackets the final pass strips; then give the final text with the marks stripped. Output: first the ledger lines and the marked draft under \"## Ledger\", then the clean piece under \"## Piece\".\n\nBrief: {brief}\n\n<skill>\n{skill}\n</skill>",
+ "synth_prompt": "Below are the \"What the framework does not account for\" sections from analyses of {n} pieces: well-known good writing, plain machine prose, and pieces written with the skill itself. Cluster them into candidate additions to the skill. For each cluster: a name; one line on what it is; how many analyses raised it and from which sets; whether the skill's model explains it (and the one-line account) or it is outside the model; one quoted example; and the evidence grade (seen in good writing, seen in machine prose, seen in the skill's own output). Rank by how much the skill would gain. Then list, separately, anything the analyses said the skill got wrong. Terse; every item on its own line.\n\n{notes}",
+ "skill_sha256": "0923a9970366150092f6626f548689fdf7ae4566fa92d52e89063f1e8a16ceb2"
+}
