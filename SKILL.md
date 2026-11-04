@@ -73,9 +73,10 @@ repeated noun joins better than "however" or "therefore".
 Before writing, one line: the purpose (who reads, and whether they can
 leave), the plain meaning, what it carries under that, and three numbers.
 When the user gives none, name them from the evidence and say which you
-took. Never invent a claim, a number, a feeling, or an experience the
-person did not supply. Voice is how they say things, and inventing what
-they say is forgery.
+took. Never invent a claim, a number, a feeling, an experience, or,
+outside fiction, a detail, a cause or a mechanism the person did not
+supply. Voice is how they say things, and inventing what they say is
+forgery.
 
 Ambiguity, 1 to 5, default 4, is how much the reader is asked to carry.
 
@@ -216,7 +217,7 @@ then looked into, is the ledger used as a tool.
 - The recursive paragraph: each sentence begins on the same phrase and
   takes it one step further. Once, at the end or as the overture.
 - The litany: a list said as prose, with the number of items the content
-  has, never three by reflex. Earned by a scene, a tic in a post.
+  has, never three by reflex. A scene earns it; in a post it is a tic.
 - The withheld word: three em dashes withhold a word the piece still holds
   open and will pay. Once, and only after the reader has reached for it
   more than once.
@@ -251,12 +252,13 @@ then looked into, is the ledger used as a tool.
   the mark of machine prose. The semicolon, the comma-and and the
   participial tail do the same joining and hum the same way. The
   parenthesis is the aside under the breath, once a page.
-- The figure hums too. One device at a steady rate is the same density by
-  figure, whatever the device, down to one verb mood and one person held
-  across a whole page. Mood and person are where a state shows first. Each
-  figure at most twice a page, never in consecutive paragraphs, and a
-  frame never reused unless it is the refrain. `--shape` lists the frames
-  a page repeats.
+- The figure hums too. Each figure at most twice a page, never in
+  consecutive paragraphs, and a frame never reused unless it is the
+  refrain. One device at a steady rate is the same density by figure,
+  whatever the device. A page held in one verb mood and one person hums
+  the same way, not by a count but by never turning, and mood and person
+  are where a state shows first. `--shape` lists the frames a page
+  repeats.
 
 ## Forms: hold one, leave through a bridge
 
@@ -314,9 +316,10 @@ Each rule's reason is in `references/sentence.md`.
 - The example after the claim, the definition a paragraph before its use.
 - Concede before you are forced. The title is the first raise.
 - A name is a plant at the scale of the cast: it opens a reading before
-  the person has spoken, and the reader never notices they were told. It
-  pays only if nothing on the page points at it. A name the narrator
-  glosses is a label.
+  the person has spoken, and two names can say how two people stand to
+  each other before either has. The reader never notices they were told.
+  It pays only if nothing on the page points at it. A name the narrator
+  glosses is a label, and a name that is a joke on its owner is a cliché.
 - A cliché is a refrain planted by other texts and pays nothing. An exact
   detail pays in kind. A phrase borrowed from a character's mouth carries
   the character and the narrator at once. A quoted line in this skill or
