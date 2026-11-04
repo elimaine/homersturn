@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.3.0
+version: 0.3.1
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -66,9 +66,9 @@ When the user gives none, name them from the evidence and say which you took.
   a third image on the surface. A reading opened by accident (a pronoun with
   two candidates, a thing renamed, a modifier on the wrong noun, a common
   word another domain has loaded) is closed, when it points away from the
-  ledger. One that says what the piece says (a villain who bathes in
-  stolen flour is "powdered", which also reads as a wig and as a habit) is
-  a gift: keep it and, if you can, pay it.
+  ledger. One that says what the piece says (a word chosen for the scene
+  that also names the character's vice) is a gift: keep it and, if you
+  can, pay it.
 - **Meaning is a ledger of promise and payment.** A detail that is also a
   sign, a line with a second sense, an unanswered question: each raises. A
   consequence told plainly, a question answered, a line that returns: each
@@ -254,11 +254,11 @@ Rules other guides give as taste, kept because the model explains them
 - One thing, one name, unless the new name is a payment.
 - The common word for the common thing, unless the rare one is the only
   carrier or the common one is loaded by another domain.
-- The narrator's opinion on the word, not in a trailing clause. "He was
-  disgustingly soft to look at" is shorter than the same fact with a
-  judgement clause after it, funnier, and foreshadows where the clause
-  explains. The trailing judgement is the aphorism in participial clothes,
-  and models reach for it in the same place on every page.
+- The narrator's opinion on the word, not in a trailing clause: one
+  adverb on the first description is shorter than a judgement clause after
+  it, funnier by bathos, and foreshadows where the clause explains. The
+  trailing judgement is the aphorism in participial clothes, and models
+  reach for it in the same place on every page.
 - Open a sentence on its subject, or on a phrase the reader cannot take
   for one. A bare time noun at the top reads as the subject until the real
   one arrives, and the re-read is a spend with no raise.

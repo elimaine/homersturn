@@ -213,7 +213,11 @@ is unsourced.
   Eli's read of the short-skill story gave four rules (opinion on the
   word, not a trailing clause; the garden path; the accidental reading
   that agrees is a gift; the refrain pays the largest debt and a shadowed
-  thing is paid by an action). Grade: pattern.
+  thing is paid by an action). Grade: pattern. A rerun on the adopted
+  text (`runs/v0.3.0.md`) gave both characters an entrance with a spoken
+  line, and copied the skill's own example sentence word for word into
+  the story: a quoted example in a rule is reproduced whenever the brief
+  is near it, so 0.3.1 describes the pattern and quotes no line.
 
 ## Detectors worth borrowing for the analyze mode
 
