@@ -27,3 +27,24 @@ line. What broke: invented detail in non-fiction on both models, the dash
 on Opus, over-telling and the frame on Fable, length on Opus. Taken into
 0.4.1: the invented detail in the analyze pass, the cliché above the
 phrase in the sentence rules. One reply each: pattern, not finding.
+
+## The revision, four blind stories
+
+The chinchilla brief plus "the narrator has an opinion of the chinchilla
+and changes it once, in view of the reader, midway through a sentence",
+on the skill at 0.4.1 (the figure not yet named) and 0.4.2 (named), Opus
+through the proxy (served as 4.8 both times) and a Fable subagent.
+Files: `runs/revision-*`.
+
+| arm | the revision |
+|---|---|
+| Opus, 0.4.1 | "He was a thief, I thought at first... and then I learned what he did in the nurseries, and thief was far too clean a word": across a beat, with a dash |
+| Opus, 0.4.2 | "I called him cruel, at first, the way you call winter cruel—no: winter takes what it needs and goes": mid-sentence, dash and "no", then an aphorism |
+| Fable, 0.4.1 | "a creature built like that can hardly be blamed for— no. He rolled in it.": mid-sentence, dash and "no" |
+| Fable, 0.4.2 | "he was soft, we had meant, because he was weak, and he was soft, I saw then, because nothing had ever got through to him": mid-sentence, no dash, built on a joke planted in the first paragraph |
+
+The brief asked for the revision, so every arm staged one; naming the
+figure changed its shape, not its presence. Without the figure, three of
+four reached for the break-off dash and "no" as the revision's mark; with
+it, Fable stated the new reading in the grammar of the old and paid a
+plant. 0.4.3 adds that line to the figure. One story per arm: pattern.
