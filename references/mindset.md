@@ -114,3 +114,14 @@ it: the state chooses the details, the details set the length, the length
 sets the rhythm, and the rhythm is what the reader feels. The "add soul"
 instruction in other guides is this done with a word list; the mindset
 does it with the mechanism.
+
+## Whose line is it
+
+The state reaches the page through attention: which details get picked,
+how long the sentences run. It never reaches the page as commentary on
+the telling. A narrator who says what others leave out and they keep in,
+or who flags their own honesty, has an opinion about themselves, and the
+reader did not come for it. Ask of any narrator's line who it is for: the
+reader (it pays or raises something in the story), a character (it is in
+their voice), or the teller (cut it). The same holds for a game's
+narrator: opinions on the baron and the pigs, none on the narration.

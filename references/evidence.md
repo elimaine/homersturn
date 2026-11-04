@@ -218,6 +218,12 @@ is unsourced.
   line, and copied the skill's own example sentence word for word into
   the story: a quoted example in a rule is reproduced whenever the brief
   is near it, so 0.3.1 describes the pattern and quotes no line.
+  The same story had its narrator step in to credit its own version
+  ("the part they leave out when they tell it now, and the part I keep
+  in"); Eli: "Narrators being a bit too self serving. Who is this for?
+  It's a misapplication of the opinionated narrator." 0.3.2: the opinion
+  is on the matter, never on the telling; every line is for the reader or
+  a character, none for the teller.
 
 ## Detectors worth borrowing for the analyze mode
 

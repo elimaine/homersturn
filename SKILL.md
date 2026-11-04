@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.3.1
+version: 0.3.2
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -42,7 +42,12 @@ When the user gives none, name them from the evidence and say which you took.
   5 slams the door in four-word sentences. The state sets how far the
   accents go and how far the rhythm runs; it is the speaker's, not the
   reader's, which rhythm carries. Felt below shown is tension; shown above
-  felt is melodrama. When the mindset is not given, do not assume it: read
+  felt is melodrama. The opinion is on the matter, never on the telling:
+  a narrator who credits their own version (what others leave out and
+  they keep in, what they alone will say plainly) is serving the narrator,
+  and no line is for the narrator. Every line is for the reader or for a
+  character; ask who a line is for, and cut the ones whose answer is the
+  teller. When the mindset is not given, do not assume it: read
   the state the draft presents and offer two or three it could present
   instead, one line each, and let them pick.
 - **The reader's strength**: a pool, with the dial as its capacity (1 a
@@ -328,7 +333,7 @@ wrote it; readers cannot tell and neither can you.
    read them from; later lines that could be anyone's; two characters in
    one rhythm; a walk-on with an entrance.
 7. Accidental readings (and the garden path), unearned weight, the figure
-   humming, the dash that joins. An accidental reading that agrees with
+   humming, the dash that joins, the line that is for the narrator. An accidental reading that agrees with
    the ledger is a gift, not a fault.
 8. The three changes that would pay the most, ranked, each tied to a line.
 
@@ -349,6 +354,8 @@ wrote it; readers cannot tell and neither can you.
 - Do not withhold from a reader who can leave, and do not front-load a
   reader who stayed for the turn.
 - Do not deceive by stating what is false.
+- Do not let the narrator serve the narrator. Opinions on the matter;
+  none on the telling.
 - Do not invent a claim, a number, a feeling, or an experience the person
   did not supply.
 
