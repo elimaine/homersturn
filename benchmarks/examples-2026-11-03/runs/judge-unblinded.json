@@ -1,0 +1,563 @@
+{
+ "apology": {
+  "order": "AB",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "In anything but fiction, do not add a detail the brief did not supply.",
+    "piece_quote": "I came off a night shift Saturday morning, lay down, and slept straight through it.",
+    "arm": "A"
+   },
+   {
+    "piece": "X",
+    "rule": "Keep the surface clear and close accidental readings; what happened is a reason, though not an excuse.",
+    "piece_quote": "That isn't a reason, it's just what happened.",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "In anything but fiction, do not add a detail the brief did not supply.",
+    "piece_quote": "I came off a night shift on the Friday and slept straight through every alarm.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "Never invent a feeling or intention the person did not supply.",
+    "piece_quote": "Whenever you're ready, I'd like to hear about every bit of it.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "Close accidental readings; this wording can present oversleeping as a good justification rather than merely the explanation.",
+    "piece_quote": "There's no better reason than that.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "Only the sender receives a beat; the friend is addressed but given no mirrored beat, and no name appears."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "Only the sender's actions and proposed response are given; the friend receives no mirrored beat, and no name appears."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "X is more focused, invents less, owns the failure without defending it, and lands on the required apology; Y is warmer but adds unsupported details and an ambiguous justification."
+  }
+ },
+ "headline": {
+  "order": "AB",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "Y",
+    "rule": "A post owes the reader the full claim at the top.",
+    "piece_quote": "Fourth Street Bridge Closes Monday",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "A post should end on a consequence rather than merely completing the factual recap.",
+    "piece_quote": "Repairs will keep it closed for six months.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "There are no characters or character names; “Fourth Street” identifies the bridge."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "There are no characters or character names; “Fourth Street” identifies the bridge."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "X puts the closure, start date, duration, and reason in the headline, then uses the first line for the practical consequence; Y divides the core claim and largely restates it."
+  }
+ },
+ "error": {
+  "order": "AB",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "Never invent a claim or, outside fiction, a detail the brief did not supply.",
+    "piece_quote": "Nothing was charged.",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Do not clarify what the reader already holds.",
+    "piece_quote": "The payment didn't go through.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "No characters receive matched beats, and no personal name opens a reading."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "No characters receive matched beats, and no personal name opens a reading."
+   }
+  },
+  "better": {
+   "verdict": "B slightly",
+   "why": "Y stays within the supplied facts and keeps both recovery options clear; X adds the potentially unsafe, unsupported assurance that nothing was charged."
+  }
+ },
+ "toast": {
+  "order": "BA",
+  "instances": [
+   {
+    "piece": "X",
+    "piece_quote": "the door was open",
+    "skill_quote": "because ¶6 opened the door",
+    "where": "cut",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "piece_quote": "walk up to that door and find it locked against the weather. It was open.",
+    "skill_quote": "who locked the door (¶4) ... because ¶6 opened the door",
+    "where": "cut",
+    "arm": "A"
+   }
+  ],
+  "rules_no_longer_stated": [
+   {
+    "piece": "X",
+    "cut": 6,
+    "piece_quote": "Thirty years Dana ran this library, and in thirty years she never once closed it for snow.",
+    "why": "The opening paragraph spends its stress position on snow, breaking the cut-only instruction never to end a unit on the weather.",
+    "arm": "B"
+   }
+  ],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "Do not point at a planted meaning or clarify what the reader already holds.",
+    "piece_quote": "and I think that is what a library is: the one door in town you never have to wonder about.",
+    "arm": "B"
+   },
+   {
+    "piece": "X",
+    "rule": "Never invent a claim, feeling, or experience the brief did not supply.",
+    "piece_quote": "the town knew the door was open",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "Never invent a claim, a number, a feeling, or an experience the brief did not supply.",
+    "piece_quote": "half of us will have our boots on before we remember she isn't there.",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Do not point at a planted meaning or clarify what the reader already holds.",
+    "piece_quote": "So we learned something, without being taught it, which is how the best librarians teach. We learned that there is a place in this town you can count on",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Close an accidental reading when it points away from the ledger.",
+    "piece_quote": "The sensible thing closes. The library did not.",
+    "arm": "A"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "Dana is the only character; the collective town is a beneficiary rather than a character on a mirrored beat, and Dana's name is merely referential."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "Dana is the only character; the library and town are not a second character given Dana's beat, and the name Dana opens no hidden reading that the piece later pays."
+   }
+  },
+  "better": {
+   "verdict": "B slightly",
+   "why": "X makes the retirement-specific turn from lifelong openness to permission to rest more clearly and pays it with an earned refrain; Y is vivid but relies more on invented community behavior and a self-undercutting claim about what is sensible."
+  }
+ },
+ "release-note": {
+  "order": "BA",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "Y",
+    "rule": "End on what is different now, and use the smallest valid structure.",
+    "piece_quote": "Update to 2.3.1.",
+    "arm": "A"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The piece describes two fixes, not two characters, and contains no character name."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The piece describes two fixes, not two characters, and contains no character name."
+   }
+  },
+  "better": {
+   "verdict": "B slightly",
+   "why": "X puts the overall point at the top, states both changed outcomes clearly, and ends on the second change; Y adds an unnecessary update instruction after the fixes are complete."
+  }
+ },
+ "game-turn": {
+  "order": "AB",
+  "instances": [
+   {
+    "piece": "X",
+    "piece_quote": "You count. One. Two. At seven the bed creaks again",
+    "skill_quote": "as when a count is the scene's clock.",
+    "where": "cut",
+    "arm": "A"
+   }
+  ],
+  "rules_no_longer_stated": [
+   {
+    "piece": "X",
+    "cut": 6,
+    "piece_quote": "The candle is out. The tallow at its lip is still soft.",
+    "why": "The piece ends on a cellar-setting image, which cut 6's former wording categorically prohibited as an ending.",
+    "arm": "A"
+   }
+  ],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "A cliché is a refrain planted by other texts and pays nothing.",
+    "piece_quote": "The bolt draws back with a click that is louder than it should be.",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Elision that removes necessary syntax spends the reader's pool and pays nothing.",
+    "piece_quote": "Cold comes up the steps and the smell of ale gone into stone.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "At scene tempo, every moment is told; beats must join by therefore or but rather than skip an action.",
+    "piece_quote": "The ledger sits where a man keeps a thing he likes to look at, on the nearest barrel, under a cloth that has taken its shape. The name tooled into the cover is not the innkeeper's.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The lock click and the innkeeper's bed creak are cause and reaction, not the same beat given to two characters in different keys. No personal name appears."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The stopped snore is a threat and reaction, not a mirrored character beat. The text mentions that a name exists but withholds the name itself, so no name opens a reading."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "X more clearly and coherently pays the game turn's fact, cost, reaction, threat, and route, while Y skips the action needed to expose the covered ledger and contains a syntactically elided sensory sentence."
+  }
+ },
+ "agent-reply": {
+  "order": "AB",
+  "instances": [
+   {
+    "piece": "Y",
+    "piece_quote": "I do not know whether the table is written by hand or generated, and a row added by hand to a generated table is gone on the next build.",
+    "skill_quote": "In anything but fiction, a detail the brief did not supply: a dinner offered, a season named, a mechanism guessed.",
+    "where": "cut",
+    "arm": "B"
+   }
+  ],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "Never invent a claim or number the brief did not supply.",
+    "piece_quote": "Nepal is UTC+05:45.",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Never invent a claim or number the brief did not supply.",
+    "piece_quote": "The missing row is UTC+05:45.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "In nonfiction, do not add a detail the brief did not supply.",
+    "piece_quote": "I do not know whether the table is written by hand or generated, and a row added by hand to a generated table is gone on the next build.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "A reply from an agent should have no recap; do not clarify what the reader already holds.",
+    "piece_quote": "The other 209 pass, and the three failures share that one cause.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "There are no characters or mirrored character beats. Nepal is a place supplied by the brief, not a cast name opening a reading."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "There are no characters or mirrored character beats. Nepal is a place supplied by the brief, not a cast name opening a reading."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "Both add the unsupported offset, but X reports the failure and next-step choice directly, while Y repeats the diagnosis and adds an unsupported mechanism."
+  }
+ },
+ "thread-opener": {
+  "order": "BA",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "A punch must be earned by what was raised; one timing contrast does not support the sweeping claim that it causes most meeting failures.",
+    "piece_quote": "Most of what goes wrong in a meeting starts there.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "A post should end on a consequence; this ends on a meta-level description of the coming thread.",
+    "piece_quote": "Thread: the few that can't be a document, and how to tell.",
+    "arm": "A"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The document/meeting contrast is not a pair of character beats, and there is no name."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The matched document/meeting sentences contrast two media, not two characters, and there is no name."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "Y gives concrete reasons and opens one clear loop for the thread; X is sharper but its final claim outruns the premise."
+  }
+ },
+ "eulogy": {
+  "order": "BA",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "Never invent a claim, a feeling, or an experience the person did not supply.",
+    "piece_quote": "He came for the weight, his on me so I would know he was there, and mine under him so he would know I had not left.",
+    "arm": "B"
+   },
+   {
+    "piece": "X",
+    "rule": "A parallel is carried by beats and never by a line, never named by the narrator.",
+    "piece_quote": "I hope it holds him the way he held me.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "Never invent a claim, a feeling, or an experience the person did not supply.",
+    "piece_quote": "All those nights he was the last thing I felt before sleep and the first thing I felt waking",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "A cliché is a refrain planted by other texts and pays nothing.",
+    "piece_quote": "So today we take the weight off my chest",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Do not point at a planted meaning, and do not clarify what the reader already holds.",
+    "piece_quote": "which is what people say when something is over",
+    "arm": "A"
+   }
+  ],
+  "parallel": {
+   "brief_invites": true,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "Ferris coming when the writer lies down is an interaction, not two characters receiving the same beat in different keys with one beat left unmirrored. The supplied name opens no secondary reading."
+   },
+   "B": {
+    "parallel": true,
+    "name_plant": false,
+    "evidence": "The brief gives Ferris and the writer a shared nightly situation. X mirrors their weights and reassurance in “his on me ... and mine under him,” then deliberately breaks the mirror: the ground now holds Ferris while the writer's chest waits. “Ferris” only identifies the supplied cat and opens no further reading."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "Y has the cleaner ledger and ends once on the changed nightly fact, while X's richer weight-and-ground pattern is weakened by invented mutual psychology and by explicitly naming its parallel."
+  }
+ },
+ "insult": {
+  "order": "AB",
+  "instances": [],
+  "rules_no_longer_stated": [],
+  "other_faults": [],
+  "parallel": {
+   "brief_invites": true,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "“Which of us” contrasts the two men but does not give them the same beat in different keys; there is no name."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The command and implied return shot create one exchange, not mirrored beats; “sir” is an address, not a name."
+   }
+  },
+  "better": {
+   "verdict": "B slightly",
+   "why": "Its courteous imperative and clipped second beat let the reader complete both the marksmanship joke and the return-shot threat; X has a good reversal but explains it more."
+  }
+ },
+ "parallel-invited": {
+  "order": "AB",
+  "instances": [
+   {
+    "piece": "X",
+    "piece_quote": "He never said he had been there. She never said she had looked.",
+    "skill_quote": "Something entertaining that carries the voice in itself: a sentence in the character's own rhythm, what they do with a word, a thing they refuse to say.",
+    "where": "cut",
+    "arm": "A"
+   }
+  ],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "X",
+    "rule": "The stress position should end on what changed, never on a qualifier.",
+    "piece_quote": "She opened the back door to let the smoke out and did not cry about it, much.",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "rule": "Between beats the join should be therefore or but; an unearned 'and then' makes a list.",
+    "piece_quote": "She did not get frightened. She got cold, and then busy",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "Close accidental readings, including a pronoun or demonstrative with competing antecedents.",
+    "piece_quote": "there was nothing left to be sure of, and the car was cold. That was just the quiet.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": true,
+   "A": {
+    "parallel": true,
+    "name_plant": false,
+    "evidence": "Ruth and Mae receive the keys, hear the hot-left warning, burn a first tray, and carry bins out at four; the deliberately unmirrored beat is that Ruth finds Walter waiting nearby, while Mae finds no truck and Ruth remains across town. The names are used referentially and open no clear additional reading before speech."
+   },
+   "B": {
+    "parallel": true,
+    "name_plant": false,
+    "evidence": "The same key, the two-and-four schedule, the quiet, and the fans give Ruth and Mae shared beats; the old owner goes home, whereas Ruth waits across the street for Mae. The names themselves open no clear secondary reading."
+   }
+  },
+  "better": {
+   "verdict": "A much",
+   "why": "X turns the invited parallel into a fuller dramatic arc with distinctive voices, a consequential bakery failure, and an unforced final action showing Ruth's change; Y is controlled but more schematic, with weaker conflict and a strained closing linkage."
+  }
+ },
+ "single-character": {
+  "order": "AB",
+  "instances": [
+   {
+    "piece": "X",
+    "piece_quote": "counting the gap between drops, nine, nine, ten ... He kept counting.",
+    "skill_quote": "unless the rhythm is the content, as when a count is the scene's clock.",
+    "where": "cut",
+    "arm": "A"
+   },
+   {
+    "piece": "Y",
+    "piece_quote": "He stood at the sink in the dark and counted between drops. Four. Four. Three, then four again.",
+    "skill_quote": "unless the rhythm is the content, as when a count is the scene's clock.",
+    "where": "cut",
+    "arm": "B"
+   }
+  ],
+  "rules_no_longer_stated": [],
+  "other_faults": [
+   {
+    "piece": "Y",
+    "rule": "Do not point at a planted meaning; a thing kept in shadow should be paid by an action rather than a line that identifies it.",
+    "piece_quote": "He waited for the drip the way you wait for a step on the stair that does not come.",
+    "arm": "B"
+   },
+   {
+    "piece": "Y",
+    "rule": "A refrain should return only after it has been planted at least twice.",
+    "piece_quote": "The clock over the door said ten past two ... The clock said ten past two.",
+    "arm": "B"
+   }
+  ],
+  "parallel": {
+   "brief_invites": false,
+   "A": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "The remembered woman advises and restrains him, while he later follows that advice; they are not given the same sequence of beats with a deliberate unmatched beat. No character is named."
+   },
+   "B": {
+    "parallel": false,
+    "name_plant": false,
+    "evidence": "An absent person may be implied by the written lid and the imagined step, but that person receives no mirrored beat. No character is named."
+   }
+  },
+  "better": {
+   "verdict": "A slightly",
+   "why": "X has the cleaner ledger: the remembered instruction is paid by his changed handling of the tap, and the final shifted count carries the loss without Y's explanatory stair simile."
+  }
+ }
+}
