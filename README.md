@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.5.2.
+Version 0.5.3.
 
 **Writing is meaning manifolds presented like music.**
 
@@ -50,7 +50,8 @@ ways it earns its keep:
   lets it set the defaults, because each is a genre the song has to fit.
 - **Set ambiguity as a dial.** "Ambiguity 1 to 5: 4" is the default; 1 is
   one reading per sentence and everything told, 5 is readings held to the
-  last line for a reader who will read twice.
+  last line for a reader who will read twice. The dial is on sense, never
+  on reference: who spoke and who acted are clear at every setting.
 - **Say who is writing, and how far gone.** The mindset is a second
   dial: at 1 the state is named once and the page is otherwise plain, at
   5 it is never named and every detail and the rhythm are about it. Leave

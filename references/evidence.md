@@ -325,3 +325,12 @@ is unsourced.
   a page hums, the reflex is new material, which spends the pool and
   leaves the hum. One sentence in the mindset bullet; the instance in
   `references/mindset.md`. No bench.
+- **Reference is never a reading** (0.5.3). Eli, 2026-11-04: "I am
+  seeing a pattern where it isn't clear who is saying what, that's lazy
+  ambiguity." The dial licensed sense held open; a pronoun with two
+  candidates sat in the accidental-readings list as closable only when it
+  pointed away from the ledger, so a model could keep one that seemed to
+  agree. Now: who spoke, who acted, what a pronoun names are fixed on
+  first read at every setting; the entrance rule adds the attributed
+  line; the analysis lists the line whose speaker must be worked out. No
+  bench.

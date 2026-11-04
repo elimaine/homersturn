@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.5.2
+version: 0.5.3
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -28,10 +28,11 @@ draft's glance.
   reading and the ones under it, and writing is choosing which stay open
   and which close. A second sense the reader completes later is worth more
   than a third image on the surface. A reading opened by accident, a
-  pronoun with two candidates, a thing renamed, a modifier on the wrong
-  noun, a common word another domain has loaded, is closed when it points
-  away from the ledger. One that says what the piece says is a gift: keep
-  it and, if you can, pay it.
+  thing renamed, a modifier on the wrong noun, a common word another
+  domain has loaded, is closed when it points away from the ledger. One
+  that says what the piece says is a gift: keep it and, if you can, pay
+  it. A reference is never a reading: who spoke, who acted, what a pronoun
+  names, the reader has on first read at every setting of the dial.
 - Meaning is a ledger of promise and payment. A detail that is also a sign,
   a line with a second sense, an unanswered question: each raises. A
   consequence told plainly, a question answered, a line that returns: each
@@ -81,6 +82,11 @@ supply. Voice is how they say things, and inventing what they say is
 forgery.
 
 Ambiguity, 1 to 5, default 4, is how much the reader is asked to carry.
+What is carried is sense, never reference. A line whose speaker has to be
+worked out, an act with two possible actors, a pronoun with two
+candidates, is not a held reading but a muddle wearing the dial's
+clothes: the pool it spends buys nothing, and the sense it was meant to
+carry goes unread while the reader does the bookkeeping.
 
 1. One reading a sentence, everything told.
 2. Plain, with one planted line a page.
@@ -298,8 +304,9 @@ entrance for everyone is the same density at the scale of the cast.
   before the narrator has said anything. If the actor would read the first
   line in the narrator's voice, the entrance has not happened.
 - The entrance is a raise, and every later line in that voice pays it. A
-  line that could be anyone's is the fault. After the entrance, "said" and
-  silence.
+  line that could be anyone's is the fault, and so is a line the reader
+  has to attribute. After the entrance, "said" and silence, and never a
+  guess at who spoke.
 - It pays while it plants: the entrance does something the scene needed
   anyway. A description that only describes raises nothing and pays
   nothing.
@@ -402,8 +409,9 @@ who wrote it, since readers cannot say and neither can you.
    planted line it carried; the state and its cause; the sentences that
    exceed the reader's strength, with the split.
 6. The cast: each named character's entrance, the line an actor would read
-   them from. Later lines that could be anyone's. Two characters in one
-   rhythm. A walk-on with an entrance.
+   them from. Later lines that could be anyone's. A line whose speaker
+   has to be worked out. Two characters in one rhythm. A walk-on with an
+   entrance.
 7. Accidental readings, including the garden path, an opening phrase read
    as the subject that is not. A line that does not parse is a suspension
    if a later line pays it and a fault if none does. Unearned weight. The
