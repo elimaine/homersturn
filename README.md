@@ -52,10 +52,10 @@ ways it earns its keep:
   one reading per sentence and everything told, 5 is readings held to the
   last line for a reader who will read twice.
 - **Say who is writing, and how far gone.** The mindset is a second
-  dial: a grieving writer at 1 names the loss in the first line, at 5
-  never names it and every detail is about it. Leave it out and the skill
-  reads the state the draft is in and offers two or three it could present
-  instead, one line each, for you to pick by ear.
+  dial: at 1 the state is named once and the page is otherwise plain, at
+  5 it is never named and every detail and the rhythm are about it. Leave
+  it out and the skill reads the state the draft is in and offers two or
+  three it could present instead, one line each, for you to pick by ear.
 - **Say how strong the reader is.** The third dial caps density: at 1
   one clause a sentence and every second sense told, at 5 a triple clause
   with the third left to infer. Ambiguity may not exceed it by more than
