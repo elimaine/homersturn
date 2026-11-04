@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.4.1
+version: 0.4.2
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -224,6 +224,15 @@ then looked into, is the ledger used as a tool.
   more than once.
 - The crescendo: the evaluative word climbing by degrees. Cut the low first
   step and the climb is gone.
+- The revision: the narrator opens a reading the reader also holds, then
+  replaces it in view, across a beat or midway through a sentence, so the
+  second half corrects the first instead of adding to it. The narrator is
+  a reader on the page, and the real reader revises with them. It pays
+  only a reading the reader held, so the first reading is planted before
+  it is replaced. What the reader keeps is the move, a way of being wrong
+  and then right about a thing, which they run again after the page
+  closes. On the matter, never on the telling. Twice a page at most; the
+  pivot in every paragraph is the figure humming.
 - The swear is a sforzando, one hit on the line that lands. It is earned
   only by a shock the reader just felt, in the mouth of the person it
   belongs to, and followed by silence. Never explain it.
