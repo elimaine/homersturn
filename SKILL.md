@@ -239,15 +239,14 @@ then looked into, is the ledger used as a tool.
   first, and the break-off with a correction after it is the same move
   wearing the dash. Twice a page at most; the pivot in every paragraph is
   the figure humming.
-- The parallel: two characters given the same beat in different keys.
-  The second beat
-  pays the first, and the reader completes that the two are one story
-  without being told. It is the refrain at the scale of an arc, paid where
-  the arcs meet, which is the recapitulation at the scale of the cast. It
-  carries meaning only where one beat is deliberately not mirrored: the
-  difference is the point, and a mirror at every beat is one character
-  with two names. A tool, not a habit: one parallel a piece, carried by
-  beats and never by a line, never named by the narrator.
+- The parallel: two characters given the same beat in different keys. The
+  second beat pays the first, and the reader completes that the two are
+  one story without being told. It is the refrain at the scale of an arc,
+  paid where the arcs meet, which is the recapitulation at the scale of
+  the cast. It carries meaning only where one beat is deliberately not
+  mirrored: the difference is the point, and a mirror at every beat is one
+  character with two names. A tool, not a habit: one parallel a piece,
+  carried by beats and never by a line, never named by the narrator.
 - The swear is a sforzando, one hit on the line that lands. It is earned
   only by a shock the reader just felt, in the mouth of the person it
   belongs to, and followed by silence. Never explain it.
