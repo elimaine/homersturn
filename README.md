@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.2.1.
+Version 0.3.0.
 
 **Writing is meaning manifolds presented like music.**
 
@@ -93,7 +93,8 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
 - `SKILL.md`: the method. The brief and the dial, the model (manifold,
   ledger, rhythm, tempo), the glance, the topic and stress positions, the
   join, purpose and genre, the three punches (land, refrain, release), the
-  figures (the recursive paragraph, the litany, the withheld word), accents
+  entrance (a character introduced by the line a voice actor reads them
+  from), figures (the recursive paragraph, the litany, the withheld word), accents
   (the swear, the dash), forms and transitions, the sentence rules the
   model explains, the paper ledger, the workflow, the analyze mode, and the
   do-nots.
@@ -110,9 +111,13 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   debt per paragraph, what is still owed, and the paragraph that spent its
   stress position on a quiet line while something was due. `--shape` needs
   no marks: it prints what the page says before a word is read.
-- `benchmarks/`: the glance bench. The same words broken three ways and
+- `references/purposes.md` and `references/sentence.md`: the full genre
+  table and the sentence rules with their accounts, kept out of the skill
+  so the skill stays short enough to follow.
+- `benchmarks/`: the glance bench (the same words broken three ways and
   judged, with the intent card, the analysis plan, every reply, and the
-  human check beside the numbers.
+  human check beside the numbers), the analysis sweep, and the skill-size
+  test that set this version's length.
 
 ```sh
 python3 scripts/meaning_ledger.py < draft.txt

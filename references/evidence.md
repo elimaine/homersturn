@@ -203,6 +203,17 @@ is unsourced.
   render, and from a clear render. Its intent card and analysis plan are
   in the folder; its findings are written into the skill only after the
   human check.
+- **The skill-size test** (`benchmarks/skill-size-2026-11-03`): one blind
+  story per skill length (108, 315 and 685 lines), same brief, Opus at
+  high effort, the skill as the only instructions. The 315-line text gave
+  the best story and the cleanest page (one repeated frame against eight,
+  spread 0.42 against 0.57 and 0.70); the 685-line text opened its second
+  paragraph on a 107-word wall and told the fight in a sentence. One story
+  per arm: direction, not finding. Version 0.3.0 is the 315-line text.
+  Eli's read of the short-skill story gave four rules (opinion on the
+  word, not a trailing clause; the garden path; the accidental reading
+  that agrees is a gift; the refrain pays the largest debt and a shadowed
+  thing is paid by an action). Grade: pattern.
 
 ## Detectors worth borrowing for the analyze mode
 
