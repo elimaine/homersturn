@@ -87,7 +87,13 @@ its beat raises the trust, and every promise left unpaid lowers it. So a
 reader with a full pool and no trust leaves (the post's reader at the
 second scroll), and a reader with an empty pool and full trust rests and
 comes back (the chapter break). The glance is this judgement made first,
-with no evidence but the shape. Ambiguity may not exceed strength by more
+with no evidence but the shape. **Approachable is the pool read honestly**:
+not plainer, but plain where nothing is owed, so the dense line lands on a
+full pool. A page whose every paragraph ends on a second-sense line is
+written for strength 5 and never refills; the brilliant bits are exactly
+those lines, and keeping two of four makes the other two land. Ration the
+aphorism: at most one a paragraph, never at the end of every paragraph,
+and most paragraphs ending on the plain fact. Ambiguity may not exceed strength by more
 than one; past that the readings cannot be completed. Purpose sets the
 capacity (a post's reader is at 2, a scene's chosen reader at 3 or 4) and
 the user's number overrides it. The ledger script draws the wave
@@ -293,6 +299,29 @@ The unearned punch has names: the importance claim (pivotal, a testament
 to), the fake-profound kicker, the recap, the colon before a reveal, the
 denial of a reading nobody held ("it is not X, it is Y"), the three by
 reflex. Each promises a weight and pays an ordinary line.
+
+## Deception
+
+A reading the writer opens on purpose, knowing it is wrong, and closes
+later with a payment that re-reads everything before it: the twist is a
+payment that rewrites the ledger backwards. The trust account says when it
+is earned.
+
+- **Never state the false thing.** The reader completes it. Deception by
+  manifold, not by lie: the plain reading stays true all the way through,
+  and the wrong reading was the reader's own. A narrator may be wrong (that
+  is mindset at 5); the writer may not be.
+- **The clues were on the page.** A second reader, or the first on a second
+  pass, sees it was always there. A twist the reader could not have seen
+  through is a lie, and a lie is never repaid.
+- **The reveal pays back the trust with interest.** A deception spends
+  trust at the reveal, when the reader learns they were led, so it must pay
+  more than it cost. Rarer twists hit harder; late ones must be larger and
+  fewer; a small deception late in a piece is the worst trade there is.
+
+The strongest form makes the reader's own susceptibility the point: they
+trust the soft smile as the miller did, and the reveal convicts them with
+the kingdom. The deception enacts the thesis instead of decorating it.
 
 ## The question
 
@@ -517,6 +546,11 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
   Plain is a band, not a failure; short is a tempo, not a lapse.
 - Do not open on a wall. The first paragraph is the one the eye must take
   whole.
+- Do not end every paragraph on an aphorism. Brilliance on every line is a
+  page nobody finishes; ration it to where the pool is full.
+- Do not deceive by stating what is false. Let the reader complete the
+  wrong reading, leave the clue on the page, and pay the trust back with
+  interest.
 - Do not point at a planted meaning. If the reader must be told it is there,
   it is not planted.
 - Do not end on atmosphere. Do not end dense on a beat that owes nothing.
