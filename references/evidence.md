@@ -343,3 +343,9 @@ is unsourced.
   genre. The workflow now
   opens with what to answer when asked how to use the skill: the brief
   line and the three dials with their scales and defaults. No bench.
+- **The list** (0.5.6). Eli, 2026-11-04: "Let's also have a list option
+  where it lists bits and moves." `--list` in the script parses SKILL.md
+  beside it, so the list is the skill's own sections (the figures and the
+  accents and the punches as bits; the join, the positions, the forms and
+  the entrance as moves), one line each, and cannot drift. The workflow's
+  usage answer names it. No bench.

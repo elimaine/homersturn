@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.5.5
+version: 0.5.6
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -19,8 +19,9 @@ References, read when needed: `manifold-and-ledger.md` for why,
 `mindset.md` for states by degree, `purposes.md` for the full genre table,
 `sentence.md` for the sentence rules with their reasons, `evidence.md` for
 every borrowed tip, graded. The script is `scripts/meaning_ledger.py`:
-`--strength N` draws the reader's pool and `--shape` reads an unmarked
-draft's glance.
+`--strength N` draws the reader's pool, `--shape` reads an unmarked
+draft's glance, and `--list` prints the bits and the moves, one line each,
+read from this file.
 
 ## How meaning works
 
@@ -380,7 +381,10 @@ when you mark. It reports:
 When someone asks how to use the skill, answer with the brief line and the
 three dials: ambiguity, the mindset and the reader's strength, each 1 to 5,
 their defaults, and that any of them may be left out for the skill to read
-from the evidence and say which it took.
+from the evidence and say which it took. Asked for the list, give the bits
+(the figures and the accents, the punches) and the moves (the join, the
+positions, the forms, the entrance), one line each, as `--list` prints
+them.
 
 1. The brief: purpose, plain meaning, what it carries, the three dials.
 2. The balance before the passage: owed, due, debt, the feeling left, the

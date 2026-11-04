@@ -17,6 +17,7 @@ words.
 """
 from __future__ import annotations
 
+import pathlib
 import re
 import sys
 
@@ -109,7 +110,89 @@ def shape(text: str) -> int:
     return 0
 
 
+BITS = ["The figures and the accents", "The three punches"]
+MOVES = ["The join", "The two positions", "Forms", "The entrance"]
+
+
+def _sections(skill: str) -> dict[str, list[str]]:
+    out: dict[str, list[str]] = {}
+    name = ""
+    for line in skill.splitlines():
+        if line.startswith("## "):
+            name = line[3:].strip()
+            out[name] = []
+        elif name:
+            out[name].append(line)
+    return out
+
+
+def _items(lines: list[str]) -> list[tuple[str, str]]:
+    """(name, first sentence) per bullet, numbered item or table row; the
+    section's first sentence when it has none."""
+    items: list[tuple[str, str]] = []
+    buf: list[str] = []
+    rows: list[str] = []
+
+    def flush() -> None:
+        if not buf:
+            return
+        text = " ".join(x.strip() for x in buf)
+        text = re.sub(r"^(?:- |\d+\. )", "", text)
+        m = re.match(r"(.{3,60}?)(?::| is | are |\.) ?(.*)", text)
+        if m:
+            name, rest = m.group(1).strip(), m.group(2).strip()
+        else:
+            name, rest = text, ""
+        if name.lower().startswith("the figure hums"):
+            buf.clear()
+            return
+        first = re.split(r"(?<=[.!?])\s", rest, maxsplit=1)[0] if rest else ""
+        items.append((name[0].upper() + name[1:], first))
+        buf.clear()
+
+    for line in lines:
+        if line.startswith("|"):
+            rows.append(line)
+            continue
+        if re.match(r"^(?:- |\d+\. )", line):
+            flush()
+            buf.append(line)
+        elif buf and line.startswith("  "):
+            buf.append(line)
+        else:
+            flush()
+    flush()
+    for row in rows[2:]:
+        cols = [c.strip() for c in row.strip("|").split("|")]
+        if len(cols) >= 3:
+            items.append((cols[1], f"{cols[0].lower()}: {cols[-1]}"))
+    if not items:
+        prose = " ".join(x.strip() for x in lines if x.strip())
+        items.append(("", re.split(r"(?<=[.!?])\s", prose, maxsplit=1)[0]))
+    return items
+
+
+def listing() -> int:
+    """--list: the bits and the moves, read from SKILL.md beside this script
+    so the list never drifts from the skill."""
+    skill = (pathlib.Path(__file__).resolve().parent.parent / "SKILL.md").read_text()
+    sections = _sections(skill)
+    for title, wanted in (("bits", BITS), ("moves", MOVES)):
+        print(title)
+        for key in wanted:
+            heading = next((h for h in sections if h.startswith(key)), None)
+            if heading is None:
+                continue
+            print(f"  {heading}")
+            for name, first in _items(sections[heading]):
+                line = f"{name}: {first}" if name else first
+                print("    " + (line if len(line) <= 110 else line[:107].rstrip() + "..."))
+    return 0
+
+
 def main() -> int:
+    if "--list" in sys.argv:
+        return listing()
     strip = "--strip" in sys.argv
     text = sys.stdin.read()
     if "--shape" in sys.argv:

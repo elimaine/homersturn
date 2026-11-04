@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.5.5.
+Version 0.5.6.
 
 **Writing is meaning manifolds presented like music.**
 
@@ -111,7 +111,8 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   with `[raise: x]`, `[pay: x]` and `[plant: "line"]`; the script reports
   debt per paragraph, what is still owed, and the paragraph that spent its
   stress position on a quiet line while something was due. `--shape` needs
-  no marks: it prints what the page says before a word is read.
+  no marks: it prints what the page says before a word is read. `--list`
+  prints the skill's bits and moves, one line each, read from `SKILL.md`.
 - `references/purposes.md` and `references/sentence.md`: the full genre
   table and the sentence rules with their accounts, kept out of the skill
   so the skill stays short enough to follow.
@@ -124,6 +125,7 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
 python3 scripts/meaning_ledger.py < draft.txt
 python3 scripts/meaning_ledger.py --strip < draft.txt > clean.txt
 python3 scripts/meaning_ledger.py --shape < draft.txt
+python3 scripts/meaning_ledger.py --list
 ```
 
 ## One rule, if you take only one
