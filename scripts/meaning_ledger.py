@@ -4,7 +4,8 @@
 Reads a draft on stdin. Marks: [raise: name] opens a promise, [pay: name]
 pays it, [plant: "line"] plants a refrain, [join: therefore|but|and then] names
 how the paragraph follows the last, [state: name degree] marks the speaker's
-state when it moves (the trajectory is listed beside the debt). Reports per paragraph the debt
+state when it moves (the trajectory is listed beside the debt). --strength N
+(1 to 5, default 3) sets the reader's pool, drawn as a wave at the end. Reports per paragraph the debt
 (words since the last payment), what is owed, and the failures the marks
 make visible. Strips nothing; use --strip to print the draft without marks.
 
@@ -20,6 +21,17 @@ import re
 import sys
 
 MARK = re.compile(r"\[(raise|pay|plant|join|state):\s*(.+?)\]")
+
+# The reader's pool (SKILL.md, the third dial). Untuned sketch: the shape is
+# the claim, the numbers are placeholders until a bench sets them.
+POOL_CAPACITY = {1: 40, 2: 70, 3: 100, 4: 130, 5: 160}
+COST_PER_WORD = 0.12        # every word read spends a little
+COST_PER_RAISE = 4          # a promise opened is carried
+COST_LONG_SENTENCE = 2      # each sentence past 25 words stacks clauses
+REFILL_PAY = 14             # a payment: the reader leans in again
+REFILL_REFRAIN = 8          # a line already theirs
+REGEN_SHORT = 6             # a paragraph of 40 words or fewer is a breath
+SPARK = " ▁▂▃▄▅▆▇█"
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
 STOP = set("a an and are as at be but by for from had has have he her his i if in is it its of on or she so that the their them they this to was we were with you your".split())
 
@@ -84,6 +96,13 @@ def main() -> int:
     text = sys.stdin.read()
     if "--shape" in sys.argv:
         return shape(text)
+    strength = 3
+    if "--strength" in sys.argv:
+        strength = max(1, min(5, int(sys.argv[sys.argv.index("--strength") + 1])))
+    capacity = POOL_CAPACITY[strength]
+    pool = float(capacity)
+    wave: list[float] = []
+    dry: int | None = None
     if strip:
         sys.stdout.write(MARK.sub("", text))
         return 0
@@ -94,7 +113,7 @@ def main() -> int:
     state_since = 0
     debt = 0
     problems: list[str] = []
-    print(f"{'¶':>3}  {'words':>5}  {'debt':>5}  owed / events")
+    print(f"{'¶':>3}  {'words':>5}  {'debt':>5}  {'pool':>4}  owed / events")
     for i, para in enumerate(paragraphs, 1):
         plain = MARK.sub("", para)
         words = len(plain.split())
@@ -136,6 +155,19 @@ def main() -> int:
                 planted[name] = n + 1
         if not any(e.startswith("pay") for e in events):
             debt += words
+        sentences = [x for x in SENTENCE_END.split(plain) if x.strip()]
+        pool -= words * COST_PER_WORD
+        pool -= COST_PER_RAISE * sum(1 for e in events if e.startswith("raise"))
+        pool -= COST_LONG_SENTENCE * sum(1 for x in sentences if len(x.split()) > 25)
+        pool += REFILL_PAY * sum(1 for e in events if e.startswith("pay") and "never raised" not in e)
+        pool += REFILL_REFRAIN * sum(1 for e in events if e.startswith("refrain"))
+        if words <= 40:
+            pool += REGEN_SHORT
+        pool = min(pool, capacity)
+        if pool < 0 and dry is None:
+            dry = i
+            problems.append(f"¶{i}: the reader's pool runs dry (strength {strength}): from here they skim, and what is planted returns to nobody")
+        wave.append(pool)
         last_raw = para.strip().rsplit(". ", 1)[-1]
         due_before = {k for k, v in owed.items() if v < i}
         if due_before and "[pay:" not in last_raw and "[plant:" not in last_raw:
@@ -145,7 +177,10 @@ def main() -> int:
             problems.append(f"¶{i}: {debt} words since anything was paid: a release is due")
         if state is not None and i - state_since == 5:
             problems.append(f"¶{i}: the state has not moved in five paragraphs ({state[0]} {state[1] if state[1] is not None else ''}): the hum in the voice, or mark the move".replace("  ", " "))
-        print(f"{i:>3}  {words:>5}  {debt:>5}  {', '.join(events) or '-'}")
+        print(f"{i:>3}  {words:>5}  {debt:>5}  {int(pool):>4}  {', '.join(events) or '-'}")
+    if wave:
+        marks = "".join(SPARK[max(0, min(8, int(round(8 * max(0.0, w) / capacity))))] for w in wave)
+        print(f"\npool, strength {strength} (capacity {capacity}): {marks}  low {int(min(wave))}" + (f", dry at ¶{dry}" if dry else ""))
     if owed:
         print("\nstill owed:", ", ".join(f"{k} (¶{v})" for k, v in owed.items()))
     if problems:

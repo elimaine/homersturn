@@ -63,15 +63,35 @@ language, a phone at a bus stop): one clause a sentence, one idea a
 paragraph, every second sense told, no loop open past the paragraph. At 3:
 two clauses, one inference a sentence, two loops open. At 5 (a reader who
 will read twice): a triple clause with the third left to infer, four loops
-held, a debt that runs long. Strength caps density, not ambiguity: it says
-how dense "dense" may be in a sentence, how long a sentence runs, how many
-readings may stand open at once, how long a debt may go unpaid. Ambiguity
-may not exceed strength by more than one; past that the reader cannot
-complete the readings and the manifold collapses to the plain one, or to
-nothing. The strength drains as the page goes: debt is a drawdown on it
-and a release restores it, so the same sentence that passed on page one
-fails on page four. Purpose sets the default (a post's reader is at 2, a
-scene's chosen reader at 3 or 4) and the user's number overrides it.
+held, a debt that runs long. Strength is a pool, not a ceiling (Eli: "like a wave, or
+a mana pool"). The dial is its capacity; the level is where the reader is
+on the page, and the writer surfs it. A dense sentence, a raise, a clause
+stacked on a clause, a reading left open: each spends. A payment refills
+(the reader leans in again), and so do a release, a plain sentence, a
+short paragraph, white space, and the refrain, which costs nothing because
+the words are already theirs. An empty pool does not stop the reader; it
+makes them skim: readings stop being carried, the manifold collapses to
+the plain one, and the planted line that returns later returns to nobody.
+That is the true failure of the dense sentence on a quiet beat: it spends
+the pool where no refill is coming. Rhythm is a spending pattern
+(staccato: small spends, instant refills; chaos: spent to zero on purpose,
+which works only if the refill is the next line; stillness: regen), and
+the forms are wave shapes (the musical sentence spends down to the cadence
+and the cadence refills; the rondo refills at each refrain;
+recapitulation arrives with the pool full, since everything in it is
+already paid for). The pool is what the reader can spend; whether they
+spend it is a judgement, made again at every beat, on whether it is worth
+expending more (Eli). That judgement is trust times what is due: every
+raise is the writer's claim that a spend will pay, every payment made on
+its beat raises the trust, and every promise left unpaid lowers it. So a
+reader with a full pool and no trust leaves (the post's reader at the
+second scroll), and a reader with an empty pool and full trust rests and
+comes back (the chapter break). The glance is this judgement made first,
+with no evidence but the shape. Ambiguity may not exceed strength by more
+than one; past that the readings cannot be completed. Purpose sets the
+capacity (a post's reader is at 2, a scene's chosen reader at 3 or 4) and
+the user's number overrides it. The ledger script draws the wave
+(`--strength`).
 
 An example, Eli's, from a blind draft: "the winter grain to his own
 stores, the children's portion halved, and when they had learned to live
@@ -401,8 +421,11 @@ Mark the draft as you go, in brackets the final pass strips:
   names a jump of two or more steps at a seam joined by "and then", and a
   state that has not moved in five paragraphs.
 
-`python3 scripts/meaning_ledger.py < draft.txt` (this skill's `scripts/`) reads the marks and reports,
-per paragraph, the debt (words since the last payment), what is still owed,
+`python3 scripts/meaning_ledger.py --strength 3 < draft.txt` (this skill's `scripts/`) reads the marks and reports,
+per paragraph, the debt (words since the last payment), the reader's pool
+(spent by words and raises, refilled by payments, refrains and short
+paragraphs, drawn as a wave at the end, with the paragraph where it runs
+dry named), what is still owed,
 what was raised and never paid, any refrain planted fewer than twice before
 it returned, and any paragraph written while something was due whose last
 sentence pays nothing (the stress position spent on a quiet line). It is arithmetic over your own
