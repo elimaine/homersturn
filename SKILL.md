@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.2.0
+version: 0.2.1
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity 1 to 5, default 4; the writer's mindset and how far gone; the reader's strength, which caps density), the ledger of promise and payment, the glance (what a page says before a word is read), the topic and stress positions, purpose and genre, the three punches (land, refrain, release), rhythm as emotion, tempo, forms with transitions, the figures (recursive paragraph, litany, withheld word), the swear as an accent, and the dash redeemed as a rest. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -482,6 +482,15 @@ them (the long form, with sources, is `references/evidence.md`):
   opposite case: "the colour of strong tea" is not dense and owes nothing,
   it pays in kind. Concreteness is a payment; exactness never needs a
   promise behind it.
+- Pay only what was raised. A clarification the reader did not need is a
+  payment with no promise behind it: it spends their pool on words, and
+  it spends their trust, because it says you took them for strength 1.
+  The test is deletion: if nothing is lost, it was telling them what they
+  already held. Keep a clarification only where the reading it closes was
+  really open (a pronoun with two candidates, a loaded common word), or
+  where the purpose owes it (a doc, where the reader came for exactly
+  that). The over-clarifier's state is insistence, and the reader hears
+  it before they read it.
 - A borrowed phrase is a manifold with two readings. When the narration
   takes a character's words ("for when he comes"), the reader hears the
   character and the narrator at once, and the distance between them is a
@@ -633,6 +642,8 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
   Plain is a band, not a failure; short is a tempo, not a lapse.
 - Do not open on a wall. The first paragraph is the one the eye must take
   whole.
+- Do not clarify what the reader already holds. Every explanation is a
+  spend; the unasked one is a spend with no payoff and a drain on trust.
 - Do not end every paragraph on an aphorism. Brilliance on every line is a
   page nobody finishes; ration it to where the pool is full.
 - Do not deceive by stating what is false. Let the reader complete the
