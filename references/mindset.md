@@ -7,19 +7,20 @@ what they can see, and it sits upstream of all three.
 ## A state is a prior over readings
 
 Every sentence holds a cloud of readings. The writer's state decides which
-of them are open to the writer at all. A grieving writer cannot see a
-harbour as a harbour: every detail is a sign of the one thing. A furious
-writer sees one thing and nothing beside it. A tender one sees the small
-thing nobody else would notice and names it. The manifold the reader gets
-is already biased before a word is chosen, and the bias is the state.
+of them are open to the writer at all. A writer with one thing on their
+mind cannot see a harbour as a harbour: every detail is a sign of that
+thing. A furious writer sees one thing and nothing beside it. A tender one
+sees the small thing nobody else would notice and names it. The manifold
+the reader gets is already biased before a word is chosen, and the bias is
+the state.
 
 ## It reaches the page through attention
 
 The state picks the details. The anxious notice the exits; the drunk, the
-floor; the bereaved, the empty chair and not the people in the room; the
-insistent, the same thing three times. The details set the length of the
-sentence (a mind that sees one thing writes short), the length sets the
-rhythm, the rhythm sets what the reader feels. That is the mechanism behind
+floor; the insistent, the same thing three times. The details set the
+length of the sentence (a mind that sees one thing writes short), the
+length sets the rhythm, the rhythm sets what the reader feels. That is the
+mechanism behind
 "show, don't tell": you do not say the narrator is afraid, you let fear
 choose what gets looked at.
 
@@ -63,7 +64,6 @@ licenses, and to the tempos it leaves possible.
 
 | State | At 1 | At 5 | Attention | Sentence | Accents | Tempo |
 |---|---|---|---|---|---|---|
-| Grief | the loss named in the first line; the piece is about living with it | the loss never named; every detail is about it | objects that outlast people; the empty place; what is unchanged | long, then a short one that stops | the withheld word; no swear | pause and summary; scene only for the one moment |
 | Anger | a cold note; every fact in order | the door slammed; four-word sentences | the one thing; the other person's hands, mouth, choice | short, declarative, no qualifiers | the swear, once; the land | scene; summary impossible |
 | Fear | one detail wrong, noted in passing | nothing but exits and sounds | thresholds, distances, what is behind | staccato, fragments, the dash as a break | the dash; the withheld thing | scene only; time dilates |
 | Tenderness | one small thing named plainly | the whole page is small things | hands, what someone did without being asked, what is unsaid between two people | a line that sings a little; joined clauses | the refrain | pause; scene at ease |
