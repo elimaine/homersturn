@@ -53,6 +53,17 @@ them (the long form, with sources, is `references/evidence.md`):
   reading they would open on their own.
 - The title is the first raise. Write it last and check that the piece paid
   it.
+- A name is a plant at the scale of the cast. The title is the first
+  raise for the piece and a name is the same move for a person: it opens
+  a reading before the person has spoken, and the reader never notices
+  they were told. Two names that bracket a span (the first and last
+  letters, the high and the low) say the two are one span; two that share
+  a sound share what they share. It pays only if nothing on the page
+  points at it, which is the planted-meaning rule at the scale of the
+  cast: a name the narrator glosses is a label, and the plant is spent.
+  Pairs with the parallel figure, where the names are the first beat the
+  two share.
+
 - A trailing participle that explains (highlighting, underscoring,
   reflecting) points at the planted meaning. Cut it; the meaning was planted
   or it was not.

@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.4.4.
+Version 0.4.5.
 
 **Writing is meaning manifolds presented like music.**
 

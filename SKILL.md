@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.4.4
+version: 0.4.5
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -208,8 +208,10 @@ once, and the line that let them is a payment.
 
 Deception is a reading the writer opens knowing it is wrong, paid by a
 reveal that re-reads the page. Never state the false thing, since the
-reader completes it. Leave the clue on the page. Pay the trust back with
-interest, so twists are rare and late ones larger and fewer. The question
+reader completes it. Leave the clue on the page. The parallel is the
+honest way to open a false reading of a person: the shared beats read as
+one pairing until the beat that is not mirrored re-reads them as another.
+Pay the trust back with interest, so twists are rare and late ones larger and fewer. The question
 is a raise the reader can decline: ask it only when the piece will pay it
 or honestly cannot. The writer's own unanswered question, written down and
 then looked into, is the ledger used as a tool.
@@ -237,6 +239,15 @@ then looked into, is the ledger used as a tool.
   first, and the break-off with a correction after it is the same move
   wearing the dash. Twice a page at most; the pivot in every paragraph is
   the figure humming.
+- The parallel: two characters given the same beat in different keys,
+  a loss, an exile, a name put on them by someone else. The second beat
+  pays the first, and the reader completes that the two are one story
+  without being told. It is the refrain at the scale of an arc, paid where
+  the arcs meet, which is the recapitulation at the scale of the cast. It
+  carries meaning only where one beat is deliberately not mirrored: the
+  difference is the point, and a mirror at every beat is one character
+  with two names. A tool, not a habit: one parallel a piece, carried by
+  beats and never by a line, never named by the narrator.
 - The swear is a sforzando, one hit on the line that lands. It is earned
   only by a shock the reader just felt, in the mouth of the person it
   belongs to, and followed by silence. Never explain it.
@@ -309,6 +320,10 @@ Each rule's reason is in `references/sentence.md`.
 - One hedge per claim. A number pays and an adjective raises.
 - The example after the claim, the definition a paragraph before its use.
 - Concede before you are forced. The title is the first raise.
+- A name is a plant at the scale of the cast. Two names that bracket a
+  span say the two are one span before either has spoken; two that share
+  a sound share what they share. It pays only if nothing on the page
+  points at it. A name the narrator glosses is a label.
 - A cliché is a refrain planted by other texts and pays nothing. An exact
   detail pays in kind. A phrase borrowed from a character's mouth carries
   the character and the narrator at once. A quoted line in this skill or
