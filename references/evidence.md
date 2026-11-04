@@ -309,3 +309,11 @@ is unsourced.
   the hum. Fenced by the narrator rule and the figure-hum rule. Bench:
   `benchmarks/briefs-2026-11-03/runs/revision-*`, the chinchilla brief
   with one revision asked for, on 0.4.1 (no figure named) and 0.4.2.
+- **The suspension** (0.5.1). Eli, 2026-11-04: "Saying something that
+  seems weird or make no sense but then later we pay. That pattern can hit
+  hard. Do we already do that?" We had the economics and not the figure: a
+  line with no plain reading, held as a debt until the plain reading pays
+  it; the garden path with a raise; it spends more than a dense line, so
+  its payment refills more. Fenced by once a piece, reader strength three
+  or more, the largest debt on the page, and the unearned-punch rule. No
+  bench yet.

@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.5.0
+version: 0.5.1
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -207,10 +207,13 @@ reveal that re-reads the page. Never state the false thing, since the
 reader completes it. Leave the clue on the page. The parallel is the
 honest way to open a false reading of a person: the shared beats read as
 one pairing until the beat that is not mirrored re-reads them as another.
-Pay the trust back with interest, so twists are rare and late ones larger and fewer. The question
-is a raise the reader can decline: ask it only when the piece will pay it
-or honestly cannot. The writer's own unanswered question, written down and
-then looked into, is the ledger used as a tool.
+The suspension is deception's partner on the other side: deception gives
+the reader a wrong reading to hold, the suspension gives them none, and
+both are paid by a re-read. Pay the trust back with interest, so twists
+are rare and late ones larger and fewer. The question is a raise the
+reader can decline: ask it only when the piece will pay it or honestly
+cannot. The writer's own unanswered question, written down and then looked
+into, is the ledger used as a tool.
 
 ## The figures and the accents: each at most twice a page
 
@@ -243,6 +246,14 @@ then looked into, is the ledger used as a tool.
   mirrored: the difference is the point, and a mirror at every beat is one
   character with two names. A tool, not a habit: one parallel a piece,
   carried by beats and never by a line, never named by the narrator.
+- The suspension: a line with no plain reading on first pass, short enough
+  to carry whole, paid later by the plain reading and never by an
+  explanation. The reader holds it as a debt the page owes, and it spends
+  more than any dense line, so its payment refills more than any. It is
+  the garden path with a raise. Once a piece, at reader strength three or
+  more, placed where the payment is the largest debt on the page. Unpaid,
+  it is the fake-profound kicker in another costume, and a borrowed oddity
+  is a cliché.
 - The swear is a sforzando, one hit on the line that lands. It is earned
   only by a shock the reader just felt, in the mouth of the person it
   belongs to, and followed by silence. Never explain it.
@@ -392,11 +403,12 @@ who wrote it, since readers cannot say and neither can you.
    them from. Later lines that could be anyone's. Two characters in one
    rhythm. A walk-on with an entrance.
 7. Accidental readings, including the garden path, an opening phrase read
-   as the subject that is not. Unearned weight. The figure humming. The
-   dash that joins. The line that is for the narrator. A rule the page
-   states and breaks. In anything but fiction, a detail the brief did not
-   supply. An accidental reading that agrees with the ledger is a gift,
-   not a fault.
+   as the subject that is not. A line that does not parse is a suspension
+   if a later line pays it and a fault if none does. Unearned weight. The
+   figure humming. The dash that joins. The line that is for the narrator.
+   A rule the page states and breaks. In anything but fiction, a detail
+   the brief did not supply. An accidental reading that agrees with the
+   ledger is a gift, not a fault.
 8. The three changes that would pay the most, ranked, each tied to a line.
 
 ## Do not
