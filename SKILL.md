@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.4.6
+version: 0.5.0
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -47,12 +47,11 @@ draft's glance.
   across the page and the move is the story. It follows the ledger, since
   a payment brings relief and a raise dread, and it turns by therefore or
   but. A jump with no cause is a failed seam, the join below.
-- Rhythm is emotion. Short hard stops for urgency and fear. Sentences that
-  spill and break for panic or ecstasy. A line that sings for grief and
-  love. Moving, joined sentences for ease. Few words and long gaps, or one
-  sentence that will not stop, for awe. Switch rhythm where the state turns
-  and nowhere else, unless the rhythm is the content, as when a count is
-  the scene's clock.
+- Rhythm is emotion. The length of the sentence and the hardness of its
+  stops are the state's, and the reader feels the state before they have
+  read it. The state table in `references/mindset.md` gives each its
+  shape. Switch rhythm where the state turns and nowhere else, unless the
+  rhythm is the content.
 - Tempo is the distance. Scene: every moment told. Summary: ground covered.
   Pause: time stops on one image. Say which. Most flat prose is scene tempo
   for what deserved summary.
@@ -80,8 +79,8 @@ they say is forgery.
 
 Ambiguity, 1 to 5, default 4, is how much the reader is asked to carry.
 
-1. One reading a sentence, everything told. An error message, a label.
-2. Plain, with one planted line a page. A message, a doc.
+1. One reading a sentence, everything told.
+2. Plain, with one planted line a page.
 3. A second sense where something is owed, nothing held past the paragraph.
 4. The ledger as above: readings kept open across paragraphs and paid on
    their beat.
@@ -90,9 +89,8 @@ Ambiguity, 1 to 5, default 4, is how much the reader is asked to carry.
 
 The mindset is who is speaking, in what state, and how far gone, 1 to 5.
 
-- A grieving writer at 1 names the loss in the first line. At 5 they never
-  name it and every detail is about it. An angry one at 1 writes a cold
-  note. At 5 they slam the door in four-word sentences.
+- At 1 the state is named once and the page is otherwise plain. At 5 it is
+  never named, and every detail and the rhythm are about it.
 - The state sets how far the accents go and how far the rhythm runs. It is
   the speaker's state, not the reader's, that the rhythm carries. Felt
   below shown is tension, and shown above felt is melodrama.
@@ -105,9 +103,8 @@ The mindset is who is speaking, in what state, and how far gone, 1 to 5.
   presents, offer two or three it could present instead, one line each,
   and let them pick.
 
-The reader's strength is a pool, and the dial is its capacity: 1 is a
-child, a tired reader, a phone at a bus stop; 3 is the default; 5 is a
-reader who reads twice.
+The reader's strength is a pool, and the dial is its capacity: 1 holds one
+sentence at a time; 3 is the default; 5 is a reader who reads twice.
 
 - A dense sentence, a raise, a stacked clause, a reading left open: each
   spends. So does elision, a sentence with its syntax removed and nothing
@@ -148,22 +145,21 @@ are half a phone screen.
 ## The two positions: the end carries the weight
 
 Readers put the weight of a unit at its end and expect its start to say
-what it is about (Gopen and Swan). The stress position is the last sentence
-of a paragraph and the last words of a sentence, where the most changes.
-End on what is different now, never on the setting, the weather, a view,
-or a qualifier. A dense sentence on a low-stakes final beat is what most
-often makes good prose hard to parse. The topic position is the first
+what it is about (Gopen and Swan). The stress position is the last
+sentence of a paragraph and the last words of a sentence, where the most
+changes. End on what is different now, never on what has not changed, and
+never on a qualifier. A dense sentence on a low-stakes final beat is what
+most often makes good prose hard to parse. The topic position is the first
 sentence and the first words: what the reader already holds, the thing the
-last unit ended on. When a paragraph has to be read twice, check this chain
-first.
+last unit ended on. When a paragraph has to be read twice, check this
+chain first.
 
-The reader who can leave is owed the point at the top, in a paper, a memo,
-a post, a doc. The reader who stays is owed it at the bottom, in a scene or
-an essay that reaches its conclusion. Neither as a template: a page where
-every paragraph opens on its point reads as a template. At the scale of
-the piece, start with the abstract, the claim in short, and complete it at
-the end. The conclusion pays the opening with the same claim, now carried,
-and the postscript is what is said after the ledger closes.
+The reader who can leave is owed the point at the top. The reader who
+stays is owed it at the bottom. Neither as a template: a page where every
+paragraph opens on its point reads as a template. At the scale of the
+piece, start with the abstract, the claim in short, and complete it at the
+end. The conclusion pays the opening with the same claim, now carried, and
+the postscript is what is said after the ledger closes.
 
 ## Purpose: the reader who can leave
 
@@ -192,9 +188,8 @@ A punch is a short last line that pays. Pick one, never stack them.
 1. Land: the consequence, said plainly, in few words.
 2. Refrain: a line already told comes back, word for word or nearly, its
    sense shifted. Only after it has been planted at least twice, and
-   paying the largest debt, not the handiest plant. A thing kept in shadow,
-   a courage the story never names, is paid by an action that shows it,
-   never by a line that names it. "That was the point" is pointing.
+   paying the largest debt, not the handiest plant. A thing kept in shadow
+   is paid by an action that shows it, never by a line that names it.
 3. Release: what changed, in under eight words, and stop. For a long
    stretch where little was owed.
 
@@ -257,12 +252,11 @@ then looked into, is the ledger used as a tool.
   participial tail do the same joining and hum the same way. The
   parenthesis is the aside under the breath, once a page.
 - The figure hums too. One device at a steady rate is the same density by
-  figure: the turn that pivots on a word in every paragraph, a frame used
-  twice, an aphorism at the end of every paragraph, one verb mood and one
-  person across a whole page. Mood and person are where a state shows
-  first. Each figure at most twice a page, never in consecutive paragraphs,
-  and a frame never reused unless it is the refrain. `--shape` lists the
-  frames a page repeats.
+  figure, whatever the device, down to one verb mood and one person held
+  across a whole page. Mood and person are where a state shows first. Each
+  figure at most twice a page, never in consecutive paragraphs, and a
+  frame never reused unless it is the refrain. `--shape` lists the frames
+  a page repeats.
 
 ## Forms: hold one, leave through a bridge
 
@@ -283,17 +277,17 @@ An important character gets an entrance and a walk-on gets a noun. An
 entrance for everyone is the same density at the scale of the cast.
 
 - The voice actor's test. Someone has to read this person aloud from their
-  first line. What on the page tells them how? Not a stage direction, which
-  tells the actor and gives the reader nothing. Something entertaining that
-  carries the voice in itself: a sentence in the character's own rhythm,
-  what they do with a word, a thing they refuse to say. If the actor would
-  read the first line in the narrator's voice, the entrance has not
-  happened.
+  first line. What on the page tells them how? Not a stage direction,
+  which tells the actor and gives the reader nothing. Something
+  entertaining that carries the voice in itself, so the actor hears it
+  before the narrator has said anything. If the actor would read the first
+  line in the narrator's voice, the entrance has not happened.
 - The entrance is a raise, and every later line in that voice pays it. A
   line that could be anyone's is the fault. After the entrance, "said" and
   silence.
-- It pays while it plants: a small reveal, a joke, a thing the scene needed
-  anyway. Height, hair and a job title raise nothing and pay nothing.
+- It pays while it plants: the entrance does something the scene needed
+  anyway. A description that only describes raises nothing and pays
+  nothing.
 - A character's state is their own dial, set at the entrance, in their
   rhythm and not the narrator's. Two characters at one state in one rhythm
   are one character with two names.
@@ -319,10 +313,10 @@ Each rule's reason is in `references/sentence.md`.
 - One hedge per claim. A number pays and an adjective raises.
 - The example after the claim, the definition a paragraph before its use.
 - Concede before you are forced. The title is the first raise.
-- A name is a plant at the scale of the cast. Two names that bracket a
-  span say the two are one span before either has spoken; two that share
-  a sound share what they share. It pays only if nothing on the page
-  points at it. A name the narrator glosses is a label.
+- A name is a plant at the scale of the cast: it opens a reading before
+  the person has spoken, and the reader never notices they were told. It
+  pays only if nothing on the page points at it. A name the narrator
+  glosses is a label.
 - A cliché is a refrain planted by other texts and pays nothing. An exact
   detail pays in kind. A phrase borrowed from a character's mouth carries
   the character and the narrator at once. A quoted line in this skill or
@@ -338,16 +332,16 @@ A prompt alone forgets the balance by the third paragraph, so write it down
 beside the draft. Before each paragraph, one line:
 
 ```
-¶7  owed: the letter (¶2), who locked the door (¶4)   due now: the letter
-    debt: 310 words since ¶4 paid   feeling: dread, low   state: fear 3 → 4, because ¶6 opened the door
-    → scene · staccato · restate · plain · no punch
+¶N  owed: <what, and the ¶ that raised it>   due now: <what>
+    debt: <words since the last payment>   feeling: <name, degree>   state: <name degree → degree, because ¶>
+    → <tempo> · <rhythm> · <form role> · <band> · <punch or none>
 ```
 
 Mark the draft in brackets the final pass strips: `[raise: x]`, `[pay: x]`
 (`[pay: inferred]` when the reader's own knowledge pays it), `[plant:
-"line"]`, `[join: therefore|but|and then]`, `[state: fear 4]`. The script
-is arithmetic over your own marks, and the judgement is yours when you
-mark. It reports:
+"line"]`, `[join: therefore|but|and then]`, `[state: <name> <degree>]`.
+The script is arithmetic over your own marks, and the judgement is yours
+when you mark. It reports:
 
 - the debt per paragraph, and the pool as a wave
 - what is still owed, and what was raised and never paid
@@ -378,10 +372,9 @@ mark. It reports:
 Report pattern, quoted line, fix in a few words. No score, and no guess at
 who wrote it, since readers cannot say and neither can you.
 
-1. The purpose and the mindset, from the evidence. Headings and code spans
-   say a doc, a greeting and an ask say a message, dialogue says a scene.
-   Read the state the page presents, never the person's. If no mindset was
-   asked for, offer two or three the piece could present, one line each.
+1. The purpose and the mindset, from the evidence on the page. Read the
+   state the page presents, never the person's. If no mindset was asked
+   for, offer two or three the piece could present, one line each.
 2. The glance, with `--shape`: the first paragraph's share, the spread,
    the longest block, repeated frames.
 3. The ledger, reconstructed. Per paragraph: raised, paid, debt. Then what
@@ -399,8 +392,8 @@ who wrote it, since readers cannot say and neither can you.
    as the subject that is not. Unearned weight. The figure humming. The
    dash that joins. The line that is for the narrator. A rule the page
    states and breaks. In anything but fiction, a detail the brief did not
-   supply: a dinner offered, a season named, a mechanism guessed. An
-   accidental reading that agrees with the ledger is a gift, not a fault.
+   supply. An accidental reading that agrees with the ledger is a gift,
+   not a fault.
 8. The three changes that would pay the most, ranked, each tied to a line.
 
 ## Do not
