@@ -223,6 +223,24 @@ is unsourced.
   chinchilla brief), and the skill never said what an example is for.
   0.3.3 says it once at the top: a quoted line shows a move and is spent.
   Whether that line alone stops the copying is untested.
+- **The skill on itself** (`benchmarks/skill-on-itself-2026-11-03`): the
+  analyze pass run on the skill's own text by Opus 5.5 high through the
+  proxy, Fable 5.1 high through the proxy, and a fresh Fable subagent at
+  high effort, each with the same prompt. All three found the opening
+  wall, the two walls in the dials, the semicolons and bold keywords on a
+  page that condemns them, the lines for the narrator, and the missing
+  purpose row for a prompt or skill. Taken into 0.4.0: the opening cut to
+  four lines with its own line returned before the postscript; the model
+  before the dials so terms come before use; no bold, subheads that
+  state, the clause-joining semicolons and most parentheses gone; one
+  telling per rule; "frame", "model", "topic", "tell", "punch" each to one
+  sense; the prompt row; a stated rule is a promise the page keeps;
+  elision spends; mood and person as a hum; the joke as a payment; the
+  defined term as a raise that pays at each return; the table and the
+  code block at the glance; what the reader keeps after the page closes
+  named as outside. Not taken: the antithesis as a figure (retention is
+  outside), a second pool for the two readers of a prompt (the stricter
+  dial serves both). Grade: instrument.
   The same story had its narrator step in to credit its own version
   ("the part they leave out when they tell it now, and the part I keep
   in"); Eli: "Narrators being a bit too self serving. Who is this for?
