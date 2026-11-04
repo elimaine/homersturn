@@ -23,11 +23,13 @@ import sys
 MARK = re.compile(r"\[(raise|pay|plant|join|state):\s*(.+?)\]")
 
 # The reader's pool (SKILL.md, the third dial). Untuned sketch: the shape is
-# the claim, the numbers are placeholders until a bench sets them.
+# the claim, the numbers are placeholders until a bench sets them. Mana
+# regenerates: a plain sentence puts some back, a long one spends.
 POOL_CAPACITY = {1: 40, 2: 70, 3: 100, 4: 130, 5: 160}
-COST_PER_WORD = 0.12        # every word read spends a little
+PLAIN_WORDS = 18            # a sentence this long or shorter is taken without effort
+REGEN_PER_PLAIN_WORD = 0.25 # and regenerates
+COST_PER_LONG_WORD = 0.35   # a longer sentence spends per word
 COST_PER_RAISE = 4          # a promise opened is carried
-COST_LONG_SENTENCE = 2      # each sentence past 25 words stacks clauses
 REFILL_PAY = 14             # a payment: the reader leans in again
 REFILL_REFRAIN = 8          # a line already theirs
 REGEN_SHORT = 6             # a paragraph of 40 words or fewer is a breath
@@ -156,9 +158,10 @@ def main() -> int:
         if not any(e.startswith("pay") for e in events):
             debt += words
         sentences = [x for x in SENTENCE_END.split(plain) if x.strip()]
-        pool -= words * COST_PER_WORD
+        for x in sentences:
+            n = len(x.split())
+            pool += n * REGEN_PER_PLAIN_WORD if n <= PLAIN_WORDS else -n * COST_PER_LONG_WORD
         pool -= COST_PER_RAISE * sum(1 for e in events if e.startswith("raise"))
-        pool -= COST_LONG_SENTENCE * sum(1 for x in sentences if len(x.split()) > 25)
         pool += REFILL_PAY * sum(1 for e in events if e.startswith("pay") and "never raised" not in e)
         pool += REFILL_REFRAIN * sum(1 for e in events if e.startswith("refrain"))
         if words <= 40:
