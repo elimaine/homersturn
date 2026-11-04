@@ -1,6 +1,6 @@
 ---
 name: homersturn
-description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the two dials (ambiguity 1 to 5, default 4; the writer's mindset and how far gone), the ledger of promise and payment, the glance (what a page says before a word is read), the topic and stress positions, purpose and genre, the three punches (land, refrain, release), rhythm as emotion, tempo, forms with transitions, the figures (recursive paragraph, litany, withheld word), the swear as an accent, and the dash redeemed as a rest. Pairs with the Poet tool when it is available; works without it.
+description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity 1 to 5, default 4; the writer's mindset and how far gone; the reader's strength, which caps density), the ledger of promise and payment, the glance (what a page says before a word is read), the topic and stress positions, purpose and genre, the three punches (land, refrain, release), rhythm as emotion, tempo, forms with transitions, the figures (recursive paragraph, litany, withheld word), the swear as an accent, and the dash redeemed as a rest. Pairs with the Poet tool when it is available; works without it.
 ---
 
 # homersturn
@@ -55,6 +55,30 @@ stays unsaid) and how far the rhythm runs toward its extreme. It is not
 the reader's feeling, which rhythm carries; it is the speaker's state,
 which the voice follows. The two dials are independent: a calm writer can
 write at ambiguity 5, a furious one at 1.
+
+**The reader's strength is the third dial**, the mirror of the mindset:
+the writer's state sets what can be said, the reader's strength what can
+be carried. 1 to 5, default 3. At 1 (a child, a tired reader, a second
+language, a phone at a bus stop): one clause a sentence, one idea a
+paragraph, every second sense told, no loop open past the paragraph. At 3:
+two clauses, one inference a sentence, two loops open. At 5 (a reader who
+will read twice): a triple clause with the third left to infer, four loops
+held, a debt that runs long. Strength caps density, not ambiguity: it says
+how dense "dense" may be in a sentence, how long a sentence runs, how many
+readings may stand open at once, how long a debt may go unpaid. Ambiguity
+may not exceed strength by more than one; past that the reader cannot
+complete the readings and the manifold collapses to the plain one, or to
+nothing. The strength drains as the page goes: debt is a drawdown on it
+and a release restores it, so the same sentence that passed on page one
+fails on page four. Purpose sets the default (a post's reader is at 2, a
+scene's chosen reader at 3 or 4) and the user's number overrides it.
+
+An example, Eli's, from a blind draft: "the winter grain to his own
+stores, the children's portion halved, and when they had learned to live
+on that, halved again" is strength 4: three clauses and an escalation to
+infer. At 2: "He took the winter grain for his own stores and halved the
+children's portion. When they had learned to live on that, he halved it
+again."
 
 **When the mindset is not given, do not assume it.** Read the draft for
 the state it is in (the help mode, under Analyze), say what you see, and
@@ -387,7 +411,8 @@ marks, not a judgement; the judgement is yours when you mark.
 ## Workflow
 
 1. Write the brief: the purpose (the table above), the plain meaning, what
-   it carries under that, the two dials (ambiguity, mindset).
+   it carries under that, the three dials (ambiguity, mindset, the
+   reader's strength).
 2. Name the reader's balance before the passage, on paper (above): what has
    been promised and not paid; what is due now; the feeling the previous
    passage left.
@@ -441,7 +466,12 @@ cannot tell and neither can you (`references/evidence.md`, Bot or not).
    lean, dense, punch); what the stress position was spent on; whether a
    held question moved; what it makes the reader feel and how keyed up;
    which planted line it carried. These find every dense sentence on a
-   low-stakes beat and every stretch run too long unpaid.
+   low-stakes beat and every stretch run too long unpaid. Then the
+   strength check: the sentences whose clauses or inferences exceed the
+   reader's strength (stacked clauses with an escalation to infer, three
+   readings open in one line, a debt still running past the point the
+   strength would have drained), quoted, with the split that would carry
+   them at the strength named.
 6. **The topic position.** Where a paragraph must be read twice, check the
    known-new chain first.
 6b. **The state trajectory.** The state per paragraph, with its cause. A

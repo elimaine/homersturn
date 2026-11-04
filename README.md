@@ -54,6 +54,10 @@ ways it earns its keep:
   never names it and every detail is about it. Leave it out and the skill
   reads the state the draft is in and offers two or three it could present
   instead, one line each, for you to pick by ear.
+- **Say how strong the reader is.** The third dial caps density: at 1
+  one clause a sentence and every second sense told, at 5 a triple clause
+  with the third left to infer. Ambiguity may not exceed it by more than
+  one, and it drains as the page goes.
 - **Analyze a piece.** Ask it why a draft feels dense, flat or hard to
   parse and it names the genre from the evidence, reads the shape of the
   page, reconstructs the ledger of what was promised and paid, and reports
