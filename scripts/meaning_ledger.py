@@ -85,6 +85,22 @@ def shape(text: str) -> int:
             oa, ob = opening(a[4]), opening(b[4])
             if oa and ob and oa[:3] == ob[:3]:
                 print(f"¶{a[0]} and ¶{b[0]} open on the same words: a repeated beat, or a refrain told once too often")
+    frames: dict[tuple[str, ...], set[int]] = {}
+    for i, kind, words, sentences, para in rows:
+        if kind != "prose":
+            continue
+        toks = [w.strip(".,;:!?\"'()").lower() for w in para.split()]
+        for j in range(len(toks) - 2):
+            gram = tuple(toks[j:j + 3])
+            if all(w in STOP for w in gram) or not all(gram):
+                continue
+            frames.setdefault(gram, set()).add(i)
+    repeated = sorted(((g, ps) for g, ps in frames.items() if len(ps) >= 2), key=lambda x: (-len(x[1]), x[0]))
+    if repeated:
+        shown = []
+        for g, ps in repeated[:8]:
+            shown.append(f"'{' '.join(g)}' (¶{', ¶'.join(str(p) for p in sorted(ps))})")
+        print("frames repeated across paragraphs (a refrain, or the figure humming): " + "; ".join(shown))
     bold = len(re.findall(r"\*\*[^*]+\*\*", text))
     subs = sum(1 for r in rows if r[1] == "sub")
     lists = sum(1 for r in rows if r[1] == "list")

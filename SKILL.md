@@ -105,7 +105,15 @@ full pool. A page whose every paragraph ends on a second-sense line is
 written for strength 5 and never refills; the brilliant bits are exactly
 those lines, and keeping two of four makes the other two land. Ration the
 aphorism: at most one a paragraph, never at the end of every paragraph,
-and most paragraphs ending on the plain fact. Ambiguity may not exceed strength by more
+and most paragraphs ending on the plain fact. **The figure hums too.** One
+device at a steady rate is uniform density by figure, which no length
+measure sees: the turn that pivots on a word ("not the taking, but the
+thanking") in every paragraph, the same frame twice ("the way you know
+your own name", "the way you think a thing you do not yet believe"), the
+same pair twice ("took the grain and called it a tax", "took the medicine
+and called it an order"). Each figure at most twice on a page, never in
+consecutive paragraphs, and a frame never reused unless it is the refrain
+and was planted as one. `--shape` lists the frames a page repeats. Ambiguity may not exceed strength by more
 than one; past that the readings cannot be completed. Purpose sets the
 capacity (a post's reader is at 2, a scene's chosen reader at 3 or 4) and
 the user's number overrides it. The ledger script draws the wave
