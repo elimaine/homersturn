@@ -337,7 +337,9 @@ is unsourced.
 - **Ambiguity defaults to 3; the usage answer names the dials** (0.5.4).
   Eli, 2026-11-04: "Let's default ambiguity to 3, and when an agent does
   its ask how to use it mention the dials." The default was 4 (readings
-  kept open across paragraphs); 3 holds nothing past the paragraph, and
-  the purpose table still raises or lowers it by genre. The workflow now
+  kept open across paragraphs); 3 pays within the paragraph and holds one
+  or two debts long (0.5.5, Eli: "can we preserve multi paragraph/text
+  long pays at 3?"), and the purpose table still raises or lowers it by
+  genre. The workflow now
   opens with what to answer when asked how to use the skill: the brief
   line and the three dials with their scales and defaults. No bench.
