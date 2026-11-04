@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.4.5
+version: 0.4.6
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -239,8 +239,8 @@ then looked into, is the ledger used as a tool.
   first, and the break-off with a correction after it is the same move
   wearing the dash. Twice a page at most; the pivot in every paragraph is
   the figure humming.
-- The parallel: two characters given the same beat in different keys,
-  a loss, an exile, a name put on them by someone else. The second beat
+- The parallel: two characters given the same beat in different keys.
+  The second beat
   pays the first, and the reader completes that the two are one story
   without being told. It is the refrain at the scale of an arc, paid where
   the arcs meet, which is the recapitulation at the scale of the cast. It
