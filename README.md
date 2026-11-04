@@ -1,5 +1,8 @@
 # homersturn
 
+Version 0.2.0 (2026-11-03). The version is in `SKILL.md`'s front matter and
+as a git tag; it moves when a rule changes, not when a word does.
+
 **Writing is meaning manifolds presented like music.**
 
 A writing skill for Claude Code, Codex, and any agent that reads a
