@@ -125,3 +125,13 @@ reader did not come for it. Ask of any narrator's line who it is for: the
 reader (it pays or raises something in the story), a character (it is in
 their voice), or the teller (cut it). The same holds for a game's
 narrator: opinions on the baron and the pigs, none on the narration.
+
+## The revision
+
+The state moving is the story, and the revision is the state moving in
+view: the narrator opens a reading, meets the next fact, and replaces the
+reading where the reader can watch. It is staged, since a narrator who
+knows the whole story has nothing to learn, and the staging is for the
+reader, a guided re-read at the scale of a sentence. The reader keeps the
+move. A narrator whose opinion in the last paragraph is the opinion of the
+first has told the reader nothing they could not have told themselves.

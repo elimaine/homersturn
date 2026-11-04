@@ -279,3 +279,13 @@ is unsourced.
 - Delete-the-first-paragraph and delete-the-last-paragraph tests (W).
 - The transitions table: however between compatible claims, therefore
   without entailment, three alsos in a row (W).
+- **The revision** (0.4.2). Eli, 2026-11-03: "memes, and evolutions of
+  understanding. This goes back to the narrator, who has an opinion, and
+  updates it. Sometimes midway through a sentence. It's a little
+  synthetic, but it's really for the reader. And reading a hum is no
+  fun." Read as: the narrator is a model reader on the page whose update
+  the real reader runs with them; the meme is the move, not the line; the
+  mid-sentence revision is a two-beat ledger; a prior that never moves is
+  the hum. Fenced by the narrator rule and the figure-hum rule. Bench:
+  `benchmarks/briefs-2026-11-03/runs/revision-*`, the chinchilla brief
+  with one revision asked for, on 0.4.1 (no figure named) and 0.4.2.
