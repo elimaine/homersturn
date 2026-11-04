@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.5.3
+version: 0.5.4
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -81,7 +81,7 @@ outside fiction, a detail, a cause or a mechanism the person did not
 supply. Voice is how they say things, and inventing what they say is
 forgery.
 
-Ambiguity, 1 to 5, default 4, is how much the reader is asked to carry.
+Ambiguity, 1 to 5, default 3, is how much the reader is asked to carry.
 What is carried is sense, never reference. A line whose speaker has to be
 worked out, an act with two possible actors, a pronoun with two
 candidates, is not a held reading but a muddle wearing the dial's
@@ -374,6 +374,11 @@ when you mark. It reports:
   in five paragraphs
 
 ## Workflow
+
+When someone asks how to use the skill, answer with the brief line and the
+three dials: ambiguity, the mindset and the reader's strength, each 1 to 5,
+their defaults, and that any of them may be left out for the skill to read
+from the evidence and say which it took.
 
 1. The brief: purpose, plain meaning, what it carries, the three dials.
 2. The balance before the passage: owed, due, debt, the feeling left, the

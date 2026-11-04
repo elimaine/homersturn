@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.5.3.
+Version 0.5.4.
 
 **Writing is meaning manifolds presented like music.**
 
@@ -48,7 +48,7 @@ ways it earns its keep:
   implied one, the vibe. The skill takes a purpose (a scene, an essay, a
   post, a message, a repo doc, UI copy, an agent's reply, a game turn) and
   lets it set the defaults, because each is a genre the song has to fit.
-- **Set ambiguity as a dial.** "Ambiguity 1 to 5: 4" is the default; 1 is
+- **Set ambiguity as a dial.** "Ambiguity 1 to 5: 3" is the default; 1 is
   one reading per sentence and everything told, 5 is readings held to the
   last line for a reader who will read twice. The dial is on sense, never
   on reference: who spoke and who acted are clear at every setting.
