@@ -241,6 +241,21 @@ is unsourced.
   named as outside. Not taken: the antithesis as a figure (retention is
   outside), a second pool for the two readers of a prompt (the stricter
   dial serves both). Grade: instrument.
+- **Ten one-line briefs** (`benchmarks/briefs-2026-11-03`): an apology,
+  a headline, an error message, a spoken toast, a release note, a game
+  turn, an agent's test report, a thread opener, a eulogy and a
+  duellist's insult, each once on Opus through the proxy (served as 4.8,
+  recorded per file) and once on Fable 5.1. What survived at the smallest
+  scale: the purpose row (ask once, bad news first, the answer first, the
+  turn's five payments), the loaded word, the land, the refrain kept for
+  prose to be heard (Fable's toast), deception at the scale of a line
+  (both insults). What broke: both models invented concrete details the
+  brief did not supply in every non-fiction brief (a dinner, a season, a
+  guessed mechanism, a kid with nowhere warmer); Opus used the dash three
+  times in two pieces and overran a 280-character brief; Fable told the
+  release note twice and reused its frame. 0.4.1 adds the invented
+  detail to the analyze pass and the cliché above the phrase to the
+  sentence rules. One reply per brief per model: pattern.
   The same story had its narrator step in to credit its own version
   ("the part they leave out when they tell it now, and the part I keep
   in"); Eli: "Narrators being a bit too self serving. Who is this for?

@@ -71,3 +71,8 @@ them (the long form, with sources, is `references/evidence.md`):
   until "he" arrives; the re-read is a spend with no raise, and "at each
   harvest" costs one word. The garden path is an accidental reading at the
   scale of parsing.
+- The cliché above the phrase. A borrowed joke, plot, title or frame is a
+  refrain planted by other texts at the scale of the piece, and pays
+  nothing, unless the user proposed it: then it is their plant, and the
+  piece pays it. Eli, 2026-11-03, after a blind "tell me a joke" came back
+  with the doctor and the two places.

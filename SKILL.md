@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.4.0
+version: 0.4.1
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -300,7 +300,10 @@ Each rule's reason is in `references/sentence.md`.
   detail pays in kind. A phrase borrowed from a character's mouth carries
   the character and the narrator at once. A quoted line in this skill or
   its references is spent the same way: it shows a move, never a line to
-  use.
+  use. The cliché has a size above the phrase: a borrowed joke, plot,
+  title or frame is the same fault one level up and pays nothing, unless
+  the user proposed it, in which case it is their plant and the piece's
+  job is to pay it.
 
 ## The ledger on paper
 
@@ -368,8 +371,9 @@ who wrote it, since readers cannot say and neither can you.
 7. Accidental readings, including the garden path, an opening phrase read
    as the subject that is not. Unearned weight. The figure humming. The
    dash that joins. The line that is for the narrator. A rule the page
-   states and breaks. An accidental reading that agrees with the ledger is
-   a gift, not a fault.
+   states and breaks. In anything but fiction, a detail the brief did not
+   supply: a dinner offered, a season named, a mechanism guessed. An
+   accidental reading that agrees with the ledger is a gift, not a fault.
 8. The three changes that would pay the most, ranked, each tied to a line.
 
 ## Do not
