@@ -317,3 +317,11 @@ is unsourced.
   its payment refills more. Fenced by once a piece, reader strength three
   or more, the largest debt on the page, and the unearned-punch rule. No
   bench yet.
+- **The same chords** (0.5.2). Eli, 2026-11-04, on an arrangement that
+  made three sections from identical chords: "A tip on how we can reduce
+  hum. We hold this I think. the same chords. But a different authors
+  mindset." We held the mechanism (the state moves and the move is the
+  story; a page that never turns hums) and not the cure's direction: when
+  a page hums, the reflex is new material, which spends the pool and
+  leaves the hum. One sentence in the mindset bullet; the instance in
+  `references/mindset.md`. No bench.

@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.5.1
+version: 0.5.2
 description: Write, revise and analyze prose as a manifold of meanings presented like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -46,7 +46,9 @@ draft's glance.
   everywhere is what a mind with no state sounds like. The state moves
   across the page and the move is the story. It follows the ledger, since
   a payment brings relief and a raise dread, and it turns by therefore or
-  but. A jump with no cause is a failed seam, the join below.
+  but. A jump with no cause is a failed seam, the join below. Where a page
+  hums, turn the state and keep the material: the same chords in another
+  hand are another section, and new matter only spends the pool.
 - Rhythm is emotion. The length of the sentence and the hardness of its
   stops are the state's, and the reader feels the state before they have
   read it. The state table in `references/mindset.md` gives each its

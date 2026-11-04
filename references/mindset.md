@@ -126,6 +126,20 @@ reader (it pays or raises something in the story), a character (it is in
 their voice), or the teller (cut it). The same holds for a game's
 narrator: opinions on the baron and the pigs, none on the narration.
 
+## The same chords
+
+A page that hums is usually cured with new material: another figure,
+another event, a fresh word where the old one stood. That spends the pool
+and leaves the hum, because the hum was never the material. It was one
+state holding through every section. Keep the chords and turn the hand
+that plays them: the same three chords are three sections when the state
+behind them changes, and each section sounds like a different thing
+because a different mind is looking. The instance the rule came from: a
+song written on three chords and one note in the left hand, which a
+bandmate first heard as boring, became three distinct sections in the
+arrangement without a chord being changed (Eli, 2026-11-04). Hold the
+material; move the state; the move is the story.
+
 ## The revision
 
 The state moving is the story, and the revision is the state moving in
