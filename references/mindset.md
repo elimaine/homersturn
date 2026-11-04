@@ -20,9 +20,8 @@ The state picks the details. The anxious notice the exits; the drunk, the
 floor; the insistent, the same thing three times. The details set the
 length of the sentence (a mind that sees one thing writes short), the
 length sets the rhythm, the rhythm sets what the reader feels. That is the
-mechanism behind
-"show, don't tell": you do not say the narrator is afraid, you let fear
-choose what gets looked at.
+mechanism behind "show, don't tell": you do not say the narrator is
+afraid, you let fear choose what gets looked at.
 
 ## Felt and shown
 
