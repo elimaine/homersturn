@@ -263,6 +263,26 @@ is unsourced.
   is on the matter, never on the telling; every line is for the reader or
   a character, none for the teller.
 
+- **The examples test** (`benchmarks/examples-2026-11-03`, 0.5.0): Eli,
+  2026-11-03: "I do not like" the examples, "they tint the output". The
+  0.4.6 text against a copy with sixteen particulars cut and each rule
+  stated bare; twelve briefs written on Fable under each arm, judged blind
+  by gpt-5.6-sol; the figures and sentence rules read back by three
+  readers on each arm. The tint is real and frequent: ten of twelve
+  ledgers on the full text carried a cut particular the brief did not call
+  for (the griever's first line on an apology, the bus stop on a headline,
+  the filled ledger line's values), none on the stripped text, and readers
+  asked to invent an example handed back the skill's own six times in six.
+  The cost was small and was repaired in wording: one reader capped mood
+  and person from the hum's new sentence, the name rule narrowed to the
+  ironic single name, the stripped arm guessed a mechanism outside
+  fiction, the litany's post line read as a licence. The judge's 8 to 4
+  for the full text is confounded with position (the first-shown piece won
+  8 of 12). One reply per cell, an unvalidated judge: pattern. The skill
+  proper holds no example; the references keep their reasons and may hold
+  an instance, since a writer reads them for the why, not as the page to
+  copy.
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not
