@@ -217,7 +217,12 @@ is unsourced.
   text (`runs/v0.3.0.md`) gave both characters an entrance with a spoken
   line, and copied the skill's own example sentence word for word into
   the story: a quoted example in a rule is reproduced whenever the brief
-  is near it, so 0.3.1 describes the pattern and quotes no line.
+  is near it, so 0.3.1 describes the pattern and quotes no line. Two
+  causes, both the bench's: the example was drawn from the test item
+  itself (a rule written from the chinchilla story, then tested on the
+  chinchilla brief), and the skill never said what an example is for.
+  0.3.3 says it once at the top: a quoted line shows a move and is spent.
+  Whether that line alone stops the copying is untested.
   The same story had its narrator step in to credit its own version
   ("the part they leave out when they tell it now, and the part I keep
   in"); Eli: "Narrators being a bit too self serving. Who is this for?
