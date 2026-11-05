@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.18
+version: 0.7.19
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -186,21 +186,13 @@ room already listening. The title is the
 hook's first word. A hook the piece pays late pays with interest, and a
 hook the piece leaves unpaid is the importance claim in its best clothes.
 
-## The question: a raise the reader can decline · curiosity 2
-
-There are three. The question the reader answers, with an answer the
-page has planted, is a payment they make, like the joke. It makes the
-reader think, which helps a strong claim and sinks a weak one, and most
-for the reader who was not going to think, the one who can leave. When
-the answer is one the reader already held, it is the clarification
-wearing a question mark. The question the page answers, now or a
-paragraph on, is the honest form: it raises, it pays, and it joins one
-matter to the next, and the objection asked and then refuted is the
-same figure. The question held to the end is the hook, and it draws
-hardest when the reader has a good guess and is not sure. What does the
-held one cost? Trust, when the page never pays it, which is why a title
-with a question mark is opened more and cited less. Ask only what the
-piece will pay or honestly cannot.
+A question is a raise the reader can decline. The one the page answers,
+now or a paragraph on, is honest; the one the reader answers with a
+planted line is a payment they make, and with a line they already held
+it is the clarification wearing a question mark; the one held to the end
+is the hook, which draws hardest when the answer is half in view and
+costs trust when it never comes. Ask only what the piece will pay or
+honestly cannot.
 
 ## The two positions: the end carries the weight · anticipation 3
 
