@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.13.
+Version 0.7.14.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -113,8 +113,8 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   entrance (a character introduced by the line a voice actor reads them
   from), figures (the recursive paragraph, the litany, the withheld word), accents
   (the swear, the dash), forms and transitions, the sentence rules the
-  model explains, the paper ledger, the workflow, the analyze mode, and the
-  do-nots.
+  model explains, the paper ledger, the workflow, the analyze mode, breaking a
+  rule, and the do-nots.
 - `references/wheel.md`: the mindset on the circle of fifths. The twelve
   positions with their bright and dark states, the math kept the same as
   notes (the fifth, the relative, the parallel, the tritone, the semitone

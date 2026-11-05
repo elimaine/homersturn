@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.13
+version: 0.7.14
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -146,8 +146,8 @@ one sentence at a time; 3 is the default; 5 is a reader who reads twice.
   trust times what is due. Trust is the reader's record of the page. A
   paid promise raises it, an unpaid one lowers it, a name or a number
   fills it, a stacked hedge drains it. A rule the page states is a promise
-  the page must keep, and a page that breaks its own rule pays for every
-  rule it gives.
+  the page must keep, and a page that breaks its own rule unpaid pays for
+  every rule it gives.
 - Ambiguity stays within one of strength.
 
 ## The glance: the page is read before a word is · shock 2
@@ -489,9 +489,24 @@ line is a raise and a payment, not the paragraph in other words.
    as the subject in the subject's place. A line that holds its parse
    back is a suspension when a later line pays it and a fault otherwise.
    Unearned weight. The figure humming. The dash that joins. The line
-   that is for the narrator. A rule the page states and breaks. In
+   that is for the narrator. A rule the page states and breaks without paying. In
    anything but fiction, a detail from outside the brief. An accidental
    reading that agrees with the ledger is a gift.
+
+## Breaking a rule · relish 3
+
+Every rule above is a promise the page made, and a reader who has taken
+the rules tastes the break before the sentence ends. That is its use.
+Rules kept everywhere are the same density by rule, and the reader stops
+hearing them as they stop hearing a steady beat. One broken, in view,
+wakes them, and a page that breaks a rule and pays it has shown it knew
+the rule, which earns more trust than keeping it would. So the break is
+a raise. It reads as a mistake until it is paid, and it is paid when the
+break is the content: the sentence that runs past the reader's strength
+because the speaker cannot stop, the "and then" of a mind too tired to
+join, the wall at the top that is the draw, the aphorism at the end that
+is the land, the dash where the thing does not arrive. One rule at a
+time, where the reader can see which, and paid within reach, mostly.
 
 ## Do not · anger 5
 

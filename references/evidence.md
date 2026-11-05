@@ -310,6 +310,8 @@ is unsourced.
 | The obscure moves more than the clear; infinity is the bound the eye cannot reach; suddenness | Burke, 1757 | the bound unreached is the one thing awe leaves unshown, and the sudden short line after the long is its rhythm | authority |
 | The epic opens on its subject in the first line, in the middle of things, with the Muse on one side of the poet and the room on the other | Homer's proems; the Cambridge commentary on Iliad VI | the hook for anything told to a room: the subject first, in medias res, the authority outside the self | authority; the oral case |
 
+| Break any of these rules sooner than say anything outright barbarous | Orwell, 1946, the sixth rule | a rule broken in view is a raise, read as a mistake until the break is the content; Eli, 2026-11-04: "breaking a rule gains a reader", since rules kept everywhere are the same density by rule | assertion, from the one list of rules everyone kept |
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not
