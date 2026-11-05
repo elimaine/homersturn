@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.4
+version: 0.7.5
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -479,16 +479,18 @@ Fortissimo, once on the page, so it is short.
 - No wall at the top. No page where every paragraph weighs the same.
 - Never point at the planted meaning. Never explain what the reader
   already holds.
-- No ending on atmosphere that pays nothing. No dense close on a beat
-  that owes nothing. No aphorism on every paragraph.
+- No ending on atmosphere, unless the atmosphere is the payment. No
+  dense close on a beat that owes nothing. No aphorism on every
+  paragraph.
 - No important character brought in on a name and a stage direction.
 - No "and then". No rhythm switched mid-scene. No refrain of a line
   told once. No frame used twice.
 - No rare word where the common one is right. No renaming a thing to
   dodge repeating it.
-- No lie stated as fact.
+- Never deceive by stating what is false.
 - No narrator serving the narrator.
-- No rule stated that the page does not keep.
+- No rule stated that the page does not keep. This page keeps every
+  damn one of its own.
 
 ## Where meaning goes · awe 1
 
