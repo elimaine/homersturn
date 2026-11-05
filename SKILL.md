@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.1
+version: 0.7.2
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -196,21 +196,24 @@ postscript is what is said after the ledger closes.
 ## Purpose: the reader who can leave · trust 2
 
 An email's reader has a reason to finish. A post's reader can leave at any line. What
-is owed, and when, follows from that. Name the purpose before writing and
-let it set the defaults. The full table is `references/purposes.md`.
-Prose to be heard keeps its repetitions, since a listener cannot go back.
+is owed, and when, follows from that, and so does the tint at the two
+ends: the mood the hook is made in, which is what draws the reader, and
+the mood the piece is owed to end in. The ledger owns the moves between.
+Name the purpose before writing and let it set the defaults. The full
+table is `references/purposes.md`. Prose to be heard keeps its
+repetitions, since a listener cannot go back.
 
-| Purpose | The reader | What is owed, and when | Dial |
-|---|---|---|---|
-| A scene, a story | chose to stay | promises carried across paragraphs, paid on their beat. Fragments earned by the scene | 4 to 5 |
-| An essay that reaches a conclusion | stays while the question holds | the question at the top, the turn earned, unannounced | 4 |
-| A post, a thread | can leave at every scroll | the claim in the first line, paid at every scroll, one loop open. A consequence at the end, in place of an aphorism | 2 to 3 |
-| A message, an email | has a reason to finish | one ask, once, in the first screen. Context after the ask. Bad news first | 1 to 2 |
-| A repo doc, a spec | came for one thing | the answer where they will look. One name for one thing. The smallest valid structure | 1 to 2 |
-| A reply from an agent | asked | the answer first, the last useful point last, preamble and recap left out | 2 to 3 |
-| A game turn | acted, and waits | every turn pays a fact, a cost, a reaction, a threat, a route. The actor's intent kept | 3 to 4 |
-| A prompt, a skill | writes next, and reads the whole page every time | the term before its use, the rule where it will be applied, the register it should produce, nothing that costs more than it rules | 1 to 2 |
-| An orchestrator's update | holds several repos and lanes in mind, and this page is the only map | what changed and where, first: repo, branch, committed or not, pushed or not, a worker's change named by its lane; then findings; then the ask. "No changes" is a line, not silence | 1 to 2 |
+| Purpose | The reader | What is owed, and when | Tint, hook → end | Dial |
+|---|---|---|---|---|
+| A scene, a story | chose to stay | promises carried across paragraphs, paid on their beat. Fragments earned by the scene | a bright field with one detail pressing, or the reverse → where the ledger leaves it | 4 to 5 |
+| An essay that reaches a conclusion | stays while the question holds | the question at the top, the turn earned, unannounced | level, one thing pressing → the claim's own mood | 4 |
+| A post, a thread | can leave at every scroll | the claim in the first line, paid at every scroll, one loop open. A consequence at the end, in place of an aphorism | an early lift → the consequence's mood | 2 to 3 |
+| A message, an email | has a reason to finish | one ask, once, in the first screen. Context after the ask. Bad news first | warm from the first line, bad news as one dark note → warm | 1 to 2 |
+| A repo doc, a spec | came for one thing | the answer where they will look. One name for one thing. The smallest valid structure | level throughout → level | 1 to 2 |
+| A reply from an agent | asked | the answer first, the last useful point last, preamble and recap left out | level, bad news as one dark note at the top → level | 2 to 3 |
+| A game turn | acted, and waits | every turn pays a fact, a cost, a reaction, a threat, a route. The actor's intent kept | the scene's, one thing pressing → what is different now | 3 to 4 |
+| A prompt, a skill | writes next, and reads the whole page every time | the term before its use, the rule where it will be applied, the register it should produce, nothing that costs more than it rules | level, keyed low → level | 1 to 2 |
+| An orchestrator's update | holds several repos and lanes in mind, and this page is the only map | what changed and where, first: repo, branch, committed or not, pushed or not, a worker's change named by its lane; then findings; then the ask. "No changes" is a line, not silence | level, the dark note where the change is → level | 1 to 2 |
 
 ## The three punches: land, refrain, release · surprise 3
 

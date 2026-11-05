@@ -187,6 +187,16 @@ def shape(text: str) -> int:
     dark, light = len(TILT_DARK.findall(body)), len(TILT_LIGHT.findall(body))
     n = max(1, len(body.split()))
     print(f"tilt, a rough lexicon: {1000 * dark / n:.0f} dark and {1000 * light / n:.0f} light per thousand words" + (" (the page leans dark: a prior the writer reads before the brief)" if dark > 1.5 * light and dark >= 10 else ""))
+    # The tilt as a curve: where the dark sits, since the purpose rules on the
+    # two ends (the hook's mood and the mood owed at the end), not the total.
+    curve = []
+    for r in prose:
+        d, l = len(TILT_DARK.findall(r[4])), len(TILT_LIGHT.findall(r[4]))
+        curve.append(0.5 if d + l == 0 else d / (d + l))
+    if len(curve) >= 2:
+        marks = "".join(SPARK[max(1, min(8, int(round(8 * v))))] for v in curve)
+        ends = f"first ¶ {curve[0]:.0%} dark, last ¶ {curve[-1]:.0%} dark"
+        print(f"tilt by paragraph, share dark (half is level): {marks}  {ends}")
     leads = tics(rows)
     if leads:
         print("\ntic leads (structural, each a lead to read by hand, not a finding):")
