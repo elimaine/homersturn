@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.2
+version: 0.7.3
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -429,25 +429,36 @@ them.
 
 ## Analyze a piece · curiosity 3
 
-Report pattern, quoted line, fix in a few words, with the score and the
-guess at authorship left off, since readers cannot say and neither can
-you.
+The writer who asked will read the first thing on the page and act on
+it, so the three changes that would pay the most come first, ranked,
+each tied to a quoted line with the fix in a few words. What follows is
+the evidence they rest on, and it is read second if at all. Pattern,
+quoted line, fix. The score and the guess at authorship are left off,
+since readers cannot say and neither can you. Name what fails and why;
+the piece is already on the page, so do not retell it, and a ledger
+line is a raise and a payment, not the paragraph in other words.
 
 1. The purpose and the mindset, from the evidence on the page. Read the
    state the page presents rather than the person's. Where the mindset
    was left open, offer two or three the piece could present, one line
-   each.
+   each. The tint at the two ends against the purpose's column: the
+   draw the hook makes and the mood the end is owed.
 2. The glance, with `--shape`: the first paragraph's share, the spread,
-   the longest block, repeated frames.
-3. The ledger, reconstructed. Per paragraph: raised, paid, carried. Then
-   what stayed unpaid, and what was paid without a raise.
+   the longest block, repeated frames. A heavy first paragraph that is
+   the draw, dark at the top and lifted after, is the tint column
+   kept, and the glance rule bends for it in the genres whose reader
+   chose to stay.
+3. The ledger, reconstructed, one line per paragraph: what was raised,
+   what was paid, what is carried. Then what stayed unpaid, and what was
+   paid without a raise.
 4. The seams: therefore, but, or and then. The repeated noun or a faked
    connective. The state per paragraph and the move it made on the wheel,
    with its cause.
-5. Per paragraph: the band; what the stress position was spent on;
-   whether a held question moved; the feeling and what set it; which
-   planted line it carried; the sentences that exceed the reader's
-   strength, with the split.
+5. Per paragraph, only where something is wrong: the band; what the
+   stress position was spent on; whether a held question moved; the
+   feeling and what set it; which planted line it carried; the
+   sentences that exceed the reader's strength, with the split. A
+   paragraph with nothing wrong gets no line.
 6. The cast: each named character's entrance, the line an actor would
    read them from. Later lines that could be anyone's. A line whose
    speaker has to be worked out. Two characters in one rhythm. A walk-on
@@ -455,12 +466,10 @@ you.
 7. Accidental readings, including the garden path, an opening phrase read
    as the subject in the subject's place. A line that holds its parse
    back is a suspension when a later line pays it and a fault otherwise.
-   Unearned weight. The
-   figure humming. The dash that joins. The line that is for the
-   narrator. A rule the page states and breaks. In anything but fiction, a
-   detail from outside the brief. An accidental reading that agrees
-   with the ledger is a gift.
-8. The three changes that would pay the most, ranked, each tied to a line.
+   Unearned weight. The figure humming. The dash that joins. The line
+   that is for the narrator. A rule the page states and breaks. In
+   anything but fiction, a detail from outside the brief. An accidental
+   reading that agrees with the ledger is a gift.
 
 ## Do not · anger 1
 
