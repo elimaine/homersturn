@@ -252,7 +252,7 @@ anything else it has raised. Unpaid, it was the fake-profound kicker.
 
 The unearned punch has seven names. The importance claim. The
 fake-profound kicker. The recap. The colon before a reveal. The denied
-reading nobody held. The three by reflex. The rhetorical question. Judge
+reading nobody held. The three by reflex. The rhetorical question? Judge
 each against the ledger and not its shape: a superlative or a question
 is a raise when a later line pays it, so look forward before firing. A joke pays the same way. The reader completes something true
 and absurd at once, and the line that let them is a payment.
