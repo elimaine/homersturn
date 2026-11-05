@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.6
+version: 0.7.7
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -227,6 +227,11 @@ A punch is a short last line that pays. One. Not two.
    shadow is paid by an act that shows it. Name it and the shadow is
    spent.
 3. Release: what changed, in under eight words. Stop.
+
+One punch, and it can pay many. Several debts paid by one plain act is
+the largest punch there is, the recapitulation in a line: the refill is
+the sum of what each debt spent, and the act stays one and short. Plant
+toward it. The one thing it cannot do is pay what was never raised.
 
 The unearned punch has seven names. The importance claim. The
 fake-profound kicker. The recap. The colon before a reveal. The denied

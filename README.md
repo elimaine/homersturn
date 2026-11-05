@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.6.
+Version 0.7.7.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -181,8 +181,9 @@ full] [pay: the height] She left the hook where it was.
 
 What the dials did. Ambiguity 3 is a second sense where something is
 owed, paid within the paragraph: the seed half full and the height of the
-hook are both raised, and the gloves pay them, with one debt held to the
-last line, the hook left where it is. The mindset is tenderness at 2, so
+hook are both raised, and the gloves pay them both at once, which is
+the punch that pays many, with one debt held to the last line, the hook
+left where it is. The mindset is tenderness at 2, so
 the state is not named and the details are the ones tenderness picks,
 the reaching and the hand on the post, at a volume where a reader can
 still miss it. Reader strength 3 holds a seventy-word paragraph with one
