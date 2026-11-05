@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.12.
+Version 0.7.13.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -68,9 +68,11 @@ ways it earns its keep:
   with the third left to infer. Ambiguity may not exceed it by more than
   one, and it drains as the page goes.
 - **Analyze a piece.** Ask it why a draft feels dense, flat or hard to
-  parse and it names the genre from the evidence, reads the shape of the
-  page, reconstructs the ledger of what was promised and paid, and reports
-  pattern, line, fix. No score, no guess at who wrote it.
+  parse and it leads with the three changes that would pay the most,
+  each tied to a line with the fix in a few words, then the evidence
+  under them: the genre read from the page, its shape, the ledger of
+  what was promised and paid. No score, no guess at who wrote it, and
+  no retelling of the piece.
 - **Talk to an orchestrator in it.** Agent output is a chore to read.
   With this on, a model can pack layered meaning into few words, so you get
   a better sense of what it did, and you can talk back and forth in poetic
@@ -79,8 +81,11 @@ ways it earns its keep:
   word is read, and a dense first paragraph says "don't". `--shape` prints
   what the glance sees.
 - **Read the skill as its own example.** Each section of `SKILL.md` is
-  written in one key of the wheel, named under its heading, so the rule
-  is told and the key is shown on the same page.
+  written in one key of the wheel, named at the end of its heading, so
+  the rule is told and the key is shown on the same page. Most sit at
+  degree 1 to 3, since a reference reads at piano; the three punches are
+  at 4, and the do-nots are the one section at 5, the shortest, with the
+  page's one swear on its last line.
 
 It is a few days old. Not every machine tic is squashed yet, and the
 genre rows could use more detail for specific kinds of text. If you notice
@@ -100,9 +105,11 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
 
 ## What is in it
 
-- `SKILL.md`: the method. The brief and the dial, the model (manifold,
-  ledger, rhythm, tempo), the glance, the topic and stress positions, the
-  join, purpose and genre, the three punches (land, refrain, release), the
+- `SKILL.md`: the method. The brief and the dials, the model (manifold,
+  ledger, rhythm, tempo), the glance, the hook, the topic and stress
+  positions, the join, purpose and genre with the tint each genre owes at
+  its two ends, the three punches (land, refrain, release), the punch
+  that pays many debts at once and the cut that raises instead, the
   entrance (a character introduced by the line a voice actor reads them
   from), figures (the recursive paragraph, the litany, the withheld word), accents
   (the swear, the dash), forms and transitions, the sentence rules the
@@ -127,8 +134,10 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   stress position on a quiet line while something was due. `--shape` needs
   no marks: it prints what the page says before a word is read, and the
   machine's tics as structural leads (the dash that joins, not X but Y,
-  the tricolon, the colon before a reveal, the short copula ending), each
-  to be read by hand. `--list`
+  the tricolon, the colon before a reveal, the short copula ending, the
+  state named in its own word), each to be read by hand, and the page's
+  tilt, dark against light by a rough lexicon, as a total and as a curve
+  by paragraph. `--list`
   prints the skill's bits and moves, one line each, read from `SKILL.md`.
   `--wheel` prints the keys and the moves with their cost, and a marked
   draft's state turns are priced on it.
