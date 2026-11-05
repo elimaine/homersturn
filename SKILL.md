@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.15
+version: 0.7.16
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -19,7 +19,8 @@ turn in a session. Homer turning in his grave.
 Each section below is written in one key of the wheel, named at the end
 of its heading. The rule is told and the key is shown, so the page is its
 own example. Most sit at degree 1 to 3, since a reference reads at piano;
-one is at 5, and it is the shortest.
+one is at 5, and it is the shortest. A few rules are broken on the page,
+each where the break shows the rule better than keeping it would.
 
 References, read when needed: `manifold-and-ledger.md` for why,
 `mindset.md` for what a state does to the sentence, `wheel.md` for the
@@ -314,7 +315,7 @@ written down and then looked into, is the ledger used as a tool.
   belongs to, and followed by silence, which is the whole of its
   explanation.
 - The dash is a rest, the one mark that is a silence: at most one in a
-  paragraph, only where a sentence breaks off before the thing arrives.
+  paragraph, only where a sentence breaks off before the —
   The dash that joins two clauses that should have been two sentences is
   the mark of machine prose. The semicolon, the comma-and and the
   participial tail do the same joining and hum the same way. The
@@ -509,9 +510,12 @@ paid, and it is paid when the break is the content: the sentence that
 runs past the reader's strength because the speaker cannot stop, the
 "and then" of a mind too tired to join, the wall at the top that is the
 draw, the aphorism at the end that is the land, the dash where the thing
-does not arrive. One rule at a time, late, after the page has kept it in
-view, where the reader can see which and can tell it was chosen, and
-paid within reach, mostly.
+does not arrive. This page is a skill, and its own table keys a skill
+low and level; it is keyed round the whole wheel and up to five,
+because the keys are what it teaches, and that is the break paid by its
+content. One rule at a time, late, after the page has kept it in view,
+where the reader can see which and can tell it was chosen, and paid
+within reach, mostly.
 
 ## Do not · anger 5
 
