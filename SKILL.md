@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.19
+version: 0.7.20
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -273,7 +273,9 @@ position with nothing in it, and the punch pays with a line that re-reads
 the setup, so the reader completes something true and absurd at once,
 and the completing is the laugh. A joke is not a jolt: the violation is
 harmless, both readings are held at once, and surprise alone does
-nothing. The funniest word
+nothing. A swear in a joke is the violation, and the mild one is
+funnier than the strong, since the strong one is not harmless. The
+funniest word
 goes last, since anything after it is the recap. The pause runs longer
 the bigger the turn, and on the page the pause is the paragraph break.
 The deadpan is felt above shown, the violation told at ease's volume. A
@@ -324,10 +326,18 @@ Explained, a joke is dead. Here is why.
   more, where the payment is the largest debt on the page. Unpaid, it is
   the fake-profound kicker in another costume, and a borrowed oddity is a
   cliché.
-- The swear is a sforzando, one hit on the line that lands. It is earned
-  only by a shock the reader just felt, in the mouth of the person it
-  belongs to, and followed by silence, which is the whole of its
-  explanation.
+- The swear is a sforzando, one hit on the line that lands, and it is
+  the crack: the word where shown catches felt, in any key, loudest
+  where the degree around it is low. It is earned by a shock the reader
+  just felt, in the mouth of the person it belongs to, and followed by
+  silence, since the words on either side of a swear are not kept and
+  the swear is. The euphemism, the asterisk and the minced oath are a
+  different and weaker word. The slur is not a swear: it offends the
+  reader and not the target.
+- The swear as texture is a register and not a hit: a voice that swears
+  often, as intimacy, as ease, as the floor of a trade. It spends the
+  sforzando. A page that swears as texture has no jolt left, and a page
+  that wants the jolt holds the texture back until the line.
 - The dash is a rest, the one mark that is a silence: at most one in a
   paragraph, only where a sentence breaks off before the —
   The dash that joins two clauses that should have been two sentences is
@@ -548,7 +558,8 @@ A cold note. Each of these was done to a reader, by choice.
   rename a thing to dodge repeating it.
 - Do not deceive by stating what is false.
 - Do not let the narrator serve the narrator.
-- Do not state a rule the page does not keep. This page keeps its own.
+- Do not state a rule the page does not keep. This page keeps every
+  fucking one of its own.
 
 ## Where meaning goes · awe 1
 

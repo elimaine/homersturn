@@ -67,8 +67,10 @@ The wheel adds only where they stand.
   "+7": the jolt that is dissonant on purpose. The twist, the swear.
   Once a piece, late.
 - Dynamics are the degree. 1 is piano, 5 is fortissimo. The swear is
-  the sforzando. No page holds 5 for long: the swear is one hit,
-  and a section at 5 is short and the only one at that volume. The crescendo figure is the crescendo. A jump of three
+  the sforzando, a hit at any degree and loudest where the degree is
+  low: the cold note that cracks. No page holds 5 for long: the swear
+  is one hit, and a section at 5 is short and the only one at that
+  volume. The crescendo figure is the crescendo. A jump of three
   with no cause is a subito, and a subito is melodrama unless the ledger
   paid for it.
 - Felt and shown. The felt state is the key and the shown is the dynamic.

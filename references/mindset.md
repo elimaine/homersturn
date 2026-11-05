@@ -33,6 +33,14 @@ tension. Shown above felt is melodrama, the unearned punch. So the dial
 has two values, and the difference between them is a signal the reader
 reads. When the writer gives one number, it is the shown one.
 
+The swear is the crack: the one word where shown jumps to felt, in any
+key. It is loudest in a cold note, where the reader has carried the
+withheld state as debt and the swear pays it in one hit; at 5 it is one
+more slammed door. Most swearing is not anger at all. As texture, a
+voice that swears often, it is a register of intimacy, ease or a
+trade's floor, and a voice that has it as texture has spent it as a
+crack.
+
 ## The trajectory
 
 A fixed state is a setting. A shifting one is the story. The state follows
@@ -66,7 +74,7 @@ licenses, and to the tempos it leaves possible.
 
 | State | At 1 | At 5 | Attention | Sentence | Accents | Tempo |
 |---|---|---|---|---|---|---|
-| Anger | a cold note; every fact in order | the door slammed; four-word sentences | the one thing; the other person's hands, mouth, choice | short, declarative, no qualifiers | the swear, once; the land | scene; summary impossible |
+| Anger | a cold note; every fact in order | the door slammed; four-word sentences | the one thing; the other person's hands, mouth, choice | short, declarative, no qualifiers | the land; the swear where the note cracks | scene; summary impossible |
 | Fear | one detail wrong, noted in passing | nothing but exits and sounds | thresholds, distances, what is behind | staccato, fragments, the dash as a break | the dash; the withheld thing | scene only; time dilates |
 | Curiosity | one question held, in passing | every door opened as it is reached | thresholds, what is behind, the next room | moving, each sentence a step | the question, paid; the suspension | scene, forward |
 | Tenderness | one small thing named plainly | the whole page is small things | hands, what someone did without being asked, what is unsaid between two people | a line that sings a little; joined clauses | the refrain | pause; scene at ease |

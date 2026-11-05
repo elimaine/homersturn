@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.19.
+Version 0.7.20.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -85,7 +85,7 @@ ways it earns its keep:
   the rule is told and the key is shown on the same page. Most sit at
   degree 1 to 3, since a reference reads at piano; the three punches are
   the one section at 4, and the do-nots are a cold note at anger 2, the
-  shortest.
+  shortest, which cracks on its last line with the page's one swear.
 
 It is a few days old. Not every machine tic is squashed yet, and the
 genre rows could use more detail for specific kinds of text. If you notice

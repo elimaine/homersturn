@@ -326,6 +326,43 @@ is unsourced.
 | We laugh at the mechanical encrusted on the living | Bergson, 1900 | the same density everywhere is the mechanical where the living should be; the humming page is the joke the machine tells without knowing | authority |
 | The funniest word last; anything after it dilutes the laugh | the craft, every joke-writing guide | the stress position, applied to the punch | assertion, universal in the trade |
 
+## The swear
+
+Read on the web, 2026-11-05, for 0.7.20; the Lingua review and Norrick's
+fiction paper were blocked at the full text and rest on their abstracts.
+What the rows add up to: the swear's force is the word form and it is
+conditioned; it takes attention from its neighbours; it habituates; it is
+read as the felt state showing; and most of it is not anger.
+
+| Tip | Source | The model's account | Evidence |
+|---|---|---|---|
+| Most swearing is conversational, "not highly emotional, confrontational, rude or aggressive"; propositional swearing is planned, nonpropositional is reflex | Jay and Janschewitz, 2008, J Politeness Research | the swear as texture is a register, not a hit; on the page every swear is propositional, so the reader reads it as a choice, the writer's in narration and the character's in dialogue | authority (field counts summarised, no proportion given) |
+| Taboo words are 0.5 to 0.7% of spoken words, 80 to 90 a day; ten words are 80% of them; written counts "grossly underestimate"; "Fuck you! represents a greater level of anger than crap!" | Jay, 2009, Perspectives on Psychological Science | the swear is common in speech and rare on the page, so the page spends more by using it; the words are graded, so the mild one is a smaller hit | measured (corpus rates), authority (the grading) |
+| Five kinds: descriptive, idiomatic, abusive, emphatic, cathartic | Pinker, 2007, The Stuff of Thought ch. 7 | only two belong to anger; the mindset table had tied the swear to one key | authority |
+| "fuck" between workmates during complaints and refusals is a bond, not an attack | Daly, Holmes, Newton and Stubbe, 2004, J Pragmatics | the texture register: intimacy, ease, the trade's floor | authority (35 hours of recordings, qualitative) |
+| Fiction uses the swear to characterise and to show emotion, set apart from non-swearing speech; told stories use it to take the floor, evaluate, and mark the climax and the end | Norrick, 2012, Narrative Inquiry | the entrance (a character is who swears and who does not) and the stress position (the climax and the end are where speech puts it) | authority; abstract only |
+| A swear read aloud raises skin conductance more than its euphemism ("the F-word"), which raises it more than a neutral word | Bowers and Pleydell-Pearce, 2011, PLoS ONE | the force is the word form, conditioned; the euphemism and the asterisk are a weaker word; the common word for the common thing at its hardest | measured; read aloud, silent reading untested |
+| Invented swears ("fouch", "twizpipe") are rated funny and emotional and give none of the pain relief the real word gives (+32% threshold, +33% tolerance) | Stephens and Robertson, 2020, Frontiers in Psychology | a swear-shaped word is not a swear; the hit needs the conditioned word | measured |
+| Taboo words and childhood reprimands arouse more in a first language than a second; the force of a swear falls with the order the language was learned | Harris, Ayçiçeği and Gleason, 2003, Applied Psycholinguistics; Dewaele, 2004, JMMD | conditioning again; a borrowed oath is a weaker word, and the reader's conditioning is the one that counts | measured (n = 32; survey n = 1039) |
+| Taboo words are recalled better than neutral and emotional words (48% to 35% to 24%) | Jay, Caldwell-Harris and King, 2008, Am J Psychology | the swear is kept; what it is next to is what pays | measured |
+| A taboo word impairs recall of the neutral words just before and after it at 170 ms a word; it slows colour naming and is recalled better afterward | MacKay et al., 2004, Memory and Cognition; MacKay and Ahmetzanov, 2005, Psych Science | why the swear is followed by silence: the words on either side are not kept, so it sits at the stress position with white space after, where nothing is lost | measured (rapid presentation; reading speed untested) |
+| Frequent swearers get less pain relief from swearing | Stephens and Umland, 2011, J Pain | habituation: a voice that swears as texture has spent the sforzando | measured |
+| Substitutes and bleeps are less acceptable when frequent; context decides acceptability | Ofcom and Ipsos, 2016, 2021 | the frequency rule holds for the euphemism too | measured (attitude survey) |
+| Shocking content raises attention and memory; a decade on it shocks less | Dahl, Frankenberger and Manchanda, 2003, J Advertising Research; later Generation Y studies | the norm violation is the hit, and the norm moves under it | measured (students) |
+| One "damn" raised perceived intensity and persuasion; credibility unchanged | Scherer and Sagarin, 2006, Social Influence (n = 88) | the swear is read as the felt state showing, so it carries intensity without costing trust, once | measured, small, pro-attitudinal topic |
+| Testimonies with swears judged more credible; swears in political blogs improved the candidate through informality; swears in product reviews rated more helpful, carrying the reviewer's feeling and the product's attribute | Rassin and van der Heijden, 2005, Psych Crime and Law; Cavazza and Guidetti, 2014, JLSP; Lafreniere, Moore and Fisher, 2022, J Marketing Research | the crack reads as sincerity: shown catching felt, control slipping in view | measured, vignettes and field data |
+| Profanity correlates with honesty | Feldman, Lian, Kosinski and Stillwell, 2017, SPPS; contested by de Vries et al., 2018 (honest people swear less, r = −.09) | not relied on; the sincerity effect above is on the reader's side, which is where the skill lives | contested |
+| Casual profanity in a vignette lowers the impression of the person | DeFrank and Kahlbaugh, 2019, JLSP | the texture register costs standing; the swear in a message or an essay is spent at the price of the teller's judgement, like the joke | measured |
+| Mild profanity in a cartoon caption is rated funnier than none or strong | Sewell, 1984, and a 2010s replication | the swear in a joke is the violation, and the strong one is not benign | measured, small |
+| Translators believe a written swear is stronger than a spoken one (93% in one survey); audiences did not rate subtitled swears stronger than dubbed | Hjort, 2009; Briechle and Eppler, 2019; a 2024 pilot | whether the page amplifies the swear is open; the skill does not assume it | the belief measured, the effect not found |
+| Swear words across languages avoid the approximants (l, r, w, y); the minced forms add them | Lev-Ari and McKay, 2022, Psychonomic Bulletin and Review | sound, which is Poet's; a lead that the softened word is softened in the mouth as well as the meaning | measured, cross-linguistic |
+| The character's word, not the writer's: the aunt says "Oh sugar," and the deal with the reader is real speech | King, 2000, On Writing | in the mouth of the person it belongs to | authority |
+| "Under certain circumstances, profanity provides a relief denied even to prayer" | Twain, in Paine, 1912 | the cathartic kind, the release | authority (attribution secondhand) |
+| Swearing that fails to offend its target is worthless; its decline followed the loss of belief in what it invoked | Graves, 1927, Lars Porsena | the hit is on a target; the taboo moves, so what hits moves | authority |
+| The taboo moves: oaths, then obscenities, then slurs | Mohr, 2013, Holy Sh*t | the slur is where the taboo now sits, and it offends the reader rather than the target, so it is not the skill's swear | authority |
+| Less is more, motivated by character; if you omit profanity, omit it completely | Godwin; Card, on SF | the texture register is a setting held, like a form; half-held it is a seam | authority |
+| One well-placed swear lands like a punch; constant swearing is background noise; the character who never swears until they do | craft blogs, several | the sforzando and the texture, said in the trade's words | assertion |
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not
