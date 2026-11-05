@@ -33,7 +33,7 @@ MARK = re.compile(r"\[(raise|pay|plant|join|state):\s*(.+?)\]")
 WHEEL = [("ease", "tiredness"), ("tenderness", "anger"), ("trust", "suspicion"),
          ("conviction", "insistence"), ("pride", "shame"), ("curiosity", "fear"),
          ("anticipation", "dread"), ("surprise", "shock"), ("awe", "terror"),
-         ("joy", "sorrow"), ("abandon", "maudlin"), ("relish", "disgust")]
+         ("joy", "sorrow"), ("ekstasis", "maudlin"), ("relish", "disgust")]
 ALIASES = {"drunkenness": (11, None), "drink": (11, None), "sadness": (10, "dark"),
            "grief": (10, "dark"), "rage": (2, "dark"), "calm": (1, "bright"),
            "wonder": (9, "bright"), "menace": (7, "dark"), "contempt": (4, "dark")}
