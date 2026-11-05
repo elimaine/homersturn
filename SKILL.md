@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.5
+version: 0.7.6
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -216,38 +216,38 @@ repetitions, since a listener cannot go back.
 | A prompt, a skill | writes next, and reads the whole page every time | the term before its use, the rule where it will be applied, the register it should produce, nothing that costs more than it rules | level, keyed low → level | 1 to 2 |
 | An orchestrator's update | holds several repos and lanes in mind, and this page is the only map | what changed and where, first: repo, branch, committed or not, pushed or not, a worker's change named by its lane; then findings; then the ask. "No changes" is a line, not silence | level, the dark note where the change is → level | 1 to 2 |
 
-## The three punches: land, refrain, release · surprise 3
+## The three punches: land, refrain, release · surprise 4
 
-A punch is a short last line that pays. Pick one, and one only.
+A punch is a short last line that pays. One. Not two.
 
 1. Land: the consequence, said plainly, in few words.
-2. Refrain: a line already told comes back, word for word or nearly, its
-   sense shifted. Only after it has been planted at least twice, and
-   paying the largest debt rather than the handiest plant. A thing kept
-   in shadow is paid by an action that shows it, and a line that names it
-   spends the shadow.
-3. Release: what changed, in under eight words, and stop.
+2. Refrain: a line already told comes back, word for word or nearly, and
+   its sense has turned. Planted twice first, never once. It pays the
+   largest debt on the page, not the handiest plant. A thing kept in
+   shadow is paid by an act that shows it. Name it and the shadow is
+   spent.
+3. Release: what changed, in under eight words. Stop.
 
-The unearned punch has names: the importance claim, the fake-profound
-kicker, the recap, the colon before a reveal, the denied reading nobody
-held, the three by reflex, the rhetorical question. Each is judged against
-the ledger rather than by its shape. A superlative or a question can be
-load-bearing when a later line pays it, so look forward before firing. A
-joke pays the same way: the reader completes something true and absurd at
-once, and the line that let them is a payment.
+The unearned punch has seven names. The importance claim. The
+fake-profound kicker. The recap. The colon before a reveal. The denied
+reading nobody held. The three by reflex. The rhetorical question. Judge
+each against the ledger and not its shape: a superlative or a question
+is load-bearing when a later line pays it, so look forward before
+firing. A joke pays the same way. The reader completes something true
+and absurd at once, and the line that let them is a payment.
 
 Deception is a reading the writer opens knowing it is wrong, paid by a
 reveal that re-reads the page. The reader completes the false thing, so
 the page leaves it unsaid and the clue in view. The parallel is the
-honest way to open a false reading of a person: the shared beats read as
-one pairing until the unmirrored beat re-reads them as another. The
-suspension is deception's partner: deception gives the reader a wrong
-reading to hold, the suspension a line whose reading is still to come,
-and both are paid by a re-read. Pay the trust back with interest, so twists are rare and late
-ones larger and fewer. The question is a raise the reader can decline:
-ask it only when the piece will pay it or honestly cannot. The writer's
-own unanswered question, written down and then looked into, is the ledger
-used as a tool.
+honest way to open a false reading of a person: two people share a beat
+and read as one pairing, until the unmirrored beat re-reads them as
+another. The suspension is deception's partner. Deception hands the
+reader a wrong reading to hold. The suspension hands a line whose
+reading is still to come. A re-read pays both. Pay the trust back with
+interest, so twists are rare and the late ones larger and fewer. The
+question is a raise the reader can decline: ask it only when the piece
+will pay it or honestly cannot. The writer's own unanswered question,
+written down and then looked into, is the ledger used as a tool.
 
 ## The figures and the accents: each at most twice a page · tenderness 2
 
