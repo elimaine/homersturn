@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.18
+version: 0.7.19
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -19,7 +19,7 @@ turn in a session. Homer turning in his grave.
 Each section below is written in one key of the wheel, named at the end
 of its heading. The rule is told and the key is shown, so the page is its
 own example. Most sit at degree 1 to 3, since a reference reads at piano;
-one is at 5, and it is the shortest. A few rules are broken on the page,
+the punches are the one section at 4. A few rules are broken on the page,
 each where the break shows the rule better than keeping it would.
 
 References, read when needed: `manifold-and-ledger.md` for why,
@@ -525,29 +525,30 @@ runs past the reader's strength because the speaker cannot stop, the
 "and then" of a mind too tired to join, the wall at the top that is the
 draw, the aphorism at the end that is the land, the dash where the thing
 does not arrive. This page is a skill, which its own table keys low
-and level, and it is keyed round the whole wheel up to five because the
+and level, and it is keyed round the whole wheel up to four because the
 keys are what it teaches: the break paid by its content. One rule at a time, late, after the page has kept it in view,
 where the reader can see which and can tell it was chosen, and paid
 within reach, mostly.
 
-## Do not · anger 5
+## Do not · anger 2
 
-Fortissimo, once on the page, so it is short.
+A cold note. Each of these was done to a reader, by choice.
 
-- No wall at the top. No page where every paragraph weighs the same.
-- Never point at the planted meaning. Never explain what the reader
+- Do not open on a wall. Do not weigh every paragraph the same.
+- Do not point at a planted meaning. Do not explain what the reader
   already holds.
-- No ending on atmosphere that pays nothing. No dense close on a beat
-  that owes nothing. No aphorism on every paragraph.
-- No important character brought in on a name and a stage direction.
-- No "and then". No rhythm switched mid-scene. No refrain of a line
-  told once. No frame used twice but as the refrain.
-- No rare word where the common one is right. No renaming a thing to
-  dodge repeating it.
-- Never deceive by stating what is false.
-- No narrator serving the narrator.
-- No rule stated that the page does not keep. This page keeps every
-  fucking one of its own.
+- Do not end on atmosphere that pays nothing, or dense on a beat that
+  owes nothing, or on an aphorism every time.
+- Do not bring an important character in on a name and a stage
+  direction.
+- Do not join with "and then". Do not switch rhythm mid-scene. Do not
+  refrain a line told once. Do not use a frame twice unless it is the
+  refrain.
+- Do not reach for the rare word when the common one is right. Do not
+  rename a thing to dodge repeating it.
+- Do not deceive by stating what is false.
+- Do not let the narrator serve the narrator.
+- Do not state a rule the page does not keep. This page keeps its own.
 
 ## Where meaning goes · awe 1
 

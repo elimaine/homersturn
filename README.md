@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.18.
+Version 0.7.19.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -84,12 +84,60 @@ ways it earns its keep:
   written in one key of the wheel, named at the end of its heading, so
   the rule is told and the key is shown on the same page. Most sit at
   degree 1 to 3, since a reference reads at piano; the three punches are
-  at 4, and the do-nots are the one section at 5, the shortest, with the
-  page's one swear on its last line.
+  the one section at 4, and the do-nots are a cold note at anger 2, the
+  shortest.
 
 It is a few days old. Not every machine tic is squashed yet, and the
 genre rows could use more detail for specific kinds of text. If you notice
 one, open an issue or a pull request.
+
+## Limitations
+
+Making this made me appreciate language, and the brain that carries it.
+Writing is the window to the soul: meaning manifolds manifested like
+music.
+
+For a computer it is a nightmare of cost. It is like water. Enumerating
+nearly every meaning across one sentence of verse costs over five dollars
+in tokens, with the outside context held fixed, and still some are
+missed. That is one drop, simulated as it splashes. Across a paragraph
+the cost is uneconomical. Across a page, nearly impossible. Across a
+book, it is every wave in the ocean.
+
+Where meaning is flat, models do surprisingly well, which is how they
+fooled us for so long. There is a gradient. If one plain unambiguous
+meaning is the surface, a model that is focused and resourced can dig a
+little below it. So it is not unsolvable, and the present technology
+only scratches the surface.
+
+Reviewing is easier than writing. A model can point at an issue and
+propose a change. It still misses a great deal, and some of it it cannot
+see until it is pointed out.
+
+Every word opens a many-dimensional space, and what it does there
+depends on much that stands around it.
+
+Homer is turning in his grave over what some call writing, the way you
+might call the hum of a machine a song. To the right ears it may be one.
+It is not a very good one.
+
+Good writing is powerful, and dangerous, more now than ever. This skill
+will not turn your model into Joyce. I hope it helps you, as a writer,
+see better what you are doing, and refines the slop until it is a little
+more palatable.
+
+For all that, there is something to be gained by not dismissing them.
+Like a junior developer's, what a model proposes should be taken
+seriously and not taken as gospel. A model, for all its limits, is an
+incredible many-dimensional manifold of its own.
+
+The more I learned, the more foolish it looked to try to solve writing.
+The effort was not wasted. There is a sweet spot in what we ask, and I
+have not found it, and I expect it moves with every model. But there is
+use in giving your agent permission to speak as a poet. Before people
+and machines meld, I think the greatest among us will speak back and
+forth with the machine in what reads as poetry. This skill is the start
+of that unlock.
 
 ## Install
 
