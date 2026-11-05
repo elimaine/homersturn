@@ -54,6 +54,7 @@ Weisberg, "Bot or not", Judgment and Decision Making 2026.
 | Every paragraph the same length, each opening on its topic sentence, is a machine tell | W clarity | the template is the hum | assertion |
 | The repeated-noun link beats every connective | W structure | the seam is a known-new join; it never lies about the relation | assertion |
 | Never end a sentence on a qualifier | W clarity | the stress position spent on a hedge | assertion |
+| Avoid qualifiers: rather, very, little, pretty, the leeches that infest the pond of prose | Strunk, 1918 | no hedge on the claim; the measured version is Blankenship and Holtgraves | assertion, since measured |
 | Examples after the claim; definitions one paragraph before use | W structure | a detail before its promise has nothing to carry it; pay just before it is due | assertion |
 | Restating the prompt, announcing the structure, a dictionary definition, a rhetorical question: banned openings | W structure, clarity; N; Q | a sentence about the piece raises nothing in the piece; a question raises a promise the reader can decline | assertion |
 | The opening's job is to make the second sentence unavoidable; written last | W structure, posts | the opening's only debt is to the next line | assertion |

@@ -40,8 +40,9 @@ them (the long form, with sources, is `references/evidence.md`):
   character and the narrator at once, and the distance between them is a
   second sense the skill otherwise assumes away. A character's misplaced
   stress is a raise the writer pays on the next line.
-- No hedge on the claim. A hedge on the claim lowers the claim and its
-  source together (Blankenship and Holtgraves, 2005). Where a figure is
+- No hedge on the claim. Strunk: avoid qualifiers, the leeches that infest
+  the pond of prose. A hedge on the claim lowers the claim and its source
+  together (Blankenship and Holtgraves, 2005). Where a figure is
   uncertain the uncertainty is a fact, said once as a range or a
   condition, which costs little and pays as a number does; a second
   hedge on the same figure opens nothing new, and an adverb ("roughly",
