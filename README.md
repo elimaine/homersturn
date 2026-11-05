@@ -2,7 +2,7 @@
 
 Version 0.5.6.
 
-**Writing is meaning manifolds presented like music.**
+**Writing is meaning manifolds manifested like music.**
 
 A writing skill for Claude Code, Codex, and any agent that reads a
 `SKILL.md`.
