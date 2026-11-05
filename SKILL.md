@@ -292,7 +292,7 @@ thinks of the teller's judgement, so an essay spends one where the claim
 can afford it and a message spends none. We laugh at the mechanical
 where the living should be, which is the same density everywhere, so a
 page that hums is a joke the machine does not know it is telling.
-Explained, a joke is dead. Why?
+Explained, a joke is dead. Here is why.
 
 ## The figures and the accents: each at most twice a page · tenderness 2
 
