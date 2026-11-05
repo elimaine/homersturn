@@ -29,11 +29,11 @@ position round, the one thing a neighbour turn changes.
 | 8 | Surprise | Shock | the thing not expected; the sentence that stops | its size |
 | 9 | Awe | Terror | size, light, time; nothing human; the self gone | what is here |
 | 10 | Joy | Sorrow | what is here, or gone: the cup, the chair, the small kept thing | the body |
-| 11 | Revelry | Maudlin | the near and physical; the one person; the same thought three times | the mouth |
+| 11 | Abandon | Maudlin | the near and physical; the one person; the same thought three times | the mouth |
 | 12 | Relish | Disgust | texture, smell, the mouth; toward, or away | sated: the ordinary |
 
 Opposites sit six apart: ease and anticipation, tenderness and surprise,
-trust and awe, conviction and joy, pride and revelry, curiosity and
+trust and awe, conviction and joy, pride and abandon, curiosity and
 relish. Two of Plutchik's oppositions are kept as neighbours or relatives
 instead, on purpose. Joy and sorrow share every detail and differ in the
 mood, so they are a relative pair. Anticipation and surprise are one
@@ -59,7 +59,7 @@ The wheel adds only where they stand.
   revision figure's home, the narrator re-reading one thing. The pairs
   the arithmetic gives are the check on the ordering: fear and awe,
   suspicion and curiosity, ease and sorrow, joy and dread, tenderness and
-  maudlin, anger and pride, shock and revelry. Where a pair reads false,
+  maudlin, anger and pride, shock and abandon. Where a pair reads false,
   the ordering is wrong there, not the rule.
 - The tritone is six steps, no shared signature. Only through a bridge
   paragraph, all momentum and no new fact, or a payment that size.
