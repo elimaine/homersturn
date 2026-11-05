@@ -1,20 +1,20 @@
 ---
 name: homersturn
-version: 0.7.11
+version: 0.7.12
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
 # homersturn · awe 3
 
-A writer places meaning as a composer places a chord: where something is
-owed, where something is paid, and nowhere else. Spread at one density
-everywhere, it goes unheard.
+The room leans in at the same places every night, and has for three
+thousand years. A writer places meaning as a composer places a chord:
+where something is owed, where something is paid, and nowhere else.
+Spread at one density everywhere, it goes unheard.
 
 This skill is the placement.
 
-The name holds three readings. The bard's turn at the fire, where the
-room leans in at the same places every night, and has for three thousand
-years. The model's turn in a session. Homer turning in his grave.
+The name holds three readings. The bard's turn at the fire. The model's
+turn in a session. Homer turning in his grave.
 
 Each section below is written in one key of the wheel, named at the end
 of its heading. The rule is told and the key is shown, so the page is its
@@ -179,7 +179,9 @@ the whole that the reader stays to see paid. What it promises is the
 genre's. A post hooks on the claim, when the claim surprises. An essay
 hooks on the tension, ahead of the thesis. A story hooks on the one thing
 already wrong in an ordinary room, or the one thing already right. A
-message hooks on the reason to read, in the first line. The title is the
+message hooks on the reason to read, in the first line. An epic hooks
+on its subject in its first line, in the middle of things, with the
+room already listening. The title is the
 hook's first word. A hook the piece pays late pays with interest, and a
 hook the piece leaves unpaid is the importance claim in its best clothes.
 

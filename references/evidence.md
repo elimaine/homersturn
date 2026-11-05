@@ -304,6 +304,12 @@ is unsourced.
 | Concrete language is read as listening; the present tense persuades more than the past across eight studies | Packard and Berger, 2021; Packard, Berger and Boghrati, 2023 | conviction's evidence is the exact detail in the present tense | measured |
 | A rhetorical question raises elaboration, so it helps a strong argument and hurts a weak one | Petty, Cacioppo and Heesacker, 1981; Swasy and Munch, 1985 | the question is a raise when a later line pays it, and the three-by-reflex kicker when none does | measured, by the elaboration literature |
 
+| Awe is vastness plus a need for accommodation, a thing that does not fit the frame the reader has | Keltner and Haidt, 2003 | the awe key's second half: the size, then the claim too large to fit, left for the reader to make room for, which is a raise | authority; a prototype model, with the small self a later finding |
+| Awe lengthens the felt present and lowers impatience, against happiness as the control | Rudd, Vohs and Aaker, 2012, three experiments, 63 to 105 each | an opening in awe buys the reader who can leave a line more; the greeting's purpose is time | measured, student samples and video inductions |
+| Five sources of the sublime: great thoughts, strong feeling, figures, noble diction, dignified arrangement; asyndeton and the climactic pause among the figures | Longinus, On the Sublime | awe's one figure is asyndeton; the recursive paragraph is his amplification | authority, the oldest on the shelf |
+| The obscure moves more than the clear; infinity is the bound the eye cannot reach; suddenness | Burke, 1757 | the bound unreached is the one thing awe leaves unshown, and the sudden short line after the long is its rhythm | authority |
+| The epic opens on its subject in the first line, in the middle of things, with the Muse on one side of the poet and the room on the other | Homer's proems; the Cambridge commentary on Iliad VI | the hook for anything told to a room: the subject first, in medias res, the authority outside the self | authority; the oral case |
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not
