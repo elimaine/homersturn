@@ -479,9 +479,8 @@ Fortissimo, once on the page, so it is short.
 - No wall at the top. No page where every paragraph weighs the same.
 - Never point at the planted meaning. Never explain what the reader
   already holds.
-- No ending on atmosphere, unless the atmosphere is the payment. No
-  dense close on a beat that owes nothing. No aphorism on every
-  paragraph.
+- No ending on atmosphere that pays nothing. No dense close on a beat
+  that owes nothing. No aphorism on every paragraph.
 - No important character brought in on a name and a stage direction.
 - No "and then". No rhythm switched mid-scene. No refrain of a line
   told once. No frame used twice.
