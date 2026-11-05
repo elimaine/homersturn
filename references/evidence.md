@@ -302,7 +302,7 @@ is unsourced.
 | Expressed certainty is read as accuracy, at 95 over 75 percent for the same call, and a thousand-person replication found it helps whatever the expertise | Price and Stone, 2004; the registered replication of Karmarkar and Tormala, 2010 | certainty persuades on its own, so the land is earned by the evidence or it is the fake-profound kicker that works | measured; Tenney and colleagues find the credit withdrawn once inaccuracy is seen |
 | A rhyming aphorism is rated truer than its plain twin; fluency is misread as conviction | McGlone and Tofighbakhsh, 2000; Blohm on Dutch verse | the cadence is read as truth, which is why the land must sit on a paid claim and why truth stays outside this skill | measured, with the effect shrinking when readers are warned |
 | Concrete language is read as listening; the present tense persuades more than the past across eight studies | Packard and Berger, 2021; Packard, Berger and Boghrati, 2023 | conviction's evidence is the exact detail in the present tense | measured |
-| A rhetorical question raises elaboration, so it helps a strong argument and hurts a weak one | Petty, Cacioppo and Heesacker, 1981; Swasy and Munch, 1985 | the question is a raise when a later line pays it, and the three-by-reflex kicker when none does | measured, by the elaboration literature |
+| A rhetorical question raises elaboration, so it helps a strong argument and hurts a weak one, and most where the reader was not going to think | Petty, Cacioppo and Heesacker, 1981; Swasy and Munch, 1985; Blankenship and Craig, 2006 | the question is a raise when a later line pays it, and the three-by-reflex kicker when none does | measured, by the elaboration literature |
 
 | Awe is vastness plus a need for accommodation, a thing that does not fit the frame the reader has | Keltner and Haidt, 2003 | the awe key's second half: the size, then the claim too large to fit, left for the reader to make room for, which is a raise | authority; a prototype model, with the small self a later finding |
 | Awe lengthens the felt present and lowers impatience, against happiness as the control | Rudd, Vohs and Aaker, 2012, three experiments, 63 to 105 each | an opening in awe buys the reader who can leave a line more; the greeting's purpose is time | measured, student samples and video inductions |
@@ -324,6 +324,11 @@ is unsourced.
 | Humour raises attention and liking of the ad and lowers the credibility of the source, across 369 correlations | Eisend, 2009, meta-analysis | a joke costs: the essay spends one where the claim can afford it, the message none | measured, student samples |
 | We laugh at the mechanical encrusted on the living | Bergson, 1900 | the same density everywhere is the mechanical where the living should be; the humming page is the joke the machine tells without knowing | authority |
 | The funniest word last; anything after it dilutes the laugh | the craft, every joke-writing guide | the stress position, applied to the punch | assertion, universal in the trade |
+
+| Curiosity is a gap between what is known and what is wanted, and it peaks when the reader has a good guess and is not sure | Loewenstein, 1994; Golman and Loewenstein | the held question draws hardest with the answer half in view; the hook's pitch | authority, with experiments behind it |
+| Question titles are downloaded more and cited less, over 2,172 articles | Jamali and Nikzad, 2011 | the question hook draws the glance and spends trust when unpaid | measured, one corpus |
+| Hypophora: the question the speaker answers, to verify a claim or to anticipate and refute an objection | Quintilian, IX.3.87; the lexicon | the honest question, a raise paid at once, and the conviction row's objection refuted | authority |
+| Asking whether someone will do a thing moves them toward it a little, d of 0.24 over 116 tests, more for easy and desirable acts, nothing for risky ones | Wood and colleagues, 2016, meta-analysis | a message's ask may be a question, and the question does a little of the work | measured, student-heavy |
 
 ## Detectors worth borrowing for the analyze mode
 

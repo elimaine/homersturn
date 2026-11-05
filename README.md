@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.17.
+Version 0.7.18.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -106,8 +106,8 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
 ## What is in it
 
 - `SKILL.md`: the method. The brief and the dials, the model (manifold,
-  ledger, rhythm, tempo), the glance, the hook, the topic and stress
-  positions, the join, purpose and genre with the tint each genre owes at
+  ledger, rhythm, tempo), the glance, the hook, the question in its three forms, the topic
+  and stress positions, the join, purpose and genre with the tint each genre owes at
   its two ends, the three punches (land, refrain, release), the punch
   that pays many debts at once and the cut that raises instead, the joke
   as a payment the reader makes, the
