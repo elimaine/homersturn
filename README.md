@@ -33,7 +33,7 @@ arithmetic.
 
 ## The name
 
-Three readings, all kept, which is the method in miniature: the bard's
+Three readings, which is the method in miniature: the bard's
 turn at the fire, the same story every night told so the room leans in at
 the same places; the model's turn in a session, where this gets applied;
 and Homer turning in his grave at what the machines did with his trade
