@@ -23,7 +23,7 @@ earned.
 I tried to make a game for players. The weak link was the writers. So I
 tried to make a game for writers. The weak link was in language.
 
-So I made this, and returned to my earlier efforts.
+So I made this, and returned to my efforts.
 
 The rules were worked out inside Effect Co's writing tools, where a ledger
 of what the reader has been promised and what has been paid decides what
