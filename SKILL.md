@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.17
+version: 0.7.18
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -65,7 +65,7 @@ and the moves, read from this file.
   hums, turn the state and keep the material: the same chords in another
   hand are another section, and new matter only spends the pool.
 - Rhythm is emotion. The length of the sentence and the hardness of its
-  stops are the state's, and the reader feels the state before they have
+  stops are the state's, and the reader feels the state before they
   read it. Switch rhythm where the state turns and nowhere else, unless
   the rhythm is the content.
 - Tempo is the distance. Scene: every moment told. Summary: ground
@@ -119,8 +119,7 @@ away, the far side a bridge away, the modes as tints, every move priced.
 
 - At 1 the state is named once and the page is otherwise plain. At 5 it
   goes unnamed, and every detail and the rhythm are about it.
-- The state sets how far the accents go and how far the rhythm runs. The
-  rhythm carries the speaker's state, and the reader's feeling follows.
+- The state sets how far the accents go and how far the rhythm runs.
   Felt below shown is tension, and shown above felt is melodrama.
 - The opinion is on the matter, never on the telling. A narrator who
   credits their own version, what others leave out and they keep in, is
@@ -163,8 +162,7 @@ bench set the same words three ways. A dense opening lost a full point
 of five on every passage. A text-only judge saw it as well as an image
 did.
 
-Equal paragraphs invite at a glance, since even short blocks invite,
-and hum once read. Shape the opening for the glance and the rest for
+Equal short paragraphs invite at a glance and hum once read. Shape the opening for the glance and the rest for
 the ear.
 
 A list of sentences is "and then" made visible. Bold is emphasis, spent
@@ -193,14 +191,14 @@ what it is about (Gopen and Swan). The stress position is the last
 sentence of a paragraph and the last words of a sentence, the place the
 reader is waiting for, where the most changes. End on what is different
 now, never on what has not changed, never on a qualifier. A dense sentence
-on a low-stakes final beat is what most often makes good prose hard to
-parse. The topic position is the first sentence and the first words: what
+on a low-stakes final beat is the commonest reason good prose reads
+hard. The topic position is the first sentence and the first words: what
 the reader already holds, the thing the last unit ended on. When a
 paragraph has to be read twice, check this chain first.
 
 The reader who can leave is owed the point at the top. The reader who
-stays is owed it at the bottom. Neither as a template: a page where every
-paragraph opens on its point reads as a template. At the scale of the
+stays is owed it at the bottom. A page where every paragraph opens on
+its point reads as a template. At the scale of the
 piece, start with the abstract, the claim in short, and complete it at the
 end. The conclusion pays the opening with the same claim, now carried. The
 postscript is what is said after the ledger closes.
@@ -209,8 +207,8 @@ postscript is what is said after the ledger closes.
 
 An email's reader has a reason to finish. A post's reader can leave at any line. What
 is owed, and when, follows from that, and so does the tint at the two
-ends: the mood the hook is made in, which is what draws the reader, and
-the mood the piece is owed to end in. The ledger owns the moves between.
+ends: the mood the hook is made in, which draws the reader, and the
+mood the end is owed. The ledger owns the moves between.
 Name the purpose before writing and let it set the defaults. The full
 table is `references/purposes.md`. Prose to be heard keeps its
 repetitions, since a listener cannot go back.
@@ -246,16 +244,14 @@ toward it. The one thing it cannot do is pay what was never raised.
 
 The punch position can raise instead of pay. A short plain line at the
 end that opens the largest debt is the cut, and it is the largest raise
-there is, since the reader carries it at the weight of a payment. It is
-not random: it is about the matter, and the page owes it sooner than
-anything else it has raised. Unpaid, it was the fake-profound kicker.
+there is, since the reader carries it at the weight of a payment. It
+is about the matter, and the page owes it before anything else. Unpaid, it was the fake-profound kicker.
 
 The unearned punch has seven names. The importance claim. The
 fake-profound kicker. The recap. The colon before a reveal. The denied
 reading nobody held. The three by reflex. The rhetorical question? Judge
 each against the ledger and not its shape: a superlative or a question
-is a raise when a later line pays it, so look forward before firing. A joke pays the same way. The reader completes something true
-and absurd at once, and the line that let them is a payment.
+is a raise when a later line pays it, so look forward before firing.
 
 Deception is a reading the writer opens knowing it is wrong, paid by a
 reveal that re-reads the page. The reader completes the false thing, so
@@ -275,9 +271,9 @@ written down and then looked into, is the ledger used as a tool.
 A joke is the ledger run fast. The setup plants, the pause is a stress
 position with nothing in it, and the punch pays with a line that re-reads
 the setup, so the reader completes something true and absurd at once,
-and the completing is the laugh. What makes it a joke and not a jolt is
-that the violation is harmless and the reader holds both readings at
-the same moment; surprise on its own does not do it. The funniest word
+and the completing is the laugh. A joke is not a jolt: the violation is
+harmless, both readings are held at once, and surprise alone does
+nothing. The funniest word
 goes last, since anything after it is the recap. The pause runs longer
 the bigger the turn, and on the page the pause is the paragraph break.
 The deadpan is felt above shown, the violation told at ease's volume. A
@@ -309,7 +305,7 @@ Explained, a joke is dead. Here is why.
   only a reading the reader held, so the first reading is planted before
   it is replaced, and what the reader keeps is the move, a way of being
   wrong and then right, which they run again after the page closes. It
-  is on the matter. It runs without a dash and without a "no": the second
+  runs without a dash and without a "no": the second
   clause states the new reading in the grammar of the first, and
   the break-off with a correction after it is the same move wearing the
   dash. Twice a page at most.
@@ -413,8 +409,8 @@ Each rule's reason is in `references/sentence.md`.
   quoted line in this skill or its references shows a move, and the line
   stays here. The cliché has a size
   above the phrase: a borrowed joke, plot, title or frame is the same
-  fault one level up, unless the user proposed it, in which case it is
-  their plant and the piece pays it.
+  fault one level up, unless the user proposed it: then it is their
+  plant and the piece pays it.
 
 ## The ledger on paper · suspicion 3
 
@@ -474,8 +470,7 @@ them.
 The writer who asked will read the first thing on the page and act on
 it, so the three changes that would pay the most come first, ranked,
 each tied to a quoted line with the fix in a few words. What follows is
-the evidence they rest on, and it is read second if at all. Pattern,
-quoted line, fix. The score and the guess at authorship are left off,
+the evidence they rest on, read second. The score and the guess at authorship are left off,
 since readers cannot say and neither can you. Name what fails and why;
 the piece is already on the page, so do not retell it, and a ledger
 line is a raise and a payment, not the paragraph in other words.
@@ -529,10 +524,9 @@ paid, and it is paid when the break is the content: the sentence that
 runs past the reader's strength because the speaker cannot stop, the
 "and then" of a mind too tired to join, the wall at the top that is the
 draw, the aphorism at the end that is the land, the dash where the thing
-does not arrive. This page is a skill, and its own table keys a skill
-low and level; it is keyed round the whole wheel and up to five,
-because the keys are what it teaches, and that is the break paid by its
-content. One rule at a time, late, after the page has kept it in view,
+does not arrive. This page is a skill, which its own table keys low
+and level, and it is keyed round the whole wheel up to five because the
+keys are what it teaches: the break paid by its content. One rule at a time, late, after the page has kept it in view,
 where the reader can see which and can tell it was chosen, and paid
 within reach, mostly.
 
