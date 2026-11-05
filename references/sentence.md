@@ -40,8 +40,10 @@ them (the long form, with sources, is `references/evidence.md`):
   character and the narrator at once, and the distance between them is a
   second sense the skill otherwise assumes away. A character's misplaced
   stress is a raise the writer pays on the next line.
-- One hedge per claim. A hedge is a reading kept open on purpose; a second
-  one opens nothing new. Keep the adverbs that carry the claim (only,
+- One hedge per claim, on the number and never on the claim. A hedge is a
+  reading kept open on purpose; a second one opens nothing new, and one on
+  the claim itself lowers the claim and its source together (Blankenship
+  and Holtgraves, 2005), where one on the figure costs little. Keep the adverbs that carry the claim (only,
   rarely, almost); cut the ones that prop a weak verb.
 - A number pays; an adjective raises. "Cut review time from thirty minutes
   to eight" pays what "significantly improves" only promises.

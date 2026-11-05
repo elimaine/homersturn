@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.9
+version: 0.7.10
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -28,17 +28,22 @@ every borrowed tip, graded. The script is `scripts/meaning_ledger.py`:
 `--wheel` prints the keys and the moves with their cost, `--list` the bits
 and the moves, read from this file.
 
-## How meaning works · conviction 2
+## How meaning works · conviction 3
 
-- A passage is a manifold. Every sentence holds the plain
-  reading and the ones under it, and writing is choosing which stay open
-  and which close. A second sense the reader completes later is worth more
-  than a third image on the surface. A reading opened by accident, a thing
-  renamed, a modifier on the wrong noun, a common word another domain has
-  loaded, is closed when it points away from the ledger. One that says
-  what the piece says is a gift: keep it and, if you can, pay it. Who
-  is meant is never a reading: who spoke, who acted, what a pronoun
-  names, the reader has on first read at every setting.
+- A passage is a manifold. Every sentence holds its plain reading and
+  the ones under it, and writing is choosing which stay open and which
+  close. The strongest objection is that a second sense is the writer's
+  private pleasure, and the reader walks past it into an empty room. It
+  is true of a second sense put anywhere. It is not true of one put
+  where the reader is already waiting, and that placement is this
+  skill. The name of the skill holds three readings and a reader takes
+  all three in a line. A second sense the reader completes later is
+  worth more than a third image on the surface. A reading opened by
+  accident, a thing renamed, a modifier on the wrong noun, a common word
+  another domain has loaded, is closed when it points away from the
+  ledger. One that says what the piece says is a gift: keep it and pay
+  it. Who is meant is never a reading: who spoke, who acted, what a
+  pronoun names, the reader has on first read at every setting.
 - Meaning is a ledger of promise and payment. A detail that is also a
   sign, a line with a second sense, an unanswered question: each raises. A
   consequence told plainly, a question answered, a line that returns: each
@@ -370,7 +375,8 @@ Each rule's reason is in `references/sentence.md`.
 - Open a sentence on its subject, or on a phrase the reader cannot take
   for one. A bare time noun at the top reads as the subject until the
   real one arrives, and the re-read is a spend with no raise.
-- One hedge per claim. A number pays and an adjective raises.
+- One hedge per claim, on the number and never on the claim. A number
+  pays and an adjective raises.
 - The example after the claim, the definition a paragraph before its use.
 - Concede before you are forced. The title is the first raise.
 - A name is a plant at the scale of the cast: it opens a reading before
