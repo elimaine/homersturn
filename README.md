@@ -149,6 +149,65 @@ python3 scripts/meaning_ledger.py --list
 python3 scripts/meaning_ledger.py --wheel
 ```
 
+## An example with every dial set
+
+The brief, one line, as the skill asks for it before a word is written:
+
+```
+Purpose: a scene, the reader chose to stay. Plain: a woman takes a bird
+feeder down in autumn. Under it: the person who filled it is gone.
+Ambiguity 3. Mindset: tenderness, ionian, 2. Reader strength 3.
+```
+
+The balance line that goes above the paragraph on paper:
+
+```
+¶1  owed: nothing   due now: the hook
+    carried: 0   feeling: tenderness 2   state: tenderness ionian 2 → tenderness ionian 2
+    → scene · long sentences, soft stops · overture · lean · release
+```
+
+The draft, marked the way the script reads it:
+
+```
+[state: tenderness ionian 2] She took the feeder down in October, with
+the seed still half full. [raise: half full] The hook had been screwed
+into the beam at a height she had to reach for, and she reached for it
+the way she had every week, on her toes, one hand flat on the post.
+[raise: the height] The seed went into the bin. The feeder went on the
+shelf in the shed, beside the gloves, which were not hers. [pay: half
+full] [pay: the height] She left the hook where it was.
+```
+
+What the dials did. Ambiguity 3 is a second sense where something is
+owed, paid within the paragraph: the seed half full and the height of the
+hook are both raised, and the gloves pay them, with one debt held to the
+last line, the hook left where it is. The mindset is tenderness at 2, so
+the state is not named and the details are the ones tenderness picks,
+the reaching and the hand on the post, at a volume where a reader can
+still miss it. Reader strength 3 holds a seventy-word paragraph with one
+long sentence in it and no more. The punch is a release, what changed in
+seven words.
+
+The same brief at other settings: at ambiguity 1 the gloves are "her
+husband's" and nothing is left to find; at 5 the gloves are cut and only
+the height says it, for a reader who reads twice. Tenderness at 4 would
+let the sentence run on past the post and the stops soften further;
+sorrow, its dark relative, keeps every detail and lowers the light.
+Strength 1 would break the long sentence in three.
+
+The script on the marked draft:
+
+```
+  ¶  words  carry  pool  owed / events
+  1     78      0   100  state tenderness ionian 2, raise half full, raise the height, pay half full, pay the height
+
+pool, strength 3 (capacity 100): █  low 100
+```
+
+Nothing carried out of the paragraph and the pool full, which is what a
+scene's first paragraph should hand the second.
+
 ## One rule, if you take only one
 
 End each paragraph on the thing that changed.
