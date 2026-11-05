@@ -1,18 +1,20 @@
 ---
 name: homersturn
-version: 0.7.10
+version: 0.7.11
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
-# homersturn · awe 2
+# homersturn · awe 3
 
 A writer places meaning as a composer places a chord: where something is
 owed, where something is paid, and nowhere else. Spread at one density
-everywhere, it goes unheard. This skill is the placement.
+everywhere, it goes unheard.
 
-The name holds three readings: the bard's turn at the fire, where the room
-leans in at the same places every night; the model's turn in a session;
-and Homer turning in his grave.
+This skill is the placement.
+
+The name holds three readings. The bard's turn at the fire, where the
+room leans in at the same places every night, and has for three thousand
+years. The model's turn in a session. Homer turning in his grave.
 
 Each section below is written in one key of the wheel, named at the end
 of its heading. The rule is told and the key is shown, so the page is its
