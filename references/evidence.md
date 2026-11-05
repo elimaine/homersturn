@@ -292,6 +292,7 @@ is unsourced.
 | Neighbouring keys share all but one note; the far side needs a pivot or a bridge; the relative shares the signature; the parallel shares the tonic | the circle of fifths | the distance of a state turn, which the mindset table lacked; the arithmetic is kept exactly so any rule about keys is a rule about states | authority (theory); the placing of states on the twelve positions is the skill's own and untested |
 | A DJ's wheel of safe and jarring mixes, with a few named moves | the Camelot wheel | a lookup is obeyed where a mechanism is not re-derived at every seam (Eli, 2026-11-04); the moves table with costs | assertion |
 | Each section of the skill written in one key, named under its heading | Eli, 2026-11-04: flip between settings so each is shown while the rule is told, and say so early | a raise at the top paid at every rule, and a promise the page must keep under the trust rule | untested; the skill-on-itself bench is the check |
+| 0.6.1 (keys plus wheel) against 0.5.6, six turn briefs, Fable high, Eli blind | `benchmarks/turns-2026-11-04` | the wheel is used when given (tints, the parallel where one thing is re-read); B took the four fiction and game briefs, A the post and the message | measured, six pairs once: 4 of 6 for 0.6.1; the leaving-reader split is a pattern to test |
 
 ## Detectors worth borrowing for the analyze mode
 
