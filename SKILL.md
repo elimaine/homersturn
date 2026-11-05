@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.3
+version: 0.7.4
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -16,7 +16,8 @@ and Homer turning in his grave.
 
 Each section below is written in one key of the wheel, named at the end
 of its heading. The rule is told and the key is shown, so the page is its
-own example.
+own example. Most sit at degree 1 to 3, since a reference reads at piano;
+one is at 5, and it is the shortest.
 
 References, read when needed: `manifold-and-ledger.md` for why,
 `mindset.md` for what a state does to the sentence, `wheel.md` for the
@@ -471,23 +472,23 @@ line is a raise and a payment, not the paragraph in other words.
    anything but fiction, a detail from outside the brief. An accidental
    reading that agrees with the ledger is a gift.
 
-## Do not · anger 1
+## Do not · anger 5
 
-- Do not write every paragraph at the same density or length, and do not
-  open on a wall.
-- Do not point at a planted meaning, and do not clarify what the reader
+Fortissimo, once on the page, so it is short.
+
+- No wall at the top. No page where every paragraph weighs the same.
+- Never point at the planted meaning. Never explain what the reader
   already holds.
-- Do not end on atmosphere unless the atmosphere is the payment. Do not
-  end dense on a beat that owes nothing. Do not end every paragraph on an
-  aphorism.
-- Do not bring an important character in on a name and a stage direction.
-- Do not join with "and then". Do not switch rhythm mid-scene. Do not
-  refrain a line told once, and do not reuse a frame.
-- Do not reach for the rare word when the common one is right, and do not
-  rename a thing to avoid repeating it.
-- Do not deceive by stating what is false.
-- Do not let the narrator serve the narrator.
-- Do not state a rule the page does not keep.
+- No ending on atmosphere that pays nothing. No dense close on a beat
+  that owes nothing. No aphorism on every paragraph.
+- No important character brought in on a name and a stage direction.
+- No "and then". No rhythm switched mid-scene. No refrain of a line
+  told once. No frame used twice.
+- No rare word where the common one is right. No renaming a thing to
+  dodge repeating it.
+- No lie stated as fact.
+- No narrator serving the narrator.
+- No rule stated that the page does not keep.
 
 ## Where meaning goes · awe 1
 
