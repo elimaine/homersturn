@@ -1,7 +1,0 @@
-This release changes how a draft is saved. Until now the editor saved on every keystroke, which was simple and which filled the history with half-words. Now it saves when you pause for two seconds, and once more when you leave the page.
-
-The history still records every save, so nothing you wrote is lost; there are only fewer entries to scroll past. We also changed what the undo button does after a save. It used to undo the last keystroke, which surprised people who expected it to undo the last thing they meant.
-
-It now undoes back to the previous save, and a second press undoes the one before that. If you want finer control, hold the button and a list of saves appears. Two smaller things shipped with this.
-
-The word count no longer includes the title. And a draft opened on a second device no longer overwrites the first without asking. We are watching the pause length and may shorten it. Tell us if two seconds feels long.
