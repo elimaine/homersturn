@@ -41,7 +41,7 @@ feature apart, the thing foreseen and the thing not.
 
 The old eight sit on it: ease 1 bright, tiredness 1 dark, tenderness 2
 bright, anger 2 dark, insistence 4 dark, fear 6 dark, awe 9 bright,
-drunkenness at 11 in either mood. What each does to attention, the
+abandon and maudlin at 11. What each does to attention, the
 sentence, the accents and the tempo is still the table in `mindset.md`.
 The wheel adds only where they stand.
 
@@ -112,7 +112,7 @@ A lazy model takes no turn, or takes the jolt by reflex. This is the
 quick reference, as Camelot's wheel is for a DJ: which steps are safe,
 which jar, and what each costs.
 
-| Move | Steps | Cost | Reads as |
+| Move | Steps | Price | Reads as |
 |---|---|---|---|
 | Hold | 0 | none; rhythm holds | the form holding; a hum by the fifth paragraph |
 | Relative flip | 0, mood | a payment, no new cause | restraint failing, or composure regained |

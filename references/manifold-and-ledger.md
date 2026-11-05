@@ -23,7 +23,7 @@ processing cost for spikes). So meaning must be spread, and spread where the
 reader is willing to pay: where a promise has been raised and they want it
 paid. The ledger is the running balance:
 
-- **Debt**: words read since something was last paid. Past a few hundred, a
+- **Carried**: words read since something was last paid. Past a few hundred, a
   release is due: a short line that pays what little is owed and cuts the
   stretch off.
 - **Due**: the weight of promises ripe to pay: questions the reader has been

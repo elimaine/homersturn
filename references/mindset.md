@@ -58,8 +58,8 @@ rest, where the sentence stops before the thing arrives.
 
 Where these stand to each other, and what a turn from one to another
 costs, is `wheel.md`: the circle of fifths with a bright and a dark state
-at each of twelve positions, the eight below among them. Tendencies, not
-words. Each state at 1 is present and contained; at 5 it
+at each of twelve positions, the eleven below among them, six bright and
+five dark. Tendencies, not words. Each state at 1 is present and contained; at 5 it
 has taken the page. The columns are what the state does to attention
 (what is named, what is walked around), to the sentence, to the accents it
 licenses, and to the tempos it leaves possible.
@@ -68,10 +68,13 @@ licenses, and to the tempos it leaves possible.
 |---|---|---|---|---|---|---|
 | Anger | a cold note; every fact in order | the door slammed; four-word sentences | the one thing; the other person's hands, mouth, choice | short, declarative, no qualifiers | the swear, once; the land | scene; summary impossible |
 | Fear | one detail wrong, noted in passing | nothing but exits and sounds | thresholds, distances, what is behind | staccato, fragments, the dash as a break | the dash; the withheld thing | scene only; time dilates |
+| Curiosity | one question held, in passing | every door opened as it is reached | thresholds, what is behind, the next room | moving, each sentence a step | the question, paid; the suspension | scene, forward |
 | Tenderness | one small thing named plainly | the whole page is small things | hands, what someone did without being asked, what is unsaid between two people | a line that sings a little; joined clauses | the refrain | pause; scene at ease |
 | Tiredness | the sentences a word shorter than they would be | things listed and not connected; "and then" as the honest join | what remains to be done; surfaces | flat, plain, no figure | none; no punch | summary; the release |
-| Drunkenness | one repetition, one wrong emphasis | the floor, the same thought three times, a sudden sincerity | the near and the physical; the one person | loose, run-on, then one over-precise sentence | the swear, cheap; the litany | scene, out of order |
+| Abandon | one loosened sentence, one sudden sincerity | the floor, the one person, the same thought three times said as new | the near and the physical; the one person | loose, run-on | the litany; the swear, cheap | scene, out of order |
+| Maudlin | one wrong emphasis | the same loss three times, each time larger | the near and the physical; what is gone | run-on, then one over-precise sentence | the refrain, told once too often | scene, out of order |
 | Insistence | the claim once, then evidence | the claim in every paragraph; negations and intensifiers | the objection, pre-empted; the other side's weakest point | parallel, piling | the tricolon, the denied reading, the colon reveal (all unearned) | summary |
+| Conviction | the claim once, then evidence | the claim restated from a step closer each time, the strongest objection met | the evidence; the other side's strongest point | parallel, building: the musical sentence | the land | summary, then scene at the turn |
 | Awe | one plain sentence of scale | few words, long gaps, the self gone | size, light, time; nothing human | very short or very long, nothing between | none | stillness; pause |
 | Ease | nothing special noticed, and that is the point | everything noticed and nothing made of it | the ordinary, in order | moving, joined, unhurried | none; the release | summary, flowing |
 

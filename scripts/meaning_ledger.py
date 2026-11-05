@@ -182,6 +182,10 @@ def shape(text: str) -> int:
     lists = sum(1 for r in rows if r[1] == "list")
     if bold or subs or lists:
         print(f"bold runs {bold}, subheads {subs}, list blocks {lists}")
+    body = " ".join(r[4] for r in rows if r[1] != "code")
+    dark, light = len(TILT_DARK.findall(body)), len(TILT_LIGHT.findall(body))
+    n = max(1, len(body.split()))
+    print(f"tilt, a rough lexicon: {1000 * dark / n:.0f} dark and {1000 * light / n:.0f} light per thousand words" + (" (the page leans dark: a prior the writer reads before the brief)" if dark > 1.5 * light and dark >= 10 else ""))
     leads = tics(rows)
     if leads:
         print("\ntic leads (structural, each a lead to read by hand, not a finding):")
@@ -204,7 +208,16 @@ TICS = [
     ("the stacked hedge", re.compile(r"\b(?:perhaps|may|might|could|seems?|arguably|somewhat|likely|possibly)\b[^.]*\b(?:perhaps|may|might|could|seems?|arguably|somewhat|likely|possibly)\b", re.I)),
     ("the announced structure", re.compile(r"\b(?:in this (?:section|post|essay)|let's|let us|we will|first,)\b", re.I)),
     ("the both-sides close", re.compile(r"^(?:ultimately|in the end|overall|at the end of the day|in conclusion)\b", re.I)),
+    # The state named in its own word: a lead when the mindset is above 1. The
+    # list is the wheel's names and their adjectives, the one list the method owns.
+    ("the state named", re.compile(r"\b(?:angry|anger|afraid|fear|fearful|scared|ashamed|shame|proud|pride|tender|tenderness|tired|tiredness|curious|curiosity|joy|joyful|sorrow|sad|sadness|grief|disgust|disgusted|relish|trust|suspicion|suspicious|shock|shocked|surprise|surprised|awe|dread|maudlin|abandon|conviction|insistence|insistent|terror|terrified|ease|at ease|my fault|guilty|guilt)\b", re.I)),
 ]
+
+# The page's tilt: a rough lexicon, so a lead and never a score (Eli,
+# 2026-11-04: "if I random searched the page I see negative words").
+TILT_DARK = re.compile(r"\b(?:never|not|no|nothing|nobody|none|fault|faults?|fails?|failed|failure|unearned|unpaid|muddle|forgery|clich[eé]s?|melodrama|wrong|broken|dead|dread|fear|anger|shame|terror|disgust|sorrow|grief|lost|loses|empty|false|refuse[sd]?|dissonant|jarring|cost|costs|debt|drains?)\b", re.I)
+TILT_LIGHT = re.compile(r"\b(?:pays?|paid|payment|gift|earned|earns|sings?|tender|tenderness|joy|ease|trust|awe|wonder|curiosity|anticipation|surprise|pride|relish|conviction|bright|relief|release|refills?|invites?|love|calm|home|warm|light|plain|clear|true|kept|keeps?)\b", re.I)
+
 
 
 def tics(rows: list[tuple[int, str, int, int, str]]) -> list[str]:
@@ -229,7 +242,7 @@ def tics(rows: list[tuple[int, str, int, int, str]]) -> list[str]:
 
 
 BITS = ["The figures and the accents", "The three punches"]
-MOVES = ["The join", "The two positions", "Forms", "The entrance"]
+MOVES = ["The join", "The hook", "The two positions", "Forms", "The entrance"]
 
 
 def _sections(skill: str) -> dict[str, list[str]]:
@@ -336,7 +349,7 @@ def main() -> int:
     bridged_last = False
     debt = 0
     problems: list[str] = []
-    print(f"{'¶':>3}  {'words':>5}  {'debt':>5}  {'pool':>4}  owed / events")
+    print(f"{'¶':>3}  {'words':>5}  {'carry':>5}  {'pool':>4}  owed / events")
     for i, para in enumerate(paragraphs, 1):
         plain = MARK.sub("", para)
         words = len(plain.split())
@@ -413,7 +426,7 @@ def main() -> int:
             problems.append(f"¶{i}: something is due ({', '.join(sorted(due_before))}) and the last "
                             "sentence pays nothing: the stress position is spent on a quiet line")
         if debt > 450:
-            problems.append(f"¶{i}: {debt} words since anything was paid: a release is due")
+            problems.append(f"¶{i}: {debt} words carried since anything was paid: a release is due")
         if state is not None and i - state_since == 5:
             problems.append(f"¶{i}: the state has not moved in five paragraphs ({state[0]} {state[1] if state[1] is not None else ''}): the hum in the voice, or mark the move".replace("  ", " "))
         print(f"{i:>3}  {words:>5}  {debt:>5}  {int(pool):>4}  {', '.join(events) or '-'}")

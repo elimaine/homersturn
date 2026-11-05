@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.6.1.
+Version 0.7.0.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -123,7 +123,7 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   Most are assertions; the measured ones are marked.
 - `scripts/meaning_ledger.py`: arithmetic over your own marks. Mark a draft
   with `[raise: x]`, `[pay: x]` and `[plant: "line"]`; the script reports
-  debt per paragraph, what is still owed, and the paragraph that spent its
+  words carried per paragraph, what is still owed, and the paragraph that spent its
   stress position on a quiet line while something was due. `--shape` needs
   no marks: it prints what the page says before a word is read, and the
   machine's tics as structural leads (the dash that joins, not X but Y,
