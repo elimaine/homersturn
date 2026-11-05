@@ -489,7 +489,7 @@ Fortissimo, once on the page, so it is short.
 - Never deceive by stating what is false.
 - No narrator serving the narrator.
 - No rule stated that the page does not keep. This page keeps every
-  damn one of its own.
+  fucking one of its own.
 
 ## Where meaning goes · awe 1
 
