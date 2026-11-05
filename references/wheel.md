@@ -86,9 +86,13 @@ turn is a judgement, made where the mark goes.
 ## Modes are tints
 
 A mode is the same signature from another home, one degree altered. So a
-tint is a core with one detail or the cadence turned, never a new state,
-and the rim of the wheel is seven deep at every position without a word
-list. Mark it after the name: `[state: fear phrygian 3]`.
+tint is a core with one detail or the cadence turned, never a new state.
+Bright, dark and neutral are the three the writer reaches for most, and
+neutral is a tint inside a key, which is a different thing from the
+centre of the wheel, where the machine sits in no key at all. The rim
+of the wheel is seven deep at every position without a word list. Mark
+the tint after the name: `[state: fear phrygian 3]`, `[state: ease
+neutral 2]`.
 
 | Mode | Altered degree | The tint, in the mechanism |
 |---|---|---|
@@ -96,7 +100,7 @@ list. Mark it after the name: `[state: fear phrygian 3]`.
 | Aeolian | none | the dark core |
 | Lydian | the fourth raised | bright, with one detail too bright: the uncanny in a sunny page |
 | Mixolydian | the seventh flat | bright, and the paragraph will not land; easy, loose, the release withheld |
-| Dorian | the sixth raised | dark, with one bright detail kept: wistful |
+| Dorian | the sixth raised | the neutral tint, marked `neutral`: the one mode that reads the same forwards and back, so the core with its mood unpressed, the details given level; wistful at most |
 | Phrygian | the second flat | dark, with the thing pressing from just above home: menace, close |
 | Locrian | no stable home | nothing lands, fragments, no cadence: panic. Once, and leave |
 

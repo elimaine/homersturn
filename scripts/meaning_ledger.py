@@ -38,7 +38,8 @@ ALIASES = {"drunkenness": (11, None), "drink": (11, None), "sadness": (10, "dark
            "grief": (10, "dark"), "rage": (2, "dark"), "calm": (1, "bright"),
            "wonder": (9, "bright"), "menace": (7, "dark"), "contempt": (4, "dark")}
 MODES = {"ionian": "bright", "aeolian": "dark", "lydian": "bright", "mixolydian": "bright",
-         "dorian": "dark", "phrygian": "dark", "locrian": None, "bright": "bright", "dark": "dark"}
+         "dorian": "dark", "phrygian": "dark", "locrian": None, "bright": "bright", "dark": "dark",
+         "neutral": "dark"}  # neutral is dorian, the mode that reads the same both ways
 MOVE_COSTS = [("Hold", "0", "none; rhythm holds", "the form holding; a hum by the fifth paragraph"),
          ("Relative flip", "0, mood", "a payment, no new cause", "restraint failing, or composure regained"),
          ("Neighbour", "1", "one therefore or but", "the story moving"),
