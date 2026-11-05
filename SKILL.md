@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.7
+version: 0.7.8
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the topic and stress positions, purpose and genre, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -36,8 +36,8 @@ and the moves, read from this file.
   than a third image on the surface. A reading opened by accident, a thing
   renamed, a modifier on the wrong noun, a common word another domain has
   loaded, is closed when it points away from the ledger. One that says
-  what the piece says is a gift: keep it and, if you can, pay it. A
-  reference is never a reading: who spoke, who acted, what a pronoun
+  what the piece says is a gift: keep it and, if you can, pay it. Who
+  is meant is never a reading: who spoke, who acted, what a pronoun
   names, the reader has on first read at every setting.
 - Meaning is a ledger of promise and payment. A detail that is also a
   sign, a line with a second sense, an unanswered question: each raises. A
@@ -76,7 +76,7 @@ honest: "because",
 the cause told after the effect; "and closer", an
 escalation; the iterative "and" of a thing that happened many times; the
 procedural "then" of a doc. Between paragraphs the repeated noun joins
-better than "however" or "therefore", and it joins better every time.
+better than "however" or "therefore", and it does not wear.
 
 ## The brief and the three dials · ease 2
 
@@ -88,7 +88,7 @@ outside fiction, a detail, a cause or a mechanism the person left out.
 Voice is how they say things, and inventing what they say is forgery.
 
 Ambiguity, 1 to 5, default 3, is how much the reader is asked to carry.
-What is carried is sense, and reference stays fixed. A line whose speaker has to be
+What is carried is sense, and who is meant stays fixed. A line whose speaker has to be
 worked out, an act with two possible actors, a pronoun with two
 candidates, is a muddle wearing the dial's clothes: the pool it spends
 buys nothing, and the sense goes unread while the reader does the
@@ -145,24 +145,25 @@ one sentence at a time; 3 is the default; 5 is a reader who reads twice.
 
 ## The glance: the page is read before a word is · shock 2
 
-In anything the reader can leave, the glance decides whether any other
-reading is taken. Judge it at the width it will be read. Four printed
+In anything the reader can leave, the glance decides whether a word is
+read. Judge it at the width it will be read. Four printed
 lines are half a phone screen.
 
 Open on a paragraph the eye takes whole. The opening's only debt is to the
 second sentence, and the second paragraph is the next wall. The glance
-bench broke the same words three ways. A dense opening lost a full point
+bench set the same words three ways. A dense opening lost a full point
 of five on every passage. A text-only judge saw it as well as an image
 did.
 
-Equal paragraphs hum while reading and invite at a glance, since even
-short blocks invite. Shape the opening for the glance and the rest for
+Equal paragraphs invite at a glance, since even short blocks invite,
+and hum once read. Shape the opening for the glance and the rest for
 the ear.
 
 A list of sentences is "and then" made visible. Bold is emphasis, spent
 on the keyword it sits on. A subhead states something. A table is read by
 row, in the reader's order. A code block is taken as a picture before it
-is read. Both pay the reader who came for one thing.
+is read. The table and the code block pay the reader who came for one
+thing.
 
 ## The hook: the first raise · curiosity 2
 
@@ -274,8 +275,8 @@ written down and then looked into, is the ledger used as a tool.
   a reader on the page, and the real reader revises with them. It pays
   only a reading the reader held, so the first reading is planted before
   it is replaced, and what the reader keeps is the move, a way of being
-  wrong and then right, which they run again after the page closes. On
-  the matter. It runs without a dash and without a "no": the second
+  wrong and then right, which they run again after the page closes. It
+  is on the matter. It runs without a dash and without a "no": the second
   clause states the new reading in the grammar of the first, and
   the break-off with a correction after it is the same move wearing the
   dash. Twice a page at most.
@@ -319,7 +320,7 @@ written down and then looked into, is the ledger used as a tool.
 | Revelation, the turn | Recapitulation | Earlier themes return at home, closure held to the last line |
 | Reflection, aftermath | Villanelle | A verbatim refrain whose sense shifts each time |
 
-Hold a form while the scene is engaged. Leave it through one bridge
+Hold a form while the scene holds. Leave it through one bridge
 paragraph, all momentum and no new fact, and let one cadence open the
 next form. The bridge is also how the far side of the wheel is reached,
 and the return home is the recapitulation.
@@ -349,7 +350,7 @@ entrance for everyone is the same density at the scale of the cast.
 
 Each rule's reason is in `references/sentence.md`.
 
-- The character in the subject, the action in the verb.
+- The doer in the subject, the action in the verb.
 - One thing, one name, unless the new name is a payment. A term defined
   once and used throughout is a raise that pays at every return. A term
   used once is a rename.
@@ -488,7 +489,7 @@ Fortissimo, once on the page, so it is short.
   that owes nothing. No aphorism on every paragraph.
 - No important character brought in on a name and a stage direction.
 - No "and then". No rhythm switched mid-scene. No refrain of a line
-  told once. No frame used twice.
+  told once. No frame used twice but as the refrain.
 - No rare word where the common one is right. No renaming a thing to
   dodge repeating it.
 - Never deceive by stating what is false.
