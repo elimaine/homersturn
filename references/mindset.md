@@ -56,7 +56,10 @@ rest, where the sentence stops before the thing arrives.
 
 ## States by degree
 
-Tendencies, not words. Each state at 1 is present and contained; at 5 it
+Where these stand to each other, and what a turn from one to another
+costs, is `wheel.md`: the circle of fifths with a bright and a dark state
+at each of twelve positions, the eight below among them. Tendencies, not
+words. Each state at 1 is present and contained; at 5 it
 has taken the page. The columns are what the state does to attention
 (what is named, what is walked around), to the sentence, to the accents it
 licenses, and to the tempos it leaves possible.

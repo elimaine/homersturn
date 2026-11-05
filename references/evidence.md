@@ -283,6 +283,16 @@ is unsourced.
   an instance, since a writer reads them for the why, not as the page to
   copy.
 
+## The wheel
+
+| Tip | Source | The model's account | Evidence |
+|---|---|---|---|
+| Eight primary emotions in four opposite pairs; intensity on the radius; blends of neighbours as dyads | Plutchik, 1980 | the degree dial is his radius; the dyads are the rule for a tint between neighbours | authority; a descriptive model, not settled science |
+| Broad feelings in the centre, nuance on the rim | Willcox's Feeling Wheel, 1982; Roberts, 2015 | a core the lazy model can pick, a tint inside the core's mechanism | authority (therapy practice) |
+| Neighbouring keys share all but one note; the far side needs a pivot or a bridge; the relative shares the signature; the parallel shares the tonic | the circle of fifths | the distance of a state turn, which the mindset table lacked; the arithmetic is kept exactly so any rule about keys is a rule about states | authority (theory); the placing of states on the twelve positions is the skill's own and untested |
+| A DJ's wheel of safe and jarring mixes, with a few named moves | the Camelot wheel | a lookup is obeyed where a mechanism is not re-derived at every seam (Eli, 2026-11-04); the moves table with costs | assertion |
+| Each section of the skill written in one key, named under its heading | Eli, 2026-11-04: flip between settings so each is shown while the rule is told, and say so early | a raise at the top paid at every rule, and a promise the page must keep under the trust rule | untested; the skill-on-itself bench is the check |
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not

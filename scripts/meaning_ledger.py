@@ -3,8 +3,11 @@
 
 Reads a draft on stdin. Marks: [raise: name] opens a promise, [pay: name]
 pays it, [plant: "line"] plants a refrain, [join: therefore|but|and then] names
-how the paragraph follows the last, [state: name degree] marks the speaker's
-state when it moves (the trajectory is listed beside the debt). --strength N
+how the paragraph follows the last ([join: bridge] marks the bridge paragraph,
+all momentum and no new fact), [state: name degree] marks the speaker's
+state when it moves, with a tint between when there is one ([state: fear
+phrygian 3]); the trajectory is listed beside the debt and priced on the
+wheel (references/wheel.md). --strength N
 (1 to 5, default 3) sets the reader's pool, drawn as a wave at the end. Reports per paragraph the debt
 (words since the last payment), what is owed, and the failures the marks
 make visible. Strips nothing; use --strip to print the draft without marks.
@@ -13,7 +16,7 @@ make visible. Strips nothing; use --strip to print the draft without marks.
 (the glance): each paragraph's words and sentences, the first paragraph's
 share, the spread of lengths, the longest block, one-line paragraphs, lists,
 bold, subheads, dashes, and neighbouring paragraphs that open on the same
-words.
+words. --wheel prints the keys and the moves between them, with their cost.
 """
 from __future__ import annotations
 
@@ -22,6 +25,78 @@ import re
 import sys
 
 MARK = re.compile(r"\[(raise|pay|plant|join|state):\s*(.+?)\]")
+
+# The wheel (references/wheel.md): twelve positions round the circle of
+# fifths, a bright and a dark state at each sharing the same details. A step
+# is a fifth; the far side is six. The names are the defaults; a state not on
+# the wheel is reported and not priced.
+WHEEL = [("ease", "tiredness"), ("tenderness", "anger"), ("trust", "suspicion"),
+         ("conviction", "insistence"), ("pride", "shame"), ("curiosity", "fear"),
+         ("anticipation", "dread"), ("surprise", "shock"), ("awe", "terror"),
+         ("joy", "sorrow"), ("revelry", "maudlin"), ("relish", "disgust")]
+ALIASES = {"drunkenness": (11, None), "drink": (11, None), "sadness": (10, "dark"),
+           "grief": (10, "dark"), "rage": (2, "dark"), "calm": (1, "bright"),
+           "wonder": (9, "bright"), "menace": (7, "dark"), "contempt": (4, "dark")}
+MODES = {"ionian": "bright", "aeolian": "dark", "lydian": "bright", "mixolydian": "bright",
+         "dorian": "dark", "phrygian": "dark", "locrian": None, "bright": "bright", "dark": "dark"}
+MOVE_COSTS = [("Hold", "0", "none; rhythm holds", "the form holding; a hum by the fifth paragraph"),
+         ("Relative flip", "0, mood", "a payment, no new cause", "restraint failing, or composure regained"),
+         ("Neighbour", "1", "one therefore or but", "the story moving"),
+         ("Lift", "2", "the \"and closer\" join", "escalation"),
+         ("Parallel", "3, mood", "the next fact", "the revision: the same thing re-read"),
+         ("Far", "4 to 6", "a bridge paragraph", "a turn earned, or a seam"),
+         ("Jolt", "5 or 7, mood", "once a piece, late", "the twist, the swear"),
+         ("Degree up three", "any", "never without one of the above", "melodrama, or a seam")]
+
+
+def place(name: str) -> tuple[int, str | None] | None:
+    """A state's position on the wheel, 1 to 12, and its mood."""
+    key = name.strip().lower()
+    for i, (bright, dark) in enumerate(WHEEL, 1):
+        if key == bright:
+            return i, "bright"
+        if key == dark:
+            return i, "dark"
+    return ALIASES.get(key)
+
+
+def parse_state(mark: str) -> tuple[str, str | None, int | None]:
+    """'fear phrygian 3' -> ('fear', 'phrygian', 3); the tint and degree optional."""
+    words = mark.split()
+    degree = int(words.pop()) if words and re.fullmatch(r"[1-5]", words[-1]) else None
+    tint = words.pop().lower() if len(words) > 1 and words[-1].lower() in MODES else None
+    return " ".join(words), tint, degree
+
+
+def move(a: tuple[int, str | None], b: tuple[int, str | None]) -> tuple[str, int]:
+    """The move from one place to another, named as the wheel names it, with its steps."""
+    steps = min((a[0] - b[0]) % 12, (b[0] - a[0]) % 12)
+    flip = a[1] is not None and b[1] is not None and a[1] != b[1]
+    if steps == 0:
+        return ("relative flip" if flip else "hold"), 0
+    if steps == 3 and flip and ((a[1] == "bright" and (a[0] - b[0]) % 12 == 3) or (a[1] == "dark" and (b[0] - a[0]) % 12 == 3)):
+        return "parallel", 3
+    if steps == 5 and flip:
+        return "jolt", 5
+    if steps == 1:
+        return "neighbour", 1
+    if steps == 2:
+        return "lift", 2
+    if steps >= 4:
+        return "far", steps
+    return "three steps", steps
+
+
+def wheel() -> int:
+    """--wheel: the keys and the moves, read from the table above."""
+    print("the wheel: a step is a fifth; the far side is six; bright and dark share the details")
+    for i, (bright, dark) in enumerate(WHEEL, 1):
+        print(f"  {i:>2}  {bright:<13} {dark:<11} opposite {((i + 5) % 12) + 1}")
+    print("the moves")
+    for name, steps, cost, reads in MOVE_COSTS:
+        print(f"  {name:<16} {steps:<13} {cost:<32} {reads}")
+    print("tints (modes): " + ", ".join(m for m in MODES if m not in ("bright", "dark")))
+    return 0
 
 # The reader's pool (SKILL.md, the third dial). Untuned sketch: the shape is
 # the claim, the numbers are placeholders until a bench sets them. Mana
@@ -107,7 +182,50 @@ def shape(text: str) -> int:
     lists = sum(1 for r in rows if r[1] == "list")
     if bold or subs or lists:
         print(f"bold runs {bold}, subheads {subs}, list blocks {lists}")
+    leads = tics(rows)
+    if leads:
+        print("\ntic leads (structural, each a lead to read by hand, not a finding):")
+        for line in leads[:24]:
+            print(" -", line)
+        if len(leads) > 24:
+            print(f"   and {len(leads) - 24} more")
     return 0
+
+
+# The machine's tics, as structure and never as a word list (evidence.md,
+# "Detectors worth borrowing"): a word list goes stale and these do not.
+TICS = [
+    ("the dash that joins", re.compile(r"\w[—–] ?\w|\w [—–-] \w")),
+    ("not X but Y", re.compile(r"\b(?:not|never)\b[^.;:?!]{1,40}?\bbut\b|\bnot (?:only|just|merely)\b", re.I)),
+    ("the rhetorical question", re.compile(r"\?(?:\s|$)")),
+    ("the trailing judgement clause", re.compile(r", which (?:is|was|makes|means|matters|says)\b")),
+    ("the colon before a reveal", re.compile(r":\s(?:[\w'\"]+\s){0,3}[\w'\"]+[.!]$")),
+    ("the tricolon", re.compile(r"\b(?!(?:" + "|".join(sorted(STOP)) + r")\b)\w+, \w+,? and \w+\b")),
+    ("the stacked hedge", re.compile(r"\b(?:perhaps|may|might|could|seems?|arguably|somewhat|likely|possibly)\b[^.]*\b(?:perhaps|may|might|could|seems?|arguably|somewhat|likely|possibly)\b", re.I)),
+    ("the announced structure", re.compile(r"\b(?:in this (?:section|post|essay)|let's|let us|we will|first,)\b", re.I)),
+    ("the both-sides close", re.compile(r"^(?:ultimately|in the end|overall|at the end of the day|in conclusion)\b", re.I)),
+]
+
+
+def tics(rows: list[tuple[int, str, int, int, str]]) -> list[str]:
+    """Structural leads per paragraph: the pattern, the paragraph, the words it sits on."""
+    out: list[str] = []
+    for i, kind, words, sentences, para in rows:
+        if kind in ("sub", "code") or para.startswith("|"):
+            continue
+        plain = re.sub(r"`[^`]*`", "", para)
+        for name, pat in TICS:
+            for m in pat.finditer(plain):
+                snippet = plain[max(0, m.start() - 24):m.end() + 12].replace("\n", " ").strip()
+                out.append(f"¶{i} {name}: '{snippet}'")
+                break
+        last = [x for x in SENTENCE_END.split(plain) if x.strip()]
+        if kind == "prose" and last:
+            tail = last[-1].strip()
+            n = len(tail.split())
+            if 2 <= n <= 8 and re.search(r"\b(?:is|are)\b", tail) and not re.search(r"\d", tail) and sentences > 1:
+                out.append(f"¶{i} the short copula ending (an aphorism, or a land: judge against the ledger): '{tail}'")
+    return out
 
 
 BITS = ["The figures and the accents", "The three punches"]
@@ -119,7 +237,7 @@ def _sections(skill: str) -> dict[str, list[str]]:
     name = ""
     for line in skill.splitlines():
         if line.startswith("## "):
-            name = line[3:].strip()
+            name = re.sub(r"\s·\s\w+ \d$", "", line[3:].strip())
             out[name] = []
         elif name:
             out[name].append(line)
@@ -193,6 +311,8 @@ def listing() -> int:
 def main() -> int:
     if "--list" in sys.argv:
         return listing()
+    if "--wheel" in sys.argv:
+        return wheel()
     strip = "--strip" in sys.argv
     text = sys.stdin.read()
     if "--shape" in sys.argv:
@@ -211,7 +331,9 @@ def main() -> int:
     owed: dict[str, int] = {}
     planted: dict[str, int] = {}
     state: tuple[str, int | None] | None = None
+    state_place: tuple[int, str | None] | None = None
     state_since = 0
+    bridged_last = False
     debt = 0
     problems: list[str] = []
     print(f"{'¶':>3}  {'words':>5}  {'debt':>5}  {'pool':>4}  owed / events")
@@ -228,12 +350,27 @@ def main() -> int:
                     problems.append(f"¶{i}: joined to the last by \"and then\" (a list, not a story)")
                 continue
             if kind == "state":
-                m = re.match(r"\s*(.+?)\s+(\d)\s*$", name)
-                label, degree = (m.group(1), int(m.group(2))) if m else (name.strip(), None)
-                events.append(f"state {label} {degree if degree is not None else ''}".rstrip())
+                label, tint, degree = parse_state(name)
+                here = place(label)
+                shown = label + (f" {tint}" if tint else "") + (f" {degree}" if degree is not None else "")
+                if here is None:
+                    events.append(f"state {shown} (not on the wheel)")
+                elif state_place is not None:
+                    kind_of, steps = move(state_place, here)
+                    events.append(f"state {shown} ({kind_of}" + (f", {steps} steps" if kind_of in ("far", "lift") else "") + ")")
+                    if steps >= 4 and join_word != "bridge" and not bridged_last:
+                        problems.append(f"¶{i}: the state crosses the wheel, {state[0]} → {label}, {steps} steps, with no bridge paragraph (mark the bridge [join: bridge], or come round by steps)")
+                    if kind_of == "jolt":
+                        problems.append(f"¶{i}: {state[0]} → {label} is the jolt (the semitone): once a piece, late, and paid")
+                else:
+                    events.append(f"state {shown}")
                 if state is not None and degree is not None and state[1] is not None and abs(degree - state[1]) >= 2 and join_word == "and then":
                     problems.append(f"¶{i}: the state jumps {state[0]} {state[1]} → {label} {degree} across a seam joined by \"and then\" (a turn with no cause)")
+                if state is not None and degree is not None and state[1] is not None and abs(degree - state[1]) >= 3 and join_word in ("", "and then"):
+                    problems.append(f"¶{i}: the degree jumps {state[1]} → {degree} with no join named: a subito, which is melodrama unless the ledger paid for it")
                 state, state_since = (label, degree), i
+                if here is not None:
+                    state_place = here
                 continue
             name = name.strip().strip('"')
             if kind == "raise":
@@ -280,6 +417,7 @@ def main() -> int:
         if state is not None and i - state_since == 5:
             problems.append(f"¶{i}: the state has not moved in five paragraphs ({state[0]} {state[1] if state[1] is not None else ''}): the hum in the voice, or mark the move".replace("  ", " "))
         print(f"{i:>3}  {words:>5}  {debt:>5}  {int(pool):>4}  {', '.join(events) or '-'}")
+        bridged_last = join_word == "bridge"
     if wave:
         marks = "".join(SPARK[max(0, min(8, int(round(8 * max(0.0, w) / capacity))))] for w in wave)
         print(f"\npool, strength {strength} (capacity {capacity}): {marks}  low {int(min(wave))}" + (f", dry at ¶{dry}" if dry else ""))

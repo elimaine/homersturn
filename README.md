@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.5.6.
+Version 0.6.0.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -52,11 +52,17 @@ ways it earns its keep:
   one reading per sentence and everything told, 5 is readings held to the
   last line for a reader who will read twice. The dial is on sense, never
   on reference: who spoke and who acted are clear at every setting.
-- **Say who is writing, and how far gone.** The mindset is a second
-  dial: at 1 the state is named once and the page is otherwise plain, at
-  5 it is never named and every detail and the rhythm are about it. Leave
-  it out and the skill reads the state the draft is in and offers two or
-  three it could present instead, one line each, for you to pick by ear.
+- **Say who is writing, in what key, and how far gone.** The mindset is
+  a second dial: at 1 the state is named once and the page is otherwise
+  plain, at 5 it is never named and every detail and the rhythm are about
+  it. The keys sit on a wheel that keeps the circle of fifths' arithmetic
+  (`references/wheel.md`): twelve positions, a bright and a dark state at
+  each sharing the same details, a neighbour one feature away, the far
+  side a bridge away, the modes as tints, and every move priced, so the
+  safe steps and the jarring ones are a lookup, not a derivation. Leave
+  the dial out and the skill reads the state the draft is in and offers
+  two or three it could present instead, one line each, for you to pick
+  by ear.
 - **Say how strong the reader is.** The third dial caps density: at 1
   one clause a sentence and every second sense told, at 5 a triple clause
   with the third left to infer. Ambiguity may not exceed it by more than
@@ -72,6 +78,9 @@ ways it earns its keep:
 - **Look at the page before the words.** A page says something before a
   word is read, and a dense first paragraph says "don't". `--shape` prints
   what the glance sees.
+- **Read the skill as its own example.** Each section of `SKILL.md` is
+  written in one key of the wheel, named under its heading, so the rule
+  is told and the key is shown on the same page.
 
 It is a few days old. Not every machine tic is squashed yet, and the
 genre rows could use more detail for specific kinds of text. If you notice
@@ -99,6 +108,11 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   (the swear, the dash), forms and transitions, the sentence rules the
   model explains, the paper ledger, the workflow, the analyze mode, and the
   do-nots.
+- `references/wheel.md`: the mindset on the circle of fifths. The twelve
+  positions with their bright and dark states, the math kept the same as
+  notes (the fifth, the relative, the parallel, the tritone, the semitone
+  jolt, dynamics as degree, modes as tints), the moves with their cost,
+  and the theory-to-prose table Poet's margins share.
 - `references/manifold-and-ledger.md`: why. Surprisal and uniform
   information density, Gopen and Swan on the stress position, Ely,
   Frankel and Kamenica on suspense, Valve's director on rhythm switches,
@@ -111,8 +125,13 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   with `[raise: x]`, `[pay: x]` and `[plant: "line"]`; the script reports
   debt per paragraph, what is still owed, and the paragraph that spent its
   stress position on a quiet line while something was due. `--shape` needs
-  no marks: it prints what the page says before a word is read. `--list`
+  no marks: it prints what the page says before a word is read, and the
+  machine's tics as structural leads (the dash that joins, not X but Y,
+  the tricolon, the colon before a reveal, the short copula ending), each
+  to be read by hand. `--list`
   prints the skill's bits and moves, one line each, read from `SKILL.md`.
+  `--wheel` prints the keys and the moves with their cost, and a marked
+  draft's state turns are priced on it.
 - `references/purposes.md` and `references/sentence.md`: the full genre
   table and the sentence rules with their accounts, kept out of the skill
   so the skill stays short enough to follow.
@@ -126,6 +145,7 @@ python3 scripts/meaning_ledger.py < draft.txt
 python3 scripts/meaning_ledger.py --strip < draft.txt > clean.txt
 python3 scripts/meaning_ledger.py --shape < draft.txt
 python3 scripts/meaning_ledger.py --list
+python3 scripts/meaning_ledger.py --wheel
 ```
 
 ## One rule, if you take only one
