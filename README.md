@@ -135,10 +135,11 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
 - `references/purposes.md` and `references/sentence.md`: the full genre
   table and the sentence rules with their accounts, kept out of the skill
   so the skill stays short enough to follow.
-- `benchmarks/`: the glance bench (the same words broken three ways and
-  judged, with the intent card, the analysis plan, every reply, and the
-  human check beside the numbers), the analysis sweep, and the skill-size
-  test that set this version's length.
+- The benches live in the sibling repo `homersturn-bench`
+  (`~/code/homersturn-bench`): the intent cards, frozen skill texts,
+  briefs, every reply, blind sheets and results. They are kept out of
+  this directory so a model that loads the skill never reads a brief or
+  a piece before it writes; the briefs are the strongest tint there is.
 
 ```sh
 python3 scripts/meaning_ledger.py < draft.txt

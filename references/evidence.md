@@ -10,7 +10,7 @@ when it contradicts the model without a genre to excuse it.
 Evidence grades: **measured** (a bench, a study, a test); **authority** (a
 named writer on writing); **assertion** (stated in a guide, unsourced).
 Most of what follows is assertion. That is the state of the field, and it
-is why the skill's own bench exists (`benchmarks/`).
+is why the skill's own bench exists (`homersturn-bench/`).
 
 Sources read on 2026-11-03, all on Eli's disk under `~/code/`:
 `ai-writing/writing` (ivangdavila/writing v1.1.2; W), `ai-writing/effco-w-style`
@@ -36,7 +36,7 @@ Weisberg, "Bot or not", Judgment and Decision Making 2026.
 | The first forty characters of a title carry the decision in any truncating surface | W structure, emails, posts | a stress position imposed by the surface | assertion |
 | One subhead per 200 to 300 words; none under 500 | W structure | convention; numbers unsourced | assertion |
 | It must work with formatting stripped | W social | the plain reading stands without the visual accents | assertion |
-| A dense opening shuts the reader down | this skill's glance bench (`benchmarks/glance-2026-11-03`, run full-01) | density where nothing is yet owed | measured on Opus: shaped − dense-open +1.06 of 5, six passages of six, p = 0.031; the human check pending |
+| A dense opening shuts the reader down | this skill's glance bench (`homersturn-bench/glance-2026-11-03`, run full-01) | density where nothing is yet owed | measured on Opus: shaped − dense-open +1.06 of 5, six passages of six, p = 0.031; the human check pending |
 | A text-only judge sees the wall as well as an image judge does | the glance bench | the glance can be judged from the text, so the skill stays text-only | pattern (text and blur modes agree on every passage) |
 | Even blocks invite at a glance; one long block repels; the hum is a reading-time effect | the glance bench | the hum of equal paragraphs is heard in reading, not seen before it | direction only (−0.28 to −0.44 of 5, interval touching zero) |
 
@@ -187,7 +187,7 @@ is unsourced.
   what editors notice, not what readers feel; the hum is rated well on one
   short piece, so a bench must measure absorption over length, the payment
   of a planted promise, and variance across many outputs.
-- **The analysis sweep** (`benchmarks/analysis-sweep-2026-11-03`): the
+- **The analysis sweep** (`homersturn-bench/analysis-sweep-2026-11-03`): the
   skill's analyze mode run by Opus over six good passages, six machine
   passages and four pieces the skill wrote, each asked what the framework
   does not account for; 28 candidates and 23 contradictions, of which
@@ -198,12 +198,12 @@ is unsourced.
   parenthesis, the crescendo, the convention exemption, four purpose rows,
   the off-page payment) and sound was named as outside. Grade: instrument.
   RESULTS.md there has every ruling.
-- **The glance bench** (`benchmarks/glance-2026-11-03`): the same words
+- **The glance bench** (`homersturn-bench/glance-2026-11-03`): the same words
   broken three ways, judged by Opus 5.5 from the text, from a blurred
   render, and from a clear render. Its intent card and analysis plan are
   in the folder; its findings are written into the skill only after the
   human check.
-- **The skill-size test** (`benchmarks/skill-size-2026-11-03`): one blind
+- **The skill-size test** (`homersturn-bench/skill-size-2026-11-03`): one blind
   story per skill length (108, 315 and 685 lines), same brief, Opus at
   high effort, the skill as the only instructions. The 315-line text gave
   the best story and the cleanest page (one repeated frame against eight,
@@ -223,7 +223,7 @@ is unsourced.
   chinchilla brief), and the skill never said what an example is for.
   0.3.3 says it once at the top: a quoted line shows a move and is spent.
   Whether that line alone stops the copying is untested.
-- **The skill on itself** (`benchmarks/skill-on-itself-2026-11-03`): the
+- **The skill on itself** (`homersturn-bench/skill-on-itself-2026-11-03`): the
   analyze pass run on the skill's own text by Opus 5.5 high through the
   proxy, Fable 5.1 high through the proxy, and a fresh Fable subagent at
   high effort, each with the same prompt. All three found the opening
@@ -241,7 +241,7 @@ is unsourced.
   named as outside. Not taken: the antithesis as a figure (retention is
   outside), a second pool for the two readers of a prompt (the stricter
   dial serves both). Grade: instrument.
-- **Ten one-line briefs** (`benchmarks/briefs-2026-11-03`): an apology,
+- **Ten one-line briefs** (`homersturn-bench/briefs-2026-11-03`): an apology,
   a headline, an error message, a spoken toast, a release note, a game
   turn, an agent's test report, a thread opener, a eulogy and a
   duellist's insult, each once on Opus through the proxy (served as 4.8,
@@ -263,7 +263,7 @@ is unsourced.
   is on the matter, never on the telling; every line is for the reader or
   a character, none for the teller.
 
-- **The examples test** (`benchmarks/examples-2026-11-03`, 0.5.0): Eli,
+- **The examples test** (`homersturn-bench/examples-2026-11-03`, 0.5.0): Eli,
   2026-11-03: "I do not like" the examples, "they tint the output". The
   0.4.6 text against a copy with sixteen particulars cut and each rule
   stated bare; twelve briefs written on Fable under each arm, judged blind
@@ -292,7 +292,7 @@ is unsourced.
 | Neighbouring keys share all but one note; the far side needs a pivot or a bridge; the relative shares the signature; the parallel shares the tonic | the circle of fifths | the distance of a state turn, which the mindset table lacked; the arithmetic is kept exactly so any rule about keys is a rule about states | authority (theory); the placing of states on the twelve positions is the skill's own and untested |
 | A DJ's wheel of safe and jarring mixes, with a few named moves | the Camelot wheel | a lookup is obeyed where a mechanism is not re-derived at every seam (Eli, 2026-11-04); the moves table with costs | assertion |
 | Each section of the skill written in one key, named under its heading | Eli, 2026-11-04: flip between settings so each is shown while the rule is told, and say so early | a raise at the top paid at every rule, and a promise the page must keep under the trust rule | untested; the skill-on-itself bench is the check |
-| 0.6.1 (keys plus wheel) against 0.5.6, six turn briefs, Fable high, Eli blind | `benchmarks/turns-2026-11-04` | the wheel is used when given (tints, the parallel where one thing is re-read); B took the four fiction and game briefs, A the post and the message | measured, six pairs once: 4 of 6 for 0.6.1; the leaving-reader split is a pattern to test |
+| 0.6.1 (keys plus wheel) against 0.5.6, six turn briefs, Fable high, Eli blind | `homersturn-bench/turns-2026-11-04` | the wheel is used when given (tints, the parallel where one thing is re-read); B took the four fiction and game briefs, A the post and the message | measured, six pairs once: 4 of 6 for 0.6.1; the leaving-reader split is a pattern to test |
 | The page's tilt is a prior | Eli, 2026-11-04, on the turns bench: "our method has some negativity hiding in it. If I random searched the page I see negative words"; on friend B, "'It was my fault' is not what I want to read" | a state is a prior over readings and the writer reads the whole page every time; a skill at 32 dark words per thousand against 23 light is a dark prior before the brief; 0.7.0 rewrites prohibitions in positive form where the positive is as sharp, keeps the sharp ones (Eli: "Maybe not every! Don't overcorrect"), balances the mindset table six bright to five dark, and renames debt to carried; `--shape` prints the tilt as a lead and the state named in its own word | measured on the skill text: 32/23 to 17/23 dark/light per thousand; effect on output untested, the tilt bench is the check |
 | The hook | Eli, 2026-11-04: "we dance around it but there is the concept of a hook" | the first raise, made where the glance lands, a promise of the whole; what it promises is the genre's; the title is its first word; unpaid, it is the importance claim | assertion; its own section and a move in `--list` |
 
@@ -320,7 +320,7 @@ is unsourced.
   the real reader runs with them; the meme is the move, not the line; the
   mid-sentence revision is a two-beat ledger; a prior that never moves is
   the hum. Fenced by the narrator rule and the figure-hum rule. Bench:
-  `benchmarks/briefs-2026-11-03/runs/revision-*`, the chinchilla brief
+  `homersturn-bench/briefs-2026-11-03/runs/revision-*`, the chinchilla brief
   with one revision asked for, on 0.4.1 (no figure named) and 0.4.2.
 - **The suspension** (0.5.1). Eli, 2026-11-04: "Saying something that
   seems weird or make no sense but then later we pay. That pattern can hit
