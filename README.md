@@ -1,6 +1,6 @@
 # homersturn
 
-Version 0.7.16.
+Version 0.7.17.
 
 **Writing is meaning manifolds manifested like music.**
 
@@ -109,7 +109,8 @@ Codex and other agents, point them at `SKILL.md` the way they take skills.
   ledger, rhythm, tempo), the glance, the hook, the topic and stress
   positions, the join, purpose and genre with the tint each genre owes at
   its two ends, the three punches (land, refrain, release), the punch
-  that pays many debts at once and the cut that raises instead, the
+  that pays many debts at once and the cut that raises instead, the joke
+  as a payment the reader makes, the
   entrance (a character introduced by the line a voice actor reads them
   from), figures (the recursive paragraph, the litany, the withheld word), accents
   (the swear, the dash), forms and transitions, the sentence rules the

@@ -318,6 +318,13 @@ is unsourced.
 | Nonconformity signals status and competence when the audience knows the norm and reads the deviation as chosen | Keinan and colleagues, the red sneakers effect | the reader must be able to see which rule and that it was chosen, so the break sits beside the rule kept | measured, in dress and consumer settings |
 | Expectation and its violation are the engine of musical emotion, with the pleasure coming at the appraisal after the surprise | Huron, 2006, after Meyer, 1956 | the break pays on the re-read, which is why it is a raise and not a payment | authority, with the experimental literature behind it |
 
+| It is the resolution of the incongruity, getting the joke, that is funny, not the incongruity | Suls, 1972 | the joke is a payment the reader makes; the punch re-reads the setup | authority, with the benign-violation work as its correction |
+| Humour is a violation appraised as benign, both at once; surprise and superiority do not distinguish the funny from the not | McGraw and Warren, 2010; Warren and McGraw, 2016; the 2021 integrative review | a joke is not a jolt: the violation is harmless and the two readings are held in the same moment | measured, over a decade of studies |
+| Across 828 stand-up performances, timing outweighs semantic incongruity in predicting the laugh, and pauses run a third longer before the biggest turns | Ma, Peng, Lyu, Zhang and Zhu, CogSci 2026 | the pause is the stress position with nothing in it; on the page it is the paragraph break, longer for the bigger turn | measured, observational, one language |
+| Humour raises attention and liking of the ad and lowers the credibility of the source, across 369 correlations | Eisend, 2009, meta-analysis | a joke costs: the essay spends one where the claim can afford it, the message none | measured, student samples |
+| We laugh at the mechanical encrusted on the living | Bergson, 1900 | the same density everywhere is the mechanical where the living should be; the humming page is the joke the machine tells without knowing | authority |
+| The funniest word last; anything after it dilutes the laugh | the craft, every joke-writing guide | the stress position, applied to the punch | assertion, universal in the trade |
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not

@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.16
+version: 0.7.17
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -269,6 +269,24 @@ interest, so twists are rare and the late ones larger and fewer. The
 question is a raise the reader can decline: ask it only when the piece
 will pay it or honestly cannot. The writer's own unanswered question,
 written down and then looked into, is the ledger used as a tool.
+
+## The joke: a payment the reader makes · ease 3
+
+A joke is the ledger run fast. The setup plants, the pause is a stress
+position with nothing in it, and the punch pays with a line that re-reads
+the setup, so the reader completes something true and absurd at once,
+and the completing is the laugh. What makes it a joke and not a jolt is
+that the violation is harmless and the reader holds both readings at
+the same moment; surprise on its own does not do it. The funniest word
+goes last, since anything after it is the recap. The pause runs longer
+the bigger the turn, and on the page the pause is the paragraph break.
+The deadpan is felt above shown, the violation told at ease's volume. A
+joke costs: it lifts attention and liking and lowers what the reader
+thinks of the teller's judgement, so an essay spends one where the claim
+can afford it and a message spends none. We laugh at the mechanical
+where the living should be, which is the same density everywhere, so a
+page that hums is a joke the machine does not know it is telling.
+Explained, a joke is dead. Here is why.
 
 ## The figures and the accents: each at most twice a page · tenderness 2
 
