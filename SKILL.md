@@ -397,8 +397,9 @@ Each rule's reason is in `references/sentence.md`.
 - Open a sentence on its subject, or on a phrase the reader cannot take
   for one. A bare time noun at the top reads as the subject until the
   real one arrives, and the re-read is a spend with no raise.
-- One hedge per claim, on the number and never on the claim. A number
-  pays and an adjective raises.
+- No hedge on the claim. Where a figure is uncertain, say so once, as a
+  range or a condition, and that is the only hedge. A number pays and an
+  adjective raises.
 - The example after the claim, the definition a paragraph before its use.
 - Concede before you are forced. The title is the first raise.
 - A name is a plant at the scale of the cast: it opens a reading before
