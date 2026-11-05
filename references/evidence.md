@@ -312,6 +312,12 @@ is unsourced.
 
 | Break any of these rules sooner than say anything outright barbarous | Orwell, 1946, the sixth rule | a rule broken in view is a raise, read as a mistake until the break is the content; Eli, 2026-11-04: "breaking a rule gains a reader", since rules kept everywhere are the same density by rule | assertion, from the one list of rules everyone kept |
 
+| Foregrounding: literary language is deviation from the norm (and parallelism), and the deviation is what is felt | Shklovsky, 1917; Mukařovský, 1932; Leech, 1969 | the break is the deviation half and the figures are the parallelism half, and the norm the page breaks is its own | authority |
+| Foregrounded segments are read slower, rated more striking and carry more affect, independent of literary training; infrequent readers slow more | Miall and Kuiken, 1994, four studies with segment reading times; the eye-tracking line after | the break is a raise and spends the pool, most at strength one | measured, with a failed replication (Kuijpers and Hakemulder) |
+| A blunder raises the standing of the competent and lowers the mediocre | Aronson, Willerman and Floyd, 1966, the pratfall | break late, after the page has kept the rule in view, or the break reads as not knowing | measured, 48 students, audio only; later work replicates with liking and respect split |
+| Nonconformity signals status and competence when the audience knows the norm and reads the deviation as chosen | Keinan and colleagues, the red sneakers effect | the reader must be able to see which rule and that it was chosen, so the break sits beside the rule kept | measured, in dress and consumer settings |
+| Expectation and its violation are the engine of musical emotion, with the pleasure coming at the appraisal after the surprise | Huron, 2006, after Meyer, 1956 | the break pays on the re-read, which is why it is a raise and not a payment | authority, with the experimental literature behind it |
+
 ## Detectors worth borrowing for the analyze mode
 
 - Name the pattern, quote the line, give the fix; do not score; do not

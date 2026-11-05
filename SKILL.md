@@ -1,6 +1,6 @@
 ---
 name: homersturn
-version: 0.7.14
+version: 0.7.15
 description: Write, revise and analyze prose as meaning manifolds manifested like music. Use when a passage must carry more than it says (ambiguity on purpose, foreshadowing, a second sense the reader completes later) without turning into flat, uniformly "deep" machine prose; and to analyze a piece with the same framework (name its genre, read its shape, reconstruct its ledger, name what fails and why). Covers the three dials (ambiguity; the writer's mindset as a key on a wheel that keeps the circle of fifths' arithmetic; the reader's strength as a pool), the ledger of promise and payment, the glance, the hook, the topic and stress positions, purpose and genre with the tint each owes at its ends, the three punches, rhythm as emotion, tempo, forms, the entrance (a character introduced by the line a voice actor reads them from), the figures, the swear and the dash. Every section is written in its own key, so the page is its own example. Pairs with the Poet tool when it is available; works without it.
 ---
 
@@ -499,14 +499,19 @@ Every rule above is a promise the page made, and a reader who has taken
 the rules tastes the break before the sentence ends. That is its use.
 Rules kept everywhere are the same density by rule, and the reader stops
 hearing them as they stop hearing a steady beat. One broken, in view,
-wakes them, and a page that breaks a rule and pays it has shown it knew
-the rule, which earns more trust than keeping it would. So the break is
-a raise. It reads as a mistake until it is paid, and it is paid when the
-break is the content: the sentence that runs past the reader's strength
-because the speaker cannot stop, the "and then" of a mind too tired to
-join, the wall at the top that is the draw, the aphorism at the end that
-is the land, the dash where the thing does not arrive. One rule at a
-time, where the reader can see which, and paid within reach, mostly.
+wakes them: a line that steps off the norm is read slower and rated
+stronger, by readers who know no theory. And a page that breaks a rule
+and pays it has shown it knew the rule, which earns more trust than
+keeping it would, the way a spilled cup helps the candidate who was
+already winning and sinks the one who was not. So the break is a raise,
+and it costs most at strength one. It reads as a mistake until it is
+paid, and it is paid when the break is the content: the sentence that
+runs past the reader's strength because the speaker cannot stop, the
+"and then" of a mind too tired to join, the wall at the top that is the
+draw, the aphorism at the end that is the land, the dash where the thing
+does not arrive. One rule at a time, late, after the page has kept it in
+view, where the reader can see which and can tell it was chosen, and
+paid within reach, mostly.
 
 ## Do not · anger 5
 
