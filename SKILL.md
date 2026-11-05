@@ -249,8 +249,7 @@ The unearned punch has seven names. The importance claim. The
 fake-profound kicker. The recap. The colon before a reveal. The denied
 reading nobody held. The three by reflex. The rhetorical question. Judge
 each against the ledger and not its shape: a superlative or a question
-is load-bearing when a later line pays it, so look forward before
-firing. A joke pays the same way. The reader completes something true
+is a raise when a later line pays it, so look forward before firing. A joke pays the same way. The reader completes something true
 and absurd at once, and the line that let them is a payment.
 
 Deception is a reading the writer opens knowing it is wrong, paid by a

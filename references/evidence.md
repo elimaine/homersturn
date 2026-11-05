@@ -302,7 +302,7 @@ is unsourced.
 | Expressed certainty is read as accuracy, at 95 over 75 percent for the same call, and a thousand-person replication found it helps whatever the expertise | Price and Stone, 2004; the registered replication of Karmarkar and Tormala, 2010 | certainty persuades on its own, so the land is earned by the evidence or it is the fake-profound kicker that works | measured; Tenney and colleagues find the credit withdrawn once inaccuracy is seen |
 | A rhyming aphorism is rated truer than its plain twin; fluency is misread as conviction | McGlone and Tofighbakhsh, 2000; Blohm on Dutch verse | the cadence is read as truth, which is why the land must sit on a paid claim and why truth stays outside this skill | measured, with the effect shrinking when readers are warned |
 | Concrete language is read as listening; the present tense persuades more than the past across eight studies | Packard and Berger, 2021; Packard, Berger and Boghrati, 2023 | conviction's evidence is the exact detail in the present tense | measured |
-| A rhetorical question raises elaboration, so it helps a strong argument and hurts a weak one | Petty, Cacioppo and Heesacker, 1981; Swasy and Munch, 1985 | the question is load-bearing when a later line pays it, and the three-by-reflex kicker when none does | measured, by the elaboration literature |
+| A rhetorical question raises elaboration, so it helps a strong argument and hurts a weak one | Petty, Cacioppo and Heesacker, 1981; Swasy and Munch, 1985 | the question is a raise when a later line pays it, and the three-by-reflex kicker when none does | measured, by the elaboration literature |
 
 ## Detectors worth borrowing for the analyze mode
 
